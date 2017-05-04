@@ -42,6 +42,11 @@ protected:
      * \return void
      */
 	virtual void run();
+	/** \brief Virtual method that calls run algorithm on the cluster
+     *
+     * \return void
+     */
+	virtual void run2();
 
 	std::string exeParams; /**<  Holds passed parameter string to bash script (string will be splitted as argc and argv structure at the service algorithm side) */
 private:

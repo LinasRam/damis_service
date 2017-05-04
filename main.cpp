@@ -51,11 +51,15 @@ int main()
     //InitDamisService *dFile = new InitDamisService("http://158.129.140.134:8087/damis/certificates/testEncrypted.arff", "_input_TEST",false); //if clean data -> pass validateFile = false
 
 //--part to test service without WS functionality
-/*InitDamisService *dFile  = new InitDamisService("http://158.129.140.134:8087/damis/data/test/iris_su_klasem.arff", "_input_TEST");
+InitDamisService *dFile  = new InitDamisService("http://localhost.localdomain/input.arff", "_input_TEST");
+InitDamisService *dFile2  = new InitDamisService("http://localhost.localdomain/input2.arff", "_input_TEST");
+InitDamisService *dFile3  = new InitDamisService("http://localhost.localdomain/input3.arff", "_input_TEST");
 
     if (!ErrorResponse::isFaultFound()) //remove error checking if clean data is called
     {
-        ValidateParams *validate = new ValidateParams(dFile); //when call clean data do not validate file, i.e also pass FALSE otherwise validate->isValid may return false
+        //ValidateParams *validate = new ValidateParams(dFile);
+        ValidateParams *validate = new ValidateParams(dFile, dFile2, dFile3);
+         //when call clean data do not validate file, i.e also pass FALSE otherwise validate->isValid may return false
        // dFile->getNumberOfAttributes()
         //validate->normData(false, 0, 1, 1);
         //validate->cleanData(1);
@@ -68,7 +72,8 @@ int main()
         //validate->dma(2,10,0.88,1,4);
 
         //validate->relMds()
-        validate->relMds(1,10,0.0001,10,1,1);
+        //validate->relMds(1,10,0.0001,10,1,1);
+        validate->relMds2(1,10,0.0001,1);
 
         //validate->samann(8,7,88,-7,0.1478,8,7);
         // validate->somMds(4,3,5,8,0.0001,8,-4);
@@ -99,11 +104,13 @@ int main()
             //Statistics *dStat = new Statistics (dFile);
             //dStat->statPrimitives();
 
-            DimensionReduction *dRun = new DimensionReduction(1, 10, dFile);
+            //DimensionReduction *dRun = new DimensionReduction(1, 10, dFile);
+            DimensionReduction *dRun = new DimensionReduction(1, 10, dFile, dFile2, dFile3);
              //dRun->runPCA(false, 2);
             //dRun->runDMA(2,10,0.0088, 1);
             //void relMds(int d, int maxIteration, double eps, double noOfBaseVectors, int selStrategy, int maxCalcTime);
-             dRun->runRELATIVEMDS(1,10,0.0001,10,1);
+             //dRun->runRELATIVEMDS(1,10,0.0001,10,1);
+             dRun->runRELATIVEMDS2(1,10,0.0001);
 
             // dReduction->runSAMANN(2,100,10,2,0.1);
             // dReduction->runSMACOFMDS(2,100,0.00001,true);

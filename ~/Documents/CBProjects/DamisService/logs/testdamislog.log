@@ -1,0 +1,985 @@
+2017-05-04 09:06:30,5 [info] Starting file name generation with the preffix: _input_TEST
+2017-05-04 09:06:30,5 [info] Generated file name: _input_TESTOSq7tGUx9KQykEtADTHV.arff
+2017-05-04 09:06:30,5 [info] Initiating download file
+2017-05-04 09:06:30,5 [info] Initializing file structure for download at location: /home/damis/Documents/DamisData/_input_TESTOSq7tGUx9KQykEtADTHV.arff
+2017-05-04 09:06:30,5 [info] Initializing curl object
+2017-05-04 09:06:30,5 [info] Setting up curl for file download
+2017-05-04 09:06:30,1 [info] Done file download from location: http://localhost.localdomain/input.arff
+2017-05-04 09:06:30,1 [info] Checking if downloaded file /home/damis/Documents/DamisData/_input_TESTOSq7tGUx9KQykEtADTHV.arff is not error stream
+2017-05-04 09:06:30,2 [info] Downloaded file /home/damis/Documents/DamisData/_input_TESTOSq7tGUx9KQykEtADTHV.arff is OK
+2017-05-04 09:06:30,2 [info] Initiating arff file /home/damis/Documents/DamisData/_input_TESTOSq7tGUx9KQykEtADTHV.arff read
+2017-05-04 09:06:30,2 [info] Found CLASS attribute at index 4
+2017-05-04 09:06:30,2 [info] Classes are Iris-setosa,Iris-versicolor,Iris-virginica
+2017-05-04 09:06:30,3 [info] Reading file /home/damis/Documents/DamisData/_input_TESTOSq7tGUx9KQykEtADTHV.arff into string format was OK
+2017-05-04 09:06:30,3 [info] Starting file name generation with the preffix: _input_TEST
+2017-05-04 09:06:30,3 [info] Generated file name: _input_TESTws9Rxs4QfaiK1QBSXUBC.arff
+2017-05-04 09:06:30,3 [info] Initiating download file
+2017-05-04 09:06:30,3 [info] Initializing file structure for download at location: /home/damis/Documents/DamisData/_input_TESTws9Rxs4QfaiK1QBSXUBC.arff
+2017-05-04 09:06:30,3 [info] Initializing curl object
+2017-05-04 09:06:30,3 [info] Setting up curl for file download
+2017-05-04 09:06:30,9 [info] Done file download from location: http://localhost.localdomain/input2.arff
+2017-05-04 09:06:30,9 [info] Checking if downloaded file /home/damis/Documents/DamisData/_input_TESTws9Rxs4QfaiK1QBSXUBC.arff is not error stream
+2017-05-04 09:06:30,9 [info] Downloaded file /home/damis/Documents/DamisData/_input_TESTws9Rxs4QfaiK1QBSXUBC.arff is OK
+2017-05-04 09:06:30,9 [info] Initiating arff file /home/damis/Documents/DamisData/_input_TESTws9Rxs4QfaiK1QBSXUBC.arff read
+2017-05-04 09:06:30,9 [info] Found CLASS attribute at index 4
+2017-05-04 09:06:30,9 [info] Classes are Iris-setosa,Iris-versicolor,Iris-virginica
+2017-05-04 09:06:30,0 [info] Reading file /home/damis/Documents/DamisData/_input_TESTws9Rxs4QfaiK1QBSXUBC.arff into string format was OK
+2017-05-04 09:06:30,0 [info] Starting file name generation with the preffix: _input_TEST
+2017-05-04 09:06:30,0 [info] Generated file name: _input_TESTTJtyFuei9ZZStcLM7ppx.arff
+2017-05-04 09:06:30,0 [info] Initiating download file
+2017-05-04 09:06:30,0 [info] Initializing file structure for download at location: /home/damis/Documents/DamisData/_input_TESTTJtyFuei9ZZStcLM7ppx.arff
+2017-05-04 09:06:30,0 [info] Initializing curl object
+2017-05-04 09:06:30,0 [info] Setting up curl for file download
+2017-05-04 09:06:30,2 [info] Done file download from location: http://localhost.localdomain/input3.arff
+2017-05-04 09:06:30,2 [info] Checking if downloaded file /home/damis/Documents/DamisData/_input_TESTTJtyFuei9ZZStcLM7ppx.arff is not error stream
+2017-05-04 09:06:30,3 [info] Downloaded file /home/damis/Documents/DamisData/_input_TESTTJtyFuei9ZZStcLM7ppx.arff is OK
+2017-05-04 09:06:30,3 [info] Initiating arff file /home/damis/Documents/DamisData/_input_TESTTJtyFuei9ZZStcLM7ppx.arff read
+2017-05-04 09:06:30,3 [info] Found CLASS attribute at index 4
+2017-05-04 09:06:30,3 [info] Classes are Iris-setosa,Iris-versicolor,Iris-virginica
+2017-05-04 09:06:30,4 [info] Reading file /home/damis/Documents/DamisData/_input_TESTTJtyFuei9ZZStcLM7ppx.arff into string format was OK
+2017-05-04 09:06:30,4 [info] Validating RELMDS parameter d - 1 maxIteration - 10 eps - 0.0001 noOfBaseVectors - 10 selStrategy - 1 maxCalcTime - 1
+2017-05-04 09:06:30,4 [info] Validating RELMDS parameter d - 1 maxIteration - 10 eps - 0.0001 maxCalcTime - 1
+2017-05-04 09:06:30,4 [info]  Parameters are OK
+2017-05-04 09:06:30,4 [info] Starting file name generation with the preffix: _output_
+2017-05-04 09:06:30,4 [info] Generated file name: _output_3UP0nWoN6TVPbE7v3QEQ.arff
+2017-05-04 09:06:30,4 [info] Starting file name generation with the preffix: _algStat_
+2017-05-04 09:06:30,4 [info] Generated file name: _algStat_YkY4nLIIfBMfpYDQvOjo.arff
+2017-05-04 09:06:30,4 [info] Dimension reduction has been called
+2017-05-04 09:06:30,4 [info] Starting file name generation with the preffix: _forCalculus_
+2017-05-04 09:06:30,4 [info] Generated file name: _forCalculus_BdBLjNjtP4XHH8d6bt73.arff
+2017-05-04 09:06:30,4 [info] Preparing attribute section for output file writing (string string string)
+2017-05-04 09:06:30,4 [info] Found type, no class information (string string string)
+2017-05-04 09:06:30,4 [info] Found type and class information (string string string)
+2017-05-04 09:06:30,4 [info] Prepare attribute section OK
+2017-05-04 09:06:30,4 [info] Preparing data section for output file writing (double string)
+2017-05-04 09:06:30,5 [info] Prepare data section (double string) OK
+2017-05-04 09:06:30,5 [info] Starting data write to output file /home/damis/Documents/DamisData/_forCalculus_BdBLjNjtP4XHH8d6bt73.arff
+2017-05-04 09:06:30,5 [info] Writing to file /home/damis/Documents/DamisData/_forCalculus_BdBLjNjtP4XHH8d6bt73.arff attribute section OK
+2017-05-04 09:06:30,5 [info] Writing to file /home/damis/Documents/DamisData/_forCalculus_BdBLjNjtP4XHH8d6bt73.arff succeeded OK
+2017-05-04 09:06:30,5 [info] Starting file name generation with the preffix: 
+2017-05-04 09:06:30,5 [info] Generated file name: NEOCNSCSTiI3Xtuu7LKq
+2017-05-04 09:06:30,8 [info] Submiting job to qsub/home/damis/Documents/DamisData/_bash_run_NEOCNSCSTiI3Xtuu7LKq.sh
+2017-05-04 09:06:30,7 [error] virtual void CallCalculus::run() /home/damis/Documents/CBProjects/DamisService/CallCalculus.cpp:276 Error submitting job /home/damis/Documents/DamisData/_bash_run_NEOCNSCSTiI3Xtuu7LKq.sh to qsub, returning error
+2017-05-04 09:06:30,7 [info] Initiating set FaultDetail function, got fault detail: Error submiting job to qsub. Token:. Append 1
+2017-05-04 09:06:30,7 [info] Initiating set FaultDetail function, got fault detail: NEOCNSCSTiI3Xtuu7LKq. Append 1
+2017-05-04 09:06:30,8 [info] Copying bash and data files to err directory
+2017-05-04 09:06:30,8 [info] Job FAILURE
+2017-05-04 09:06:30,8 [info] Preparing to detele file: /home/damis/Documents/DamisData/_forCalculus_BdBLjNjtP4XHH8d6bt73.arff
+2017-05-04 09:06:30,5 [info] File deleted: /home/damis/Documents/DamisData/_forCalculus_BdBLjNjtP4XHH8d6bt73.arff
+2017-05-04 09:06:30,5 [info] Preparing to detele file: /home/damis/Documents/DamisData/_bash_NEOCNSCSTiI3Xtuu7LKq.sh
+2017-05-04 09:06:30,5 [info] File deleted: /home/damis/Documents/DamisData/_bash_NEOCNSCSTiI3Xtuu7LKq.sh
+2017-05-04 09:06:30,5 [info] Preparing to detele file: /home/damis/Documents/DamisData/_qsubOut_log_NEOCNSCSTiI3Xtuu7LKq.txt
+2017-05-04 09:06:30,5 [info] File deleted: /home/damis/Documents/DamisData/_qsubOut_log_NEOCNSCSTiI3Xtuu7LKq.txt
+2017-05-04 09:06:30,5 [info] Preparing to detele file: /home/damis/Documents/DamisData/_qsubOut_log_Out_NEOCNSCSTiI3Xtuu7LKq.txt
+2017-05-04 09:06:30,5 [warning] static int HelperMethods::deleteFile(std::__cxx11::string) Error deleting file: /home/damis/Documents/DamisData/_qsubOut_log_Out_NEOCNSCSTiI3Xtuu7LKq.txt. Another try to delete file will be after 172800 seconds of service invocation
+2017-05-04 09:06:30,5 [info] Preparing to detele file: /home/damis/Documents/DamisData/_qsubOut_log_Err_NEOCNSCSTiI3Xtuu7LKq.txt
+2017-05-04 09:06:30,5 [warning] static int HelperMethods::deleteFile(std::__cxx11::string) Error deleting file: /home/damis/Documents/DamisData/_qsubOut_log_Err_NEOCNSCSTiI3Xtuu7LKq.txt. Another try to delete file will be after 172800 seconds of service invocation
+2017-05-04 09:06:30,5 [info] Preparing to detele file: /home/damis/Documents/DamisData/_bash_run_NEOCNSCSTiI3Xtuu7LKq.sh
+2017-05-04 09:06:30,5 [info] File deleted: /home/damis/Documents/DamisData/_bash_run_NEOCNSCSTiI3Xtuu7LKq.sh
+2017-05-04 09:07:40,9 [info] Starting file name generation with the preffix: _input_TEST
+2017-05-04 09:07:40,9 [info] Generated file name: _input_TESTZODGQcInJeUHHxWt0bIB.arff
+2017-05-04 09:07:40,9 [info] Initiating download file
+2017-05-04 09:07:40,9 [info] Initializing file structure for download at location: /home/damis/Documents/DamisData/_input_TESTZODGQcInJeUHHxWt0bIB.arff
+2017-05-04 09:07:40,9 [info] Initializing curl object
+2017-05-04 09:07:40,9 [info] Setting up curl for file download
+2017-05-04 09:07:40,3 [info] Done file download from location: http://localhost.localdomain/input.arff
+2017-05-04 09:07:40,3 [info] Checking if downloaded file /home/damis/Documents/DamisData/_input_TESTZODGQcInJeUHHxWt0bIB.arff is not error stream
+2017-05-04 09:07:40,4 [info] Downloaded file /home/damis/Documents/DamisData/_input_TESTZODGQcInJeUHHxWt0bIB.arff is OK
+2017-05-04 09:07:40,4 [info] Initiating arff file /home/damis/Documents/DamisData/_input_TESTZODGQcInJeUHHxWt0bIB.arff read
+2017-05-04 09:07:40,4 [info] Found CLASS attribute at index 4
+2017-05-04 09:07:40,4 [info] Classes are Iris-setosa,Iris-versicolor,Iris-virginica
+2017-05-04 09:07:40,5 [info] Reading file /home/damis/Documents/DamisData/_input_TESTZODGQcInJeUHHxWt0bIB.arff into string format was OK
+2017-05-04 09:07:40,5 [info] Starting file name generation with the preffix: _input_TEST
+2017-05-04 09:07:40,5 [info] Generated file name: _input_TESTNjWssK87K6OKG0MPFSB2.arff
+2017-05-04 09:07:40,5 [info] Initiating download file
+2017-05-04 09:07:40,5 [info] Initializing file structure for download at location: /home/damis/Documents/DamisData/_input_TESTNjWssK87K6OKG0MPFSB2.arff
+2017-05-04 09:07:40,5 [info] Initializing curl object
+2017-05-04 09:07:40,5 [info] Setting up curl for file download
+2017-05-04 09:07:40,1 [info] Done file download from location: http://localhost.localdomain/input2.arff
+2017-05-04 09:07:40,1 [info] Checking if downloaded file /home/damis/Documents/DamisData/_input_TESTNjWssK87K6OKG0MPFSB2.arff is not error stream
+2017-05-04 09:07:40,1 [info] Downloaded file /home/damis/Documents/DamisData/_input_TESTNjWssK87K6OKG0MPFSB2.arff is OK
+2017-05-04 09:07:40,1 [info] Initiating arff file /home/damis/Documents/DamisData/_input_TESTNjWssK87K6OKG0MPFSB2.arff read
+2017-05-04 09:07:40,2 [info] Found CLASS attribute at index 4
+2017-05-04 09:07:40,2 [info] Classes are Iris-setosa,Iris-versicolor,Iris-virginica
+2017-05-04 09:07:40,3 [info] Reading file /home/damis/Documents/DamisData/_input_TESTNjWssK87K6OKG0MPFSB2.arff into string format was OK
+2017-05-04 09:07:40,3 [info] Starting file name generation with the preffix: _input_TEST
+2017-05-04 09:07:40,3 [info] Generated file name: _input_TESTiQreZUYZdOGS9sVWZ6Im.arff
+2017-05-04 09:07:40,3 [info] Initiating download file
+2017-05-04 09:07:40,3 [info] Initializing file structure for download at location: /home/damis/Documents/DamisData/_input_TESTiQreZUYZdOGS9sVWZ6Im.arff
+2017-05-04 09:07:40,3 [info] Initializing curl object
+2017-05-04 09:07:40,3 [info] Setting up curl for file download
+2017-05-04 09:07:40,3 [info] Done file download from location: http://localhost.localdomain/input3.arff
+2017-05-04 09:07:40,3 [info] Checking if downloaded file /home/damis/Documents/DamisData/_input_TESTiQreZUYZdOGS9sVWZ6Im.arff is not error stream
+2017-05-04 09:07:40,3 [info] Downloaded file /home/damis/Documents/DamisData/_input_TESTiQreZUYZdOGS9sVWZ6Im.arff is OK
+2017-05-04 09:07:40,3 [info] Initiating arff file /home/damis/Documents/DamisData/_input_TESTiQreZUYZdOGS9sVWZ6Im.arff read
+2017-05-04 09:07:40,3 [info] Found CLASS attribute at index 4
+2017-05-04 09:07:40,3 [info] Classes are Iris-setosa,Iris-versicolor,Iris-virginica
+2017-05-04 09:07:40,5 [info] Reading file /home/damis/Documents/DamisData/_input_TESTiQreZUYZdOGS9sVWZ6Im.arff into string format was OK
+2017-05-04 09:07:53,3 [info] Validating RELMDS parameter d - 1 maxIteration - 10 eps - 0.0001 noOfBaseVectors - 10 selStrategy - 1 maxCalcTime - 1
+2017-05-04 09:07:53,2 [info] Validating RELMDS parameter d - 1 maxIteration - 10 eps - 0.0001 maxCalcTime - 1
+2017-05-04 09:07:55,3 [info]  Parameters are OK
+2017-05-04 09:07:57,8 [info] Starting file name generation with the preffix: _output_
+2017-05-04 09:07:57,8 [info] Generated file name: _output_xSa6b28jScCnyXCNXwii.arff
+2017-05-04 09:07:57,8 [info] Starting file name generation with the preffix: _algStat_
+2017-05-04 09:07:57,8 [info] Generated file name: _algStat_6kX2PDK4mqoOyBm6h5Il.arff
+2017-05-04 09:07:57,8 [info] Dimension reduction has been called
+2017-05-04 09:07:58,6 [info] Starting file name generation with the preffix: _forCalculus_
+2017-05-04 09:07:58,6 [info] Generated file name: _forCalculus_RAkUP5Sl3r0lhXMx38l7.arff
+2017-05-04 09:07:58,6 [info] Preparing attribute section for output file writing (string string string)
+2017-05-04 09:07:58,6 [info] Found type, no class information (string string string)
+2017-05-04 09:07:58,6 [info] Found type and class information (string string string)
+2017-05-04 09:07:58,6 [info] Prepare attribute section OK
+2017-05-04 09:07:58,6 [info] Preparing data section for output file writing (double string)
+2017-05-04 09:07:58,6 [info] Prepare data section (double string) OK
+2017-05-04 09:07:58,6 [info] Starting data write to output file /home/damis/Documents/DamisData/_forCalculus_RAkUP5Sl3r0lhXMx38l7.arff
+2017-05-04 09:07:58,7 [info] Writing to file /home/damis/Documents/DamisData/_forCalculus_RAkUP5Sl3r0lhXMx38l7.arff attribute section OK
+2017-05-04 09:07:58,7 [info] Writing to file /home/damis/Documents/DamisData/_forCalculus_RAkUP5Sl3r0lhXMx38l7.arff succeeded OK
+2017-05-04 09:07:58,7 [info] Starting file name generation with the preffix: 
+2017-05-04 09:07:58,7 [info] Generated file name: rEh9WQjKKMwNXc6j67o5
+2017-05-04 09:07:58,9 [info] Submiting job to qsub/home/damis/Documents/DamisData/_bash_run_rEh9WQjKKMwNXc6j67o5.sh
+2017-05-04 09:07:58,6 [error] virtual void CallCalculus::run() /home/damis/Documents/CBProjects/DamisService/CallCalculus.cpp:276 Error submitting job /home/damis/Documents/DamisData/_bash_run_rEh9WQjKKMwNXc6j67o5.sh to qsub, returning error
+2017-05-04 09:07:58,6 [info] Initiating set FaultDetail function, got fault detail: Error submiting job to qsub. Token:. Append 1
+2017-05-04 09:07:58,6 [info] Initiating set FaultDetail function, got fault detail: rEh9WQjKKMwNXc6j67o5. Append 1
+2017-05-04 09:07:58,6 [info] Copying bash and data files to err directory
+2017-05-04 09:07:58,6 [info] Job FAILURE
+2017-05-04 09:07:58,6 [info] Preparing to detele file: /home/damis/Documents/DamisData/_forCalculus_RAkUP5Sl3r0lhXMx38l7.arff
+2017-05-04 09:07:58,6 [info] File deleted: /home/damis/Documents/DamisData/_forCalculus_RAkUP5Sl3r0lhXMx38l7.arff
+2017-05-04 09:07:58,6 [info] Preparing to detele file: /home/damis/Documents/DamisData/_bash_rEh9WQjKKMwNXc6j67o5.sh
+2017-05-04 09:07:58,6 [info] File deleted: /home/damis/Documents/DamisData/_bash_rEh9WQjKKMwNXc6j67o5.sh
+2017-05-04 09:07:58,6 [info] Preparing to detele file: /home/damis/Documents/DamisData/_qsubOut_log_rEh9WQjKKMwNXc6j67o5.txt
+2017-05-04 09:07:58,6 [info] File deleted: /home/damis/Documents/DamisData/_qsubOut_log_rEh9WQjKKMwNXc6j67o5.txt
+2017-05-04 09:07:58,6 [info] Preparing to detele file: /home/damis/Documents/DamisData/_qsubOut_log_Out_rEh9WQjKKMwNXc6j67o5.txt
+2017-05-04 09:07:58,6 [warning] static int HelperMethods::deleteFile(std::__cxx11::string) Error deleting file: /home/damis/Documents/DamisData/_qsubOut_log_Out_rEh9WQjKKMwNXc6j67o5.txt. Another try to delete file will be after 172800 seconds of service invocation
+2017-05-04 09:07:58,6 [info] Preparing to detele file: /home/damis/Documents/DamisData/_qsubOut_log_Err_rEh9WQjKKMwNXc6j67o5.txt
+2017-05-04 09:07:58,6 [warning] static int HelperMethods::deleteFile(std::__cxx11::string) Error deleting file: /home/damis/Documents/DamisData/_qsubOut_log_Err_rEh9WQjKKMwNXc6j67o5.txt. Another try to delete file will be after 172800 seconds of service invocation
+2017-05-04 09:07:58,6 [info] Preparing to detele file: /home/damis/Documents/DamisData/_bash_run_rEh9WQjKKMwNXc6j67o5.sh
+2017-05-04 09:07:58,7 [info] File deleted: /home/damis/Documents/DamisData/_bash_run_rEh9WQjKKMwNXc6j67o5.sh
+2017-05-04 09:32:36,9 [info] Starting file name generation with the preffix: _input_TEST
+2017-05-04 09:32:36,9 [info] Generated file name: _input_TEST43OeJDFfEi9A04yOE5Hq.arff
+2017-05-04 09:32:36,9 [info] Initiating download file
+2017-05-04 09:32:36,9 [info] Initializing file structure for download at location: /home/damis/Documents/DamisData/_input_TEST43OeJDFfEi9A04yOE5Hq.arff
+2017-05-04 09:32:36,9 [info] Initializing curl object
+2017-05-04 09:32:36,0 [info] Setting up curl for file download
+2017-05-04 09:32:36,8 [info] Done file download from location: http://localhost.localdomain/input.arff
+2017-05-04 09:32:36,8 [info] Checking if downloaded file /home/damis/Documents/DamisData/_input_TEST43OeJDFfEi9A04yOE5Hq.arff is not error stream
+2017-05-04 09:32:36,8 [info] Downloaded file /home/damis/Documents/DamisData/_input_TEST43OeJDFfEi9A04yOE5Hq.arff is OK
+2017-05-04 09:32:36,8 [info] Initiating arff file /home/damis/Documents/DamisData/_input_TEST43OeJDFfEi9A04yOE5Hq.arff read
+2017-05-04 09:32:36,8 [info] Found CLASS attribute at index 4
+2017-05-04 09:32:36,8 [info] Classes are Iris-setosa,Iris-versicolor,Iris-virginica
+2017-05-04 09:32:36,0 [info] Reading file /home/damis/Documents/DamisData/_input_TEST43OeJDFfEi9A04yOE5Hq.arff into string format was OK
+2017-05-04 09:32:36,0 [info] Starting file name generation with the preffix: _input_TEST
+2017-05-04 09:32:36,0 [info] Generated file name: _input_TESTndFNauk2hc35VccRLEhm.arff
+2017-05-04 09:32:36,0 [info] Initiating download file
+2017-05-04 09:32:36,0 [info] Initializing file structure for download at location: /home/damis/Documents/DamisData/_input_TESTndFNauk2hc35VccRLEhm.arff
+2017-05-04 09:32:36,0 [info] Initializing curl object
+2017-05-04 09:32:36,0 [info] Setting up curl for file download
+2017-05-04 09:32:36,7 [info] Done file download from location: http://localhost.localdomain/input2.arff
+2017-05-04 09:32:36,7 [info] Checking if downloaded file /home/damis/Documents/DamisData/_input_TESTndFNauk2hc35VccRLEhm.arff is not error stream
+2017-05-04 09:32:36,7 [info] Downloaded file /home/damis/Documents/DamisData/_input_TESTndFNauk2hc35VccRLEhm.arff is OK
+2017-05-04 09:32:36,7 [info] Initiating arff file /home/damis/Documents/DamisData/_input_TESTndFNauk2hc35VccRLEhm.arff read
+2017-05-04 09:32:36,7 [info] Found CLASS attribute at index 4
+2017-05-04 09:32:36,7 [info] Classes are Iris-setosa,Iris-versicolor,Iris-virginica
+2017-05-04 09:32:36,8 [info] Reading file /home/damis/Documents/DamisData/_input_TESTndFNauk2hc35VccRLEhm.arff into string format was OK
+2017-05-04 09:32:36,8 [info] Starting file name generation with the preffix: _input_TEST
+2017-05-04 09:32:36,8 [info] Generated file name: _input_TEST8hRUiEhKNKpm9xgkTMLb.arff
+2017-05-04 09:32:36,8 [info] Initiating download file
+2017-05-04 09:32:36,8 [info] Initializing file structure for download at location: /home/damis/Documents/DamisData/_input_TEST8hRUiEhKNKpm9xgkTMLb.arff
+2017-05-04 09:32:36,8 [info] Initializing curl object
+2017-05-04 09:32:36,8 [info] Setting up curl for file download
+2017-05-04 09:32:36,8 [info] Done file download from location: http://localhost.localdomain/input3.arff
+2017-05-04 09:32:36,8 [info] Checking if downloaded file /home/damis/Documents/DamisData/_input_TEST8hRUiEhKNKpm9xgkTMLb.arff is not error stream
+2017-05-04 09:32:36,9 [info] Downloaded file /home/damis/Documents/DamisData/_input_TEST8hRUiEhKNKpm9xgkTMLb.arff is OK
+2017-05-04 09:32:36,9 [info] Initiating arff file /home/damis/Documents/DamisData/_input_TEST8hRUiEhKNKpm9xgkTMLb.arff read
+2017-05-04 09:32:36,9 [info] Found CLASS attribute at index 4
+2017-05-04 09:32:36,9 [info] Classes are Iris-setosa,Iris-versicolor,Iris-virginica
+2017-05-04 09:32:36,1 [info] Reading file /home/damis/Documents/DamisData/_input_TEST8hRUiEhKNKpm9xgkTMLb.arff into string format was OK
+2017-05-04 09:32:36,1 [info] Validating RELMDS parameter d - 1 maxIteration - 10 eps - 0.0001 noOfBaseVectors - 10 selStrategy - 1 maxCalcTime - 1
+2017-05-04 09:32:36,1 [info] Validating RELMDS parameter d - 1 maxIteration - 10 eps - 0.0001 maxCalcTime - 1
+2017-05-04 09:32:36,1 [info]  Parameters are OK
+2017-05-04 09:32:36,1 [info] Starting file name generation with the preffix: _output_
+2017-05-04 09:32:36,1 [info] Generated file name: _output_LswvVlk6lODehgBWk9EX.arff
+2017-05-04 09:32:36,1 [info] Starting file name generation with the preffix: _algStat_
+2017-05-04 09:32:36,1 [info] Generated file name: _algStat_BBHsM9ATnmAjE22nEEoq.arff
+2017-05-04 09:32:36,1 [info] Dimension reduction has been called
+2017-05-04 09:32:36,1 [info] Starting file name generation with the preffix: _forCalculus_
+2017-05-04 09:32:36,1 [info] Generated file name: _forCalculus_q9Ou39M8geo4nJUy5hDU.arff
+2017-05-04 09:32:36,1 [info] Preparing attribute section for output file writing (string string string)
+2017-05-04 09:32:36,1 [info] Found type, no class information (string string string)
+2017-05-04 09:32:36,1 [info] Found type and class information (string string string)
+2017-05-04 09:32:36,1 [info] Prepare attribute section OK
+2017-05-04 09:32:36,1 [info] Preparing data section for output file writing (double string)
+2017-05-04 09:32:36,2 [info] Prepare data section (double string) OK
+2017-05-04 09:32:36,2 [info] Starting data write to output file /home/damis/Documents/DamisData/_forCalculus_q9Ou39M8geo4nJUy5hDU.arff
+2017-05-04 09:32:36,2 [info] Writing to file /home/damis/Documents/DamisData/_forCalculus_q9Ou39M8geo4nJUy5hDU.arff attribute section OK
+2017-05-04 09:32:36,2 [info] Writing to file /home/damis/Documents/DamisData/_forCalculus_q9Ou39M8geo4nJUy5hDU.arff succeeded OK
+2017-05-04 09:32:36,3 [info] Starting file name generation with the preffix: 
+2017-05-04 09:32:36,3 [info] Generated file name: 0pPMRF4BdQY2g5MEx03s
+2017-05-04 09:32:36,0 [info] Submiting job to qsub/home/damis/Documents/DamisData/_bash_run_0pPMRF4BdQY2g5MEx03s.sh
+2017-05-04 09:32:36,9 [error] virtual void CallCalculus::run() /home/damis/Documents/CBProjects/DamisService/CallCalculus.cpp:276 Error submitting job /home/damis/Documents/DamisData/_bash_run_0pPMRF4BdQY2g5MEx03s.sh to qsub, returning error
+2017-05-04 09:32:36,9 [info] Initiating set FaultDetail function, got fault detail: Error submiting job to qsub. Token:. Append 1
+2017-05-04 09:32:36,9 [info] Initiating set FaultDetail function, got fault detail: 0pPMRF4BdQY2g5MEx03s. Append 1
+2017-05-04 09:32:36,9 [info] Copying bash and data files to err directory
+2017-05-04 09:32:36,9 [info] Job FAILURE
+2017-05-04 09:32:36,9 [info] Preparing to detele file: /home/damis/Documents/DamisData/_forCalculus_q9Ou39M8geo4nJUy5hDU.arff
+2017-05-04 09:32:36,4 [info] File deleted: /home/damis/Documents/DamisData/_forCalculus_q9Ou39M8geo4nJUy5hDU.arff
+2017-05-04 09:32:36,4 [info] Preparing to detele file: /home/damis/Documents/DamisData/_bash_0pPMRF4BdQY2g5MEx03s.sh
+2017-05-04 09:32:36,5 [info] File deleted: /home/damis/Documents/DamisData/_bash_0pPMRF4BdQY2g5MEx03s.sh
+2017-05-04 09:32:36,5 [info] Preparing to detele file: /home/damis/Documents/DamisData/_qsubOut_log_0pPMRF4BdQY2g5MEx03s.txt
+2017-05-04 09:32:36,5 [info] File deleted: /home/damis/Documents/DamisData/_qsubOut_log_0pPMRF4BdQY2g5MEx03s.txt
+2017-05-04 09:32:36,5 [info] Preparing to detele file: /home/damis/Documents/DamisData/_qsubOut_log_Out_0pPMRF4BdQY2g5MEx03s.txt
+2017-05-04 09:32:36,5 [warning] static int HelperMethods::deleteFile(std::__cxx11::string) Error deleting file: /home/damis/Documents/DamisData/_qsubOut_log_Out_0pPMRF4BdQY2g5MEx03s.txt. Another try to delete file will be after 172800 seconds of service invocation
+2017-05-04 09:32:36,5 [info] Preparing to detele file: /home/damis/Documents/DamisData/_qsubOut_log_Err_0pPMRF4BdQY2g5MEx03s.txt
+2017-05-04 09:32:36,5 [warning] static int HelperMethods::deleteFile(std::__cxx11::string) Error deleting file: /home/damis/Documents/DamisData/_qsubOut_log_Err_0pPMRF4BdQY2g5MEx03s.txt. Another try to delete file will be after 172800 seconds of service invocation
+2017-05-04 09:32:36,5 [info] Preparing to detele file: /home/damis/Documents/DamisData/_bash_run_0pPMRF4BdQY2g5MEx03s.sh
+2017-05-04 09:32:36,5 [info] File deleted: /home/damis/Documents/DamisData/_bash_run_0pPMRF4BdQY2g5MEx03s.sh
+2017-05-04 09:33:06,3 [info] Starting file name generation with the preffix: _input_TEST
+2017-05-04 09:33:06,4 [info] Generated file name: _input_TEST02ceg1XCVLxk5VFmg6Nu.arff
+2017-05-04 09:33:06,4 [info] Initiating download file
+2017-05-04 09:33:06,4 [info] Initializing file structure for download at location: /home/damis/Documents/DamisData/_input_TEST02ceg1XCVLxk5VFmg6Nu.arff
+2017-05-04 09:33:06,4 [info] Initializing curl object
+2017-05-04 09:33:06,4 [info] Setting up curl for file download
+2017-05-04 09:33:06,4 [info] Done file download from location: http://localhost.localdomain/input.arff
+2017-05-04 09:33:06,4 [info] Checking if downloaded file /home/damis/Documents/DamisData/_input_TEST02ceg1XCVLxk5VFmg6Nu.arff is not error stream
+2017-05-04 09:33:06,4 [info] Downloaded file /home/damis/Documents/DamisData/_input_TEST02ceg1XCVLxk5VFmg6Nu.arff is OK
+2017-05-04 09:33:06,4 [info] Initiating arff file /home/damis/Documents/DamisData/_input_TEST02ceg1XCVLxk5VFmg6Nu.arff read
+2017-05-04 09:33:06,4 [info] Found CLASS attribute at index 4
+2017-05-04 09:33:06,4 [info] Classes are Iris-setosa,Iris-versicolor,Iris-virginica
+2017-05-04 09:33:06,7 [info] Reading file /home/damis/Documents/DamisData/_input_TEST02ceg1XCVLxk5VFmg6Nu.arff into string format was OK
+2017-05-04 09:33:06,7 [info] Starting file name generation with the preffix: _input_TEST
+2017-05-04 09:33:06,7 [info] Generated file name: _input_TESTxR4apHS6INUjtcuaLXdf.arff
+2017-05-04 09:33:06,7 [info] Initiating download file
+2017-05-04 09:33:06,7 [info] Initializing file structure for download at location: /home/damis/Documents/DamisData/_input_TESTxR4apHS6INUjtcuaLXdf.arff
+2017-05-04 09:33:06,7 [info] Initializing curl object
+2017-05-04 09:33:06,7 [info] Setting up curl for file download
+2017-05-04 09:33:06,5 [info] Done file download from location: http://localhost.localdomain/input2.arff
+2017-05-04 09:33:06,5 [info] Checking if downloaded file /home/damis/Documents/DamisData/_input_TESTxR4apHS6INUjtcuaLXdf.arff is not error stream
+2017-05-04 09:33:06,5 [info] Downloaded file /home/damis/Documents/DamisData/_input_TESTxR4apHS6INUjtcuaLXdf.arff is OK
+2017-05-04 09:33:06,5 [info] Initiating arff file /home/damis/Documents/DamisData/_input_TESTxR4apHS6INUjtcuaLXdf.arff read
+2017-05-04 09:33:06,5 [info] Found CLASS attribute at index 4
+2017-05-04 09:33:06,5 [info] Classes are Iris-setosa,Iris-versicolor,Iris-virginica
+2017-05-04 09:33:06,7 [info] Reading file /home/damis/Documents/DamisData/_input_TESTxR4apHS6INUjtcuaLXdf.arff into string format was OK
+2017-05-04 09:33:06,7 [info] Starting file name generation with the preffix: _input_TEST
+2017-05-04 09:33:06,7 [info] Generated file name: _input_TEST7uJB1YDteoZiOxF3AVpg.arff
+2017-05-04 09:33:06,7 [info] Initiating download file
+2017-05-04 09:33:06,7 [info] Initializing file structure for download at location: /home/damis/Documents/DamisData/_input_TEST7uJB1YDteoZiOxF3AVpg.arff
+2017-05-04 09:33:06,7 [info] Initializing curl object
+2017-05-04 09:33:06,7 [info] Setting up curl for file download
+2017-05-04 09:33:06,9 [info] Done file download from location: http://localhost.localdomain/input3.arff
+2017-05-04 09:33:06,9 [info] Checking if downloaded file /home/damis/Documents/DamisData/_input_TEST7uJB1YDteoZiOxF3AVpg.arff is not error stream
+2017-05-04 09:33:06,9 [info] Downloaded file /home/damis/Documents/DamisData/_input_TEST7uJB1YDteoZiOxF3AVpg.arff is OK
+2017-05-04 09:33:06,0 [info] Initiating arff file /home/damis/Documents/DamisData/_input_TEST7uJB1YDteoZiOxF3AVpg.arff read
+2017-05-04 09:33:06,0 [info] Found CLASS attribute at index 4
+2017-05-04 09:33:06,0 [info] Classes are Iris-setosa,Iris-versicolor,Iris-virginica
+2017-05-04 09:33:06,1 [info] Reading file /home/damis/Documents/DamisData/_input_TEST7uJB1YDteoZiOxF3AVpg.arff into string format was OK
+2017-05-04 09:33:06,2 [info] Validating RELMDS parameter d - 1 maxIteration - 10 eps - 0.0001 maxCalcTime - 1
+2017-05-04 09:33:06,2 [info]  Parameters are OK
+2017-05-04 09:33:06,2 [info] Starting file name generation with the preffix: _output_
+2017-05-04 09:33:06,2 [info] Generated file name: _output_6joTPoxKZ19haMA6Djuo.arff
+2017-05-04 09:33:06,2 [info] Starting file name generation with the preffix: _algStat_
+2017-05-04 09:33:06,2 [info] Generated file name: _algStat_5UTNaxwaXLxCpqVf89Ae.arff
+2017-05-04 09:33:06,2 [info] Dimension reduction has been called
+2017-05-04 09:33:06,2 [info] Starting file name generation with the preffix: _forCalculus_
+2017-05-04 09:33:06,2 [info] Generated file name: _forCalculus_W3iBW7uculUQBkv3nVKt.arff
+2017-05-04 09:33:06,2 [info] Preparing attribute section for output file writing (string string string)
+2017-05-04 09:33:06,2 [info] Found type, no class information (string string string)
+2017-05-04 09:33:06,2 [info] Found type and class information (string string string)
+2017-05-04 09:33:06,2 [info] Prepare attribute section OK
+2017-05-04 09:33:06,2 [info] Preparing data section for output file writing (double string)
+2017-05-04 09:33:06,2 [info] Prepare data section (double string) OK
+2017-05-04 09:33:06,2 [info] Starting data write to output file /home/damis/Documents/DamisData/_forCalculus_W3iBW7uculUQBkv3nVKt.arff
+2017-05-04 09:33:06,2 [info] Writing to file /home/damis/Documents/DamisData/_forCalculus_W3iBW7uculUQBkv3nVKt.arff attribute section OK
+2017-05-04 09:33:06,2 [info] Writing to file /home/damis/Documents/DamisData/_forCalculus_W3iBW7uculUQBkv3nVKt.arff succeeded OK
+2017-05-04 09:33:06,3 [info] Starting file name generation with the preffix: 
+2017-05-04 09:33:06,3 [info] Generated file name: 39kVeeIlHPIJWdOwLCOR
+2017-05-04 09:33:06,0 [info] Submiting job to qsub/home/damis/Documents/DamisData/_bash_run_39kVeeIlHPIJWdOwLCOR.sh
+2017-05-04 09:33:06,3 [error] virtual void CallCalculus::run() /home/damis/Documents/CBProjects/DamisService/CallCalculus.cpp:276 Error submitting job /home/damis/Documents/DamisData/_bash_run_39kVeeIlHPIJWdOwLCOR.sh to qsub, returning error
+2017-05-04 09:33:06,3 [info] Initiating set FaultDetail function, got fault detail: Error submiting job to qsub. Token:. Append 1
+2017-05-04 09:33:06,3 [info] Initiating set FaultDetail function, got fault detail: 39kVeeIlHPIJWdOwLCOR. Append 1
+2017-05-04 09:33:06,3 [info] Copying bash and data files to err directory
+2017-05-04 09:33:06,3 [info] Job FAILURE
+2017-05-04 09:33:06,3 [info] Preparing to detele file: /home/damis/Documents/DamisData/_forCalculus_W3iBW7uculUQBkv3nVKt.arff
+2017-05-04 09:33:06,3 [info] File deleted: /home/damis/Documents/DamisData/_forCalculus_W3iBW7uculUQBkv3nVKt.arff
+2017-05-04 09:33:06,3 [info] Preparing to detele file: /home/damis/Documents/DamisData/_bash_39kVeeIlHPIJWdOwLCOR.sh
+2017-05-04 09:33:06,2 [info] File deleted: /home/damis/Documents/DamisData/_bash_39kVeeIlHPIJWdOwLCOR.sh
+2017-05-04 09:33:06,2 [info] Preparing to detele file: /home/damis/Documents/DamisData/_qsubOut_log_39kVeeIlHPIJWdOwLCOR.txt
+2017-05-04 09:33:06,2 [info] File deleted: /home/damis/Documents/DamisData/_qsubOut_log_39kVeeIlHPIJWdOwLCOR.txt
+2017-05-04 09:33:06,2 [info] Preparing to detele file: /home/damis/Documents/DamisData/_qsubOut_log_Out_39kVeeIlHPIJWdOwLCOR.txt
+2017-05-04 09:33:06,2 [warning] static int HelperMethods::deleteFile(std::__cxx11::string) Error deleting file: /home/damis/Documents/DamisData/_qsubOut_log_Out_39kVeeIlHPIJWdOwLCOR.txt. Another try to delete file will be after 172800 seconds of service invocation
+2017-05-04 09:33:06,2 [info] Preparing to detele file: /home/damis/Documents/DamisData/_qsubOut_log_Err_39kVeeIlHPIJWdOwLCOR.txt
+2017-05-04 09:33:06,2 [warning] static int HelperMethods::deleteFile(std::__cxx11::string) Error deleting file: /home/damis/Documents/DamisData/_qsubOut_log_Err_39kVeeIlHPIJWdOwLCOR.txt. Another try to delete file will be after 172800 seconds of service invocation
+2017-05-04 09:33:06,2 [info] Preparing to detele file: /home/damis/Documents/DamisData/_bash_run_39kVeeIlHPIJWdOwLCOR.sh
+2017-05-04 09:33:06,2 [info] File deleted: /home/damis/Documents/DamisData/_bash_run_39kVeeIlHPIJWdOwLCOR.sh
+2017-05-04 09:33:06,2 [info] Preparing to detele file: /home/damis/Documents/DamisData/_algStat_5UTNaxwaXLxCpqVf89Ae.arff
+2017-05-04 09:33:06,2 [warning] static int HelperMethods::deleteFile(std::__cxx11::string) Error deleting file: /home/damis/Documents/DamisData/_algStat_5UTNaxwaXLxCpqVf89Ae.arff. Another try to delete file will be after 172800 seconds of service invocation
+2017-05-04 09:35:13,3 [info] Starting file name generation with the preffix: _input_TEST
+2017-05-04 09:35:13,3 [info] Generated file name: _input_TEST9SBs95NYk5tUHJjJ95WD.arff
+2017-05-04 09:35:13,3 [info] Initiating download file
+2017-05-04 09:35:13,3 [info] Initializing file structure for download at location: /home/damis/Documents/DamisData/_input_TEST9SBs95NYk5tUHJjJ95WD.arff
+2017-05-04 09:35:13,4 [info] Initializing curl object
+2017-05-04 09:35:13,4 [info] Setting up curl for file download
+2017-05-04 09:35:13,9 [info] Done file download from location: http://localhost.localdomain/input.arff
+2017-05-04 09:35:13,9 [info] Checking if downloaded file /home/damis/Documents/DamisData/_input_TEST9SBs95NYk5tUHJjJ95WD.arff is not error stream
+2017-05-04 09:35:13,9 [info] Downloaded file /home/damis/Documents/DamisData/_input_TEST9SBs95NYk5tUHJjJ95WD.arff is OK
+2017-05-04 09:35:13,9 [info] Initiating arff file /home/damis/Documents/DamisData/_input_TEST9SBs95NYk5tUHJjJ95WD.arff read
+2017-05-04 09:35:13,9 [info] Found CLASS attribute at index 4
+2017-05-04 09:35:13,9 [info] Classes are Iris-setosa,Iris-versicolor,Iris-virginica
+2017-05-04 09:35:13,0 [info] Reading file /home/damis/Documents/DamisData/_input_TEST9SBs95NYk5tUHJjJ95WD.arff into string format was OK
+2017-05-04 09:35:13,0 [info] Starting file name generation with the preffix: _input_TEST
+2017-05-04 09:35:13,0 [info] Generated file name: _input_TESTk4gYpfWsZUxi21U7i67j.arff
+2017-05-04 09:35:13,0 [info] Initiating download file
+2017-05-04 09:35:13,0 [info] Initializing file structure for download at location: /home/damis/Documents/DamisData/_input_TESTk4gYpfWsZUxi21U7i67j.arff
+2017-05-04 09:35:13,0 [info] Initializing curl object
+2017-05-04 09:35:13,0 [info] Setting up curl for file download
+2017-05-04 09:35:13,1 [info] Done file download from location: http://localhost.localdomain/input2.arff
+2017-05-04 09:35:13,1 [info] Checking if downloaded file /home/damis/Documents/DamisData/_input_TESTk4gYpfWsZUxi21U7i67j.arff is not error stream
+2017-05-04 09:35:13,1 [info] Downloaded file /home/damis/Documents/DamisData/_input_TESTk4gYpfWsZUxi21U7i67j.arff is OK
+2017-05-04 09:35:13,1 [info] Initiating arff file /home/damis/Documents/DamisData/_input_TESTk4gYpfWsZUxi21U7i67j.arff read
+2017-05-04 09:35:13,1 [info] Found CLASS attribute at index 4
+2017-05-04 09:35:13,1 [info] Classes are Iris-setosa,Iris-versicolor,Iris-virginica
+2017-05-04 09:35:13,3 [info] Reading file /home/damis/Documents/DamisData/_input_TESTk4gYpfWsZUxi21U7i67j.arff into string format was OK
+2017-05-04 09:35:13,3 [info] Starting file name generation with the preffix: _input_TEST
+2017-05-04 09:35:13,3 [info] Generated file name: _input_TESTqa2smfOoAcT0IhX9GeMs.arff
+2017-05-04 09:35:13,3 [info] Initiating download file
+2017-05-04 09:35:13,3 [info] Initializing file structure for download at location: /home/damis/Documents/DamisData/_input_TESTqa2smfOoAcT0IhX9GeMs.arff
+2017-05-04 09:35:13,3 [info] Initializing curl object
+2017-05-04 09:35:13,3 [info] Setting up curl for file download
+2017-05-04 09:35:13,3 [info] Done file download from location: http://localhost.localdomain/input3.arff
+2017-05-04 09:35:13,3 [info] Checking if downloaded file /home/damis/Documents/DamisData/_input_TESTqa2smfOoAcT0IhX9GeMs.arff is not error stream
+2017-05-04 09:35:13,3 [info] Downloaded file /home/damis/Documents/DamisData/_input_TESTqa2smfOoAcT0IhX9GeMs.arff is OK
+2017-05-04 09:35:13,3 [info] Initiating arff file /home/damis/Documents/DamisData/_input_TESTqa2smfOoAcT0IhX9GeMs.arff read
+2017-05-04 09:35:13,3 [info] Found CLASS attribute at index 4
+2017-05-04 09:35:13,3 [info] Classes are Iris-setosa,Iris-versicolor,Iris-virginica
+2017-05-04 09:35:13,4 [info] Reading file /home/damis/Documents/DamisData/_input_TESTqa2smfOoAcT0IhX9GeMs.arff into string format was OK
+2017-05-04 09:35:13,4 [info] Validating RELMDS parameter d - 1 maxIteration - 10 eps - 0.0001 maxCalcTime - 1
+2017-05-04 09:35:13,4 [info]  Parameters are OK
+2017-05-04 09:35:13,4 [info] Starting file name generation with the preffix: _output_
+2017-05-04 09:35:13,4 [info] Generated file name: _output_1h8epJb2GrSX4FpwYdI8.arff
+2017-05-04 09:35:13,4 [info] Starting file name generation with the preffix: _algStat_
+2017-05-04 09:35:13,4 [info] Generated file name: _algStat_SQDCYKsUNFhcU4F48iww.arff
+2017-05-04 09:35:13,4 [info] Dimension reduction has been called
+2017-05-04 09:35:28,2 [info] Starting file name generation with the preffix: _forCalculus_
+2017-05-04 09:35:28,2 [info] Generated file name: _forCalculus_TOFyy9Qg2ITODB1lohKR.arff
+2017-05-04 09:35:28,3 [info] Preparing attribute section for output file writing (string string string)
+2017-05-04 09:35:28,3 [info] Found type, no class information (string string string)
+2017-05-04 09:35:28,3 [info] Found type and class information (string string string)
+2017-05-04 09:35:28,3 [info] Prepare attribute section OK
+2017-05-04 09:35:28,3 [info] Preparing data section for output file writing (double string)
+2017-05-04 09:35:28,3 [info] Prepare data section (double string) OK
+2017-05-04 09:35:28,3 [info] Starting data write to output file /home/damis/Documents/DamisData/_forCalculus_TOFyy9Qg2ITODB1lohKR.arff
+2017-05-04 09:35:28,3 [info] Writing to file /home/damis/Documents/DamisData/_forCalculus_TOFyy9Qg2ITODB1lohKR.arff attribute section OK
+2017-05-04 09:35:28,3 [info] Writing to file /home/damis/Documents/DamisData/_forCalculus_TOFyy9Qg2ITODB1lohKR.arff succeeded OK
+2017-05-04 09:35:28,4 [info] Starting file name generation with the preffix: 
+2017-05-04 09:35:28,4 [info] Generated file name: KYqgF7UNZTYLJHIZjFkG
+2017-05-04 09:35:29,9 [info] Submiting job to qsub/home/damis/Documents/DamisData/_bash_run_KYqgF7UNZTYLJHIZjFkG.sh
+2017-05-04 09:35:29,9 [error] virtual void CallCalculus::run() /home/damis/Documents/CBProjects/DamisService/CallCalculus.cpp:276 Error submitting job /home/damis/Documents/DamisData/_bash_run_KYqgF7UNZTYLJHIZjFkG.sh to qsub, returning error
+2017-05-04 09:35:29,9 [info] Initiating set FaultDetail function, got fault detail: Error submiting job to qsub. Token:. Append 1
+2017-05-04 09:35:29,9 [info] Initiating set FaultDetail function, got fault detail: KYqgF7UNZTYLJHIZjFkG. Append 1
+2017-05-04 09:35:29,9 [info] Copying bash and data files to err directory
+2017-05-04 09:35:29,9 [info] Job FAILURE
+2017-05-04 09:35:29,9 [info] Preparing to detele file: /home/damis/Documents/DamisData/_forCalculus_TOFyy9Qg2ITODB1lohKR.arff
+2017-05-04 09:35:29,9 [info] File deleted: /home/damis/Documents/DamisData/_forCalculus_TOFyy9Qg2ITODB1lohKR.arff
+2017-05-04 09:35:29,0 [info] Preparing to detele file: /home/damis/Documents/DamisData/_bash_KYqgF7UNZTYLJHIZjFkG.sh
+2017-05-04 09:35:29,0 [info] File deleted: /home/damis/Documents/DamisData/_bash_KYqgF7UNZTYLJHIZjFkG.sh
+2017-05-04 09:35:29,0 [info] Preparing to detele file: /home/damis/Documents/DamisData/_qsubOut_log_KYqgF7UNZTYLJHIZjFkG.txt
+2017-05-04 09:35:29,0 [info] File deleted: /home/damis/Documents/DamisData/_qsubOut_log_KYqgF7UNZTYLJHIZjFkG.txt
+2017-05-04 09:35:29,0 [info] Preparing to detele file: /home/damis/Documents/DamisData/_qsubOut_log_Out_KYqgF7UNZTYLJHIZjFkG.txt
+2017-05-04 09:35:29,0 [warning] static int HelperMethods::deleteFile(std::__cxx11::string) Error deleting file: /home/damis/Documents/DamisData/_qsubOut_log_Out_KYqgF7UNZTYLJHIZjFkG.txt. Another try to delete file will be after 172800 seconds of service invocation
+2017-05-04 09:35:29,0 [info] Preparing to detele file: /home/damis/Documents/DamisData/_qsubOut_log_Err_KYqgF7UNZTYLJHIZjFkG.txt
+2017-05-04 09:35:29,0 [warning] static int HelperMethods::deleteFile(std::__cxx11::string) Error deleting file: /home/damis/Documents/DamisData/_qsubOut_log_Err_KYqgF7UNZTYLJHIZjFkG.txt. Another try to delete file will be after 172800 seconds of service invocation
+2017-05-04 09:35:29,0 [info] Preparing to detele file: /home/damis/Documents/DamisData/_bash_run_KYqgF7UNZTYLJHIZjFkG.sh
+2017-05-04 09:35:29,0 [info] File deleted: /home/damis/Documents/DamisData/_bash_run_KYqgF7UNZTYLJHIZjFkG.sh
+2017-05-04 09:35:42,9 [info] Preparing to detele file: /home/damis/Documents/DamisData/_algStat_SQDCYKsUNFhcU4F48iww.arff
+2017-05-04 09:35:42,9 [warning] static int HelperMethods::deleteFile(std::__cxx11::string) Error deleting file: /home/damis/Documents/DamisData/_algStat_SQDCYKsUNFhcU4F48iww.arff. Another try to delete file will be after 172800 seconds of service invocation
+2017-05-04 09:43:30,0 [info] Starting file name generation with the preffix: _input_TEST
+2017-05-04 09:43:30,0 [info] Generated file name: _input_TESTvTPkcvnEucFLbA1MNhuY.arff
+2017-05-04 09:43:30,0 [info] Initiating download file
+2017-05-04 09:43:30,0 [info] Initializing file structure for download at location: /home/damis/Documents/DamisData/_input_TESTvTPkcvnEucFLbA1MNhuY.arff
+2017-05-04 09:43:30,1 [info] Initializing curl object
+2017-05-04 09:43:30,1 [info] Setting up curl for file download
+2017-05-04 09:43:31,5 [info] Done file download from location: http://localhost.localdomain/input.arff
+2017-05-04 09:43:31,5 [info] Checking if downloaded file /home/damis/Documents/DamisData/_input_TESTvTPkcvnEucFLbA1MNhuY.arff is not error stream
+2017-05-04 09:43:31,5 [info] Downloaded file /home/damis/Documents/DamisData/_input_TESTvTPkcvnEucFLbA1MNhuY.arff is OK
+2017-05-04 09:43:31,5 [info] Initiating arff file /home/damis/Documents/DamisData/_input_TESTvTPkcvnEucFLbA1MNhuY.arff read
+2017-05-04 09:43:31,5 [info] Found CLASS attribute at index 4
+2017-05-04 09:43:31,5 [info] Classes are Iris-setosa,Iris-versicolor,Iris-virginica
+2017-05-04 09:43:31,7 [info] Reading file /home/damis/Documents/DamisData/_input_TESTvTPkcvnEucFLbA1MNhuY.arff into string format was OK
+2017-05-04 09:43:31,7 [info] Starting file name generation with the preffix: _input_TEST
+2017-05-04 09:43:31,7 [info] Generated file name: _input_TEST3p5dnYjikpEV4QrZEHk9.arff
+2017-05-04 09:43:31,7 [info] Initiating download file
+2017-05-04 09:43:31,7 [info] Initializing file structure for download at location: /home/damis/Documents/DamisData/_input_TEST3p5dnYjikpEV4QrZEHk9.arff
+2017-05-04 09:43:31,7 [info] Initializing curl object
+2017-05-04 09:43:31,7 [info] Setting up curl for file download
+2017-05-04 09:43:31,7 [info] Done file download from location: http://localhost.localdomain/input2.arff
+2017-05-04 09:43:31,7 [info] Checking if downloaded file /home/damis/Documents/DamisData/_input_TEST3p5dnYjikpEV4QrZEHk9.arff is not error stream
+2017-05-04 09:43:31,7 [info] Downloaded file /home/damis/Documents/DamisData/_input_TEST3p5dnYjikpEV4QrZEHk9.arff is OK
+2017-05-04 09:43:31,7 [info] Initiating arff file /home/damis/Documents/DamisData/_input_TEST3p5dnYjikpEV4QrZEHk9.arff read
+2017-05-04 09:43:31,7 [info] Found CLASS attribute at index 4
+2017-05-04 09:43:31,7 [info] Classes are Iris-setosa,Iris-versicolor,Iris-virginica
+2017-05-04 09:43:31,9 [info] Reading file /home/damis/Documents/DamisData/_input_TEST3p5dnYjikpEV4QrZEHk9.arff into string format was OK
+2017-05-04 09:43:31,9 [info] Starting file name generation with the preffix: _input_TEST
+2017-05-04 09:43:31,9 [info] Generated file name: _input_TESTisrAvgfpvTJdOPCvqlGC.arff
+2017-05-04 09:43:31,9 [info] Initiating download file
+2017-05-04 09:43:31,9 [info] Initializing file structure for download at location: /home/damis/Documents/DamisData/_input_TESTisrAvgfpvTJdOPCvqlGC.arff
+2017-05-04 09:43:31,9 [info] Initializing curl object
+2017-05-04 09:43:31,9 [info] Setting up curl for file download
+2017-05-04 09:43:31,2 [info] Done file download from location: http://localhost.localdomain/input3.arff
+2017-05-04 09:43:31,2 [info] Checking if downloaded file /home/damis/Documents/DamisData/_input_TESTisrAvgfpvTJdOPCvqlGC.arff is not error stream
+2017-05-04 09:43:31,2 [info] Downloaded file /home/damis/Documents/DamisData/_input_TESTisrAvgfpvTJdOPCvqlGC.arff is OK
+2017-05-04 09:43:31,2 [info] Initiating arff file /home/damis/Documents/DamisData/_input_TESTisrAvgfpvTJdOPCvqlGC.arff read
+2017-05-04 09:43:31,2 [info] Found CLASS attribute at index 4
+2017-05-04 09:43:31,2 [info] Classes are Iris-setosa,Iris-versicolor,Iris-virginica
+2017-05-04 09:43:31,4 [info] Reading file /home/damis/Documents/DamisData/_input_TESTisrAvgfpvTJdOPCvqlGC.arff into string format was OK
+2017-05-04 09:43:31,4 [info] Validating RELMDS parameter d - 1 maxIteration - 10 eps - 0.0001 maxCalcTime - 1
+2017-05-04 09:43:31,4 [info]  Parameters are OK
+2017-05-04 09:43:31,4 [info] Starting file name generation with the preffix: _output_
+2017-05-04 09:43:31,4 [info] Generated file name: _output_bFSM4hlYjXRjYkSr1KZe.arff
+2017-05-04 09:43:31,4 [info] Starting file name generation with the preffix: _algStat_
+2017-05-04 09:43:31,4 [info] Generated file name: _algStat_qh0BlEPY3TFpErEPBUrO.arff
+2017-05-04 09:43:31,4 [info] Dimension reduction has been called
+2017-05-04 09:43:31,4 [info] Starting file name generation with the preffix: _forCalculus_
+2017-05-04 09:43:31,4 [info] Generated file name: _forCalculus_kZNfQ5twjnJZIN1kotea.arff
+2017-05-04 09:43:31,4 [info] Preparing attribute section for output file writing (string string string)
+2017-05-04 09:43:31,4 [info] Found type, no class information (string string string)
+2017-05-04 09:43:31,4 [info] Found type and class information (string string string)
+2017-05-04 09:43:31,4 [info] Prepare attribute section OK
+2017-05-04 09:43:31,4 [info] Preparing data section for output file writing (double string)
+2017-05-04 09:43:31,5 [info] Prepare data section (double string) OK
+2017-05-04 09:43:31,5 [info] Starting data write to output file /home/damis/Documents/DamisData/_forCalculus_kZNfQ5twjnJZIN1kotea.arff
+2017-05-04 09:43:31,5 [info] Writing to file /home/damis/Documents/DamisData/_forCalculus_kZNfQ5twjnJZIN1kotea.arff attribute section OK
+2017-05-04 09:43:31,5 [info] Writing to file /home/damis/Documents/DamisData/_forCalculus_kZNfQ5twjnJZIN1kotea.arff succeeded OK
+2017-05-04 09:43:31,5 [info] Starting file name generation with the preffix: 
+2017-05-04 09:43:31,5 [info] Generated file name: ULmMtdLFrfFXh9VUeemA
+2017-05-04 09:43:31,4 [info] Submiting job to qsub/home/damis/Documents/DamisData/_bash_run_ULmMtdLFrfFXh9VUeemA.sh
+2017-05-04 09:43:31,2 [error] virtual void CallCalculus::run() /home/damis/Documents/CBProjects/DamisService/CallCalculus.cpp:276 Error submitting job /home/damis/Documents/DamisData/_bash_run_ULmMtdLFrfFXh9VUeemA.sh to qsub, returning error
+2017-05-04 09:43:31,3 [info] Initiating set FaultDetail function, got fault detail: Error submiting job to qsub. Token:. Append 1
+2017-05-04 09:43:31,3 [info] Initiating set FaultDetail function, got fault detail: ULmMtdLFrfFXh9VUeemA. Append 1
+2017-05-04 09:43:31,3 [info] Copying bash and data files to err directory
+2017-05-04 09:43:31,3 [info] Job FAILURE
+2017-05-04 09:43:31,3 [info] Preparing to detele file: /home/damis/Documents/DamisData/_forCalculus_kZNfQ5twjnJZIN1kotea.arff
+2017-05-04 09:43:31,3 [info] File deleted: /home/damis/Documents/DamisData/_forCalculus_kZNfQ5twjnJZIN1kotea.arff
+2017-05-04 09:43:31,3 [info] Preparing to detele file: /home/damis/Documents/DamisData/_bash_ULmMtdLFrfFXh9VUeemA.sh
+2017-05-04 09:43:31,3 [info] File deleted: /home/damis/Documents/DamisData/_bash_ULmMtdLFrfFXh9VUeemA.sh
+2017-05-04 09:43:31,3 [info] Preparing to detele file: /home/damis/Documents/DamisData/_qsubOut_log_ULmMtdLFrfFXh9VUeemA.txt
+2017-05-04 09:43:31,3 [info] File deleted: /home/damis/Documents/DamisData/_qsubOut_log_ULmMtdLFrfFXh9VUeemA.txt
+2017-05-04 09:43:31,3 [info] Preparing to detele file: /home/damis/Documents/DamisData/_qsubOut_log_Out_ULmMtdLFrfFXh9VUeemA.txt
+2017-05-04 09:43:31,3 [warning] static int HelperMethods::deleteFile(std::__cxx11::string) Error deleting file: /home/damis/Documents/DamisData/_qsubOut_log_Out_ULmMtdLFrfFXh9VUeemA.txt. Another try to delete file will be after 172800 seconds of service invocation
+2017-05-04 09:43:31,3 [info] Preparing to detele file: /home/damis/Documents/DamisData/_qsubOut_log_Err_ULmMtdLFrfFXh9VUeemA.txt
+2017-05-04 09:43:31,3 [warning] static int HelperMethods::deleteFile(std::__cxx11::string) Error deleting file: /home/damis/Documents/DamisData/_qsubOut_log_Err_ULmMtdLFrfFXh9VUeemA.txt. Another try to delete file will be after 172800 seconds of service invocation
+2017-05-04 09:43:31,3 [info] Preparing to detele file: /home/damis/Documents/DamisData/_bash_run_ULmMtdLFrfFXh9VUeemA.sh
+2017-05-04 09:43:31,3 [info] File deleted: /home/damis/Documents/DamisData/_bash_run_ULmMtdLFrfFXh9VUeemA.sh
+2017-05-04 09:43:31,3 [info] Preparing to detele file: /home/damis/Documents/DamisData/_algStat_qh0BlEPY3TFpErEPBUrO.arff
+2017-05-04 09:43:31,3 [warning] static int HelperMethods::deleteFile(std::__cxx11::string) Error deleting file: /home/damis/Documents/DamisData/_algStat_qh0BlEPY3TFpErEPBUrO.arff. Another try to delete file will be after 172800 seconds of service invocation
+2017-05-04 10:21:40,1 [info] Starting file name generation with the preffix: _input_TEST
+2017-05-04 10:21:40,2 [info] Generated file name: _input_TEST5cql5McldNrPicIDBSYY.arff
+2017-05-04 10:21:40,2 [info] Initiating download file
+2017-05-04 10:21:40,2 [info] Initializing file structure for download at location: /home/damis/Documents/DamisData/_input_TEST5cql5McldNrPicIDBSYY.arff
+2017-05-04 10:21:40,2 [info] Initializing curl object
+2017-05-04 10:21:40,2 [info] Setting up curl for file download
+2017-05-04 10:21:40,5 [info] Done file download from location: http://localhost.localdomain/input.arff
+2017-05-04 10:21:40,5 [info] Checking if downloaded file /home/damis/Documents/DamisData/_input_TEST5cql5McldNrPicIDBSYY.arff is not error stream
+2017-05-04 10:21:40,6 [info] Downloaded file /home/damis/Documents/DamisData/_input_TEST5cql5McldNrPicIDBSYY.arff is OK
+2017-05-04 10:21:40,6 [info] Initiating arff file /home/damis/Documents/DamisData/_input_TEST5cql5McldNrPicIDBSYY.arff read
+2017-05-04 10:21:40,6 [info] Found CLASS attribute at index 4
+2017-05-04 10:21:40,6 [info] Classes are Iris-setosa,Iris-versicolor,Iris-virginica
+2017-05-04 10:21:40,8 [info] Reading file /home/damis/Documents/DamisData/_input_TEST5cql5McldNrPicIDBSYY.arff into string format was OK
+2017-05-04 10:21:40,8 [info] Starting file name generation with the preffix: _input_TEST
+2017-05-04 10:21:40,8 [info] Generated file name: _input_TESTqgDVAnat5VKI6KL4PDRs.arff
+2017-05-04 10:21:40,8 [info] Initiating download file
+2017-05-04 10:21:40,8 [info] Initializing file structure for download at location: /home/damis/Documents/DamisData/_input_TESTqgDVAnat5VKI6KL4PDRs.arff
+2017-05-04 10:21:40,8 [info] Initializing curl object
+2017-05-04 10:21:40,8 [info] Setting up curl for file download
+2017-05-04 10:21:40,1 [info] Done file download from location: http://localhost.localdomain/input2.arff
+2017-05-04 10:21:40,1 [info] Checking if downloaded file /home/damis/Documents/DamisData/_input_TESTqgDVAnat5VKI6KL4PDRs.arff is not error stream
+2017-05-04 10:21:40,1 [info] Downloaded file /home/damis/Documents/DamisData/_input_TESTqgDVAnat5VKI6KL4PDRs.arff is OK
+2017-05-04 10:21:40,1 [info] Initiating arff file /home/damis/Documents/DamisData/_input_TESTqgDVAnat5VKI6KL4PDRs.arff read
+2017-05-04 10:21:40,1 [info] Found CLASS attribute at index 4
+2017-05-04 10:21:40,1 [info] Classes are Iris-setosa,Iris-versicolor,Iris-virginica
+2017-05-04 10:21:40,3 [info] Reading file /home/damis/Documents/DamisData/_input_TESTqgDVAnat5VKI6KL4PDRs.arff into string format was OK
+2017-05-04 10:21:40,3 [info] Starting file name generation with the preffix: _input_TEST
+2017-05-04 10:21:40,3 [info] Generated file name: _input_TESTpECgrQUql4heURH5JeMw.arff
+2017-05-04 10:21:40,3 [info] Initiating download file
+2017-05-04 10:21:40,3 [info] Initializing file structure for download at location: /home/damis/Documents/DamisData/_input_TESTpECgrQUql4heURH5JeMw.arff
+2017-05-04 10:21:40,3 [info] Initializing curl object
+2017-05-04 10:21:40,3 [info] Setting up curl for file download
+2017-05-04 10:21:40,4 [info] Done file download from location: http://localhost.localdomain/input3.arff
+2017-05-04 10:21:40,4 [info] Checking if downloaded file /home/damis/Documents/DamisData/_input_TESTpECgrQUql4heURH5JeMw.arff is not error stream
+2017-05-04 10:21:40,4 [info] Downloaded file /home/damis/Documents/DamisData/_input_TESTpECgrQUql4heURH5JeMw.arff is OK
+2017-05-04 10:21:40,4 [info] Initiating arff file /home/damis/Documents/DamisData/_input_TESTpECgrQUql4heURH5JeMw.arff read
+2017-05-04 10:21:40,5 [info] Found CLASS attribute at index 4
+2017-05-04 10:21:40,5 [info] Classes are Iris-setosa,Iris-versicolor,Iris-virginica
+2017-05-04 10:21:40,7 [info] Reading file /home/damis/Documents/DamisData/_input_TESTpECgrQUql4heURH5JeMw.arff into string format was OK
+2017-05-04 10:21:40,7 [info] Validating RELMDS parameter d - 1 maxIteration - 10 eps - 0.0001 maxCalcTime - 1
+2017-05-04 10:21:40,7 [info]  Parameters are OK
+2017-05-04 10:21:40,7 [info] Starting file name generation with the preffix: _output_
+2017-05-04 10:21:40,7 [info] Generated file name: _output_r0yGEbU6OBWdxUl4PqVg.arff
+2017-05-04 10:21:40,7 [info] Starting file name generation with the preffix: _algStat_
+2017-05-04 10:21:40,7 [info] Generated file name: _algStat_QU0e3yKuwvdMLvuZrijt.arff
+2017-05-04 10:21:40,7 [info] Dimension reduction has been called
+2017-05-04 10:21:40,7 [info] Starting file name generation with the preffix: _forCalculus_
+2017-05-04 10:21:40,7 [info] Generated file name: _forCalculus_AkllbRg6EWVa1Ch5AsVb.arff
+2017-05-04 10:21:40,7 [info] Starting file name generation with the preffix: _forCalculus_
+2017-05-04 10:21:40,7 [info] Generated file name: _forCalculus_eTIwZ1uFYLPZ96QHuxEW.arff
+2017-05-04 10:21:40,7 [info] Starting file name generation with the preffix: _forCalculus_
+2017-05-04 10:21:40,7 [info] Generated file name: _forCalculus_wWs7hAlg7wp5UaV2Ytqy.arff
+2017-05-04 10:21:40,7 [info] Preparing attribute section for output file writing (string string string)
+2017-05-04 10:21:40,7 [info] Found type, no class information (string string string)
+2017-05-04 10:21:40,7 [info] Found type and class information (string string string)
+2017-05-04 10:21:40,7 [info] Prepare attribute section OK
+2017-05-04 10:21:40,7 [info] Preparing data section for output file writing (double string)
+2017-05-04 10:21:40,8 [info] Prepare data section (double string) OK
+2017-05-04 10:21:40,8 [info] Starting data write to output file /home/damis/Documents/DamisData/_forCalculus_AkllbRg6EWVa1Ch5AsVb.arff
+2017-05-04 10:21:40,8 [info] Writing to file /home/damis/Documents/DamisData/_forCalculus_AkllbRg6EWVa1Ch5AsVb.arff attribute section OK
+2017-05-04 10:21:40,9 [info] Writing to file /home/damis/Documents/DamisData/_forCalculus_AkllbRg6EWVa1Ch5AsVb.arff succeeded OK
+2017-05-04 10:21:40,9 [info] Preparing attribute section for output file writing (string string string)
+2017-05-04 10:21:40,9 [info] Found type, no class information (string string string)
+2017-05-04 10:21:40,9 [info] Found type and class information (string string string)
+2017-05-04 10:21:40,9 [info] Prepare attribute section OK
+2017-05-04 10:21:40,9 [info] Preparing data section for output file writing (double string)
+2017-05-04 10:21:40,0 [info] Prepare data section (double string) OK
+2017-05-04 10:21:40,0 [info] Starting data write to output file /home/damis/Documents/DamisData/_forCalculus_eTIwZ1uFYLPZ96QHuxEW.arff
+2017-05-04 10:21:40,0 [info] Writing to file /home/damis/Documents/DamisData/_forCalculus_eTIwZ1uFYLPZ96QHuxEW.arff attribute section OK
+2017-05-04 10:21:40,0 [info] Writing to file /home/damis/Documents/DamisData/_forCalculus_eTIwZ1uFYLPZ96QHuxEW.arff succeeded OK
+2017-05-04 10:21:40,0 [info] Preparing attribute section for output file writing (string string string)
+2017-05-04 10:21:40,0 [info] Found type, no class information (string string string)
+2017-05-04 10:21:40,0 [info] Found type and class information (string string string)
+2017-05-04 10:21:40,0 [info] Prepare attribute section OK
+2017-05-04 10:21:40,0 [info] Preparing data section for output file writing (double string)
+2017-05-04 10:21:40,1 [info] Prepare data section (double string) OK
+2017-05-04 10:21:40,1 [info] Starting data write to output file /home/damis/Documents/DamisData/_forCalculus_wWs7hAlg7wp5UaV2Ytqy.arff
+2017-05-04 10:21:40,1 [info] Writing to file /home/damis/Documents/DamisData/_forCalculus_wWs7hAlg7wp5UaV2Ytqy.arff attribute section OK
+2017-05-04 10:21:40,1 [info] Writing to file /home/damis/Documents/DamisData/_forCalculus_wWs7hAlg7wp5UaV2Ytqy.arff succeeded OK
+2017-05-04 10:21:40,2 [info] Starting file name generation with the preffix: 
+2017-05-04 10:21:40,2 [info] Generated file name: EpFev9cF6sEV5cpLFEW1
+2017-05-04 10:21:40,2 [info] Submiting job to qsub/home/damis/Documents/DamisData/_bash_run_EpFev9cF6sEV5cpLFEW1.sh
+2017-05-04 10:21:41,8 [error] virtual void CallCalculus::run2() /home/damis/Documents/CBProjects/DamisService/CallCalculus.cpp:753 Error submitting job /home/damis/Documents/DamisData/_bash_run_EpFev9cF6sEV5cpLFEW1.sh to qsub, returning error
+2017-05-04 10:21:41,8 [info] Initiating set FaultDetail function, got fault detail: Error submiting job to qsub. Token:. Append 1
+2017-05-04 10:22:50,3 [info] Starting file name generation with the preffix: _input_TEST
+2017-05-04 10:22:50,3 [info] Generated file name: _input_TESTLUbJFhBTuw5dIyHb4atI.arff
+2017-05-04 10:22:50,3 [info] Initiating download file
+2017-05-04 10:22:50,3 [info] Initializing file structure for download at location: /home/damis/Documents/DamisData/_input_TESTLUbJFhBTuw5dIyHb4atI.arff
+2017-05-04 10:22:50,3 [info] Initializing curl object
+2017-05-04 10:22:50,3 [info] Setting up curl for file download
+2017-05-04 10:22:50,0 [info] Done file download from location: http://localhost.localdomain/input.arff
+2017-05-04 10:22:50,1 [info] Checking if downloaded file /home/damis/Documents/DamisData/_input_TESTLUbJFhBTuw5dIyHb4atI.arff is not error stream
+2017-05-04 10:22:50,1 [info] Downloaded file /home/damis/Documents/DamisData/_input_TESTLUbJFhBTuw5dIyHb4atI.arff is OK
+2017-05-04 10:22:50,1 [info] Initiating arff file /home/damis/Documents/DamisData/_input_TESTLUbJFhBTuw5dIyHb4atI.arff read
+2017-05-04 10:22:50,1 [info] Found CLASS attribute at index 4
+2017-05-04 10:22:50,1 [info] Classes are Iris-setosa,Iris-versicolor,Iris-virginica
+2017-05-04 10:22:50,2 [info] Reading file /home/damis/Documents/DamisData/_input_TESTLUbJFhBTuw5dIyHb4atI.arff into string format was OK
+2017-05-04 10:22:50,2 [info] Starting file name generation with the preffix: _input_TEST
+2017-05-04 10:22:50,2 [info] Generated file name: _input_TESTiL13vEbTRBFaopJ1NUyT.arff
+2017-05-04 10:22:50,2 [info] Initiating download file
+2017-05-04 10:22:50,2 [info] Initializing file structure for download at location: /home/damis/Documents/DamisData/_input_TESTiL13vEbTRBFaopJ1NUyT.arff
+2017-05-04 10:22:50,2 [info] Initializing curl object
+2017-05-04 10:22:50,2 [info] Setting up curl for file download
+2017-05-04 10:22:50,2 [info] Done file download from location: http://localhost.localdomain/input2.arff
+2017-05-04 10:22:50,2 [info] Checking if downloaded file /home/damis/Documents/DamisData/_input_TESTiL13vEbTRBFaopJ1NUyT.arff is not error stream
+2017-05-04 10:22:50,2 [info] Downloaded file /home/damis/Documents/DamisData/_input_TESTiL13vEbTRBFaopJ1NUyT.arff is OK
+2017-05-04 10:22:50,2 [info] Initiating arff file /home/damis/Documents/DamisData/_input_TESTiL13vEbTRBFaopJ1NUyT.arff read
+2017-05-04 10:22:50,2 [info] Found CLASS attribute at index 4
+2017-05-04 10:22:50,2 [info] Classes are Iris-setosa,Iris-versicolor,Iris-virginica
+2017-05-04 10:22:50,4 [info] Reading file /home/damis/Documents/DamisData/_input_TESTiL13vEbTRBFaopJ1NUyT.arff into string format was OK
+2017-05-04 10:22:50,4 [info] Starting file name generation with the preffix: _input_TEST
+2017-05-04 10:22:50,4 [info] Generated file name: _input_TESTmrVyVwuMxaWD3SYQfJWU.arff
+2017-05-04 10:22:50,4 [info] Initiating download file
+2017-05-04 10:22:50,4 [info] Initializing file structure for download at location: /home/damis/Documents/DamisData/_input_TESTmrVyVwuMxaWD3SYQfJWU.arff
+2017-05-04 10:22:50,4 [info] Initializing curl object
+2017-05-04 10:22:50,4 [info] Setting up curl for file download
+2017-05-04 10:22:50,0 [info] Done file download from location: http://localhost.localdomain/input3.arff
+2017-05-04 10:22:50,0 [info] Checking if downloaded file /home/damis/Documents/DamisData/_input_TESTmrVyVwuMxaWD3SYQfJWU.arff is not error stream
+2017-05-04 10:22:50,0 [info] Downloaded file /home/damis/Documents/DamisData/_input_TESTmrVyVwuMxaWD3SYQfJWU.arff is OK
+2017-05-04 10:22:50,0 [info] Initiating arff file /home/damis/Documents/DamisData/_input_TESTmrVyVwuMxaWD3SYQfJWU.arff read
+2017-05-04 10:22:50,0 [info] Found CLASS attribute at index 4
+2017-05-04 10:22:50,0 [info] Classes are Iris-setosa,Iris-versicolor,Iris-virginica
+2017-05-04 10:22:50,2 [info] Reading file /home/damis/Documents/DamisData/_input_TESTmrVyVwuMxaWD3SYQfJWU.arff into string format was OK
+2017-05-04 10:22:50,2 [info] Validating RELMDS parameter d - 1 maxIteration - 10 eps - 0.0001 maxCalcTime - 1
+2017-05-04 10:22:50,2 [info]  Parameters are OK
+2017-05-04 10:22:50,2 [info] Starting file name generation with the preffix: _output_
+2017-05-04 10:22:50,2 [info] Generated file name: _output_DvvsRxkIj4KrBU2ffgHM.arff
+2017-05-04 10:22:50,2 [info] Starting file name generation with the preffix: _algStat_
+2017-05-04 10:22:50,2 [info] Generated file name: _algStat_B6eNuCjybQV0UE9kRPSG.arff
+2017-05-04 10:22:50,2 [info] Dimension reduction has been called
+2017-05-04 10:22:50,2 [info] Starting file name generation with the preffix: _forCalculus_
+2017-05-04 10:22:50,2 [info] Generated file name: _forCalculus_Grj4c1DVPAks6dvtjxAt.arff
+2017-05-04 10:22:50,2 [info] Starting file name generation with the preffix: _forCalculus_
+2017-05-04 10:22:50,2 [info] Generated file name: _forCalculus_2cXive1HSXQKio5j1WtW.arff
+2017-05-04 10:22:50,2 [info] Starting file name generation with the preffix: _forCalculus_
+2017-05-04 10:22:50,2 [info] Generated file name: _forCalculus_lFFuRfF5j3RsB955dM7o.arff
+2017-05-04 10:22:50,2 [info] Preparing attribute section for output file writing (string string string)
+2017-05-04 10:22:50,2 [info] Found type, no class information (string string string)
+2017-05-04 10:22:50,2 [info] Found type and class information (string string string)
+2017-05-04 10:22:50,2 [info] Prepare attribute section OK
+2017-05-04 10:22:50,2 [info] Preparing data section for output file writing (double string)
+2017-05-04 10:22:50,2 [info] Prepare data section (double string) OK
+2017-05-04 10:22:50,2 [info] Starting data write to output file /home/damis/Documents/DamisData/_forCalculus_Grj4c1DVPAks6dvtjxAt.arff
+2017-05-04 10:22:50,2 [info] Writing to file /home/damis/Documents/DamisData/_forCalculus_Grj4c1DVPAks6dvtjxAt.arff attribute section OK
+2017-05-04 10:22:50,3 [info] Writing to file /home/damis/Documents/DamisData/_forCalculus_Grj4c1DVPAks6dvtjxAt.arff succeeded OK
+2017-05-04 10:22:50,3 [info] Preparing attribute section for output file writing (string string string)
+2017-05-04 10:22:50,3 [info] Found type, no class information (string string string)
+2017-05-04 10:22:50,3 [info] Found type and class information (string string string)
+2017-05-04 10:22:50,3 [info] Prepare attribute section OK
+2017-05-04 10:22:50,3 [info] Preparing data section for output file writing (double string)
+2017-05-04 10:22:50,3 [info] Prepare data section (double string) OK
+2017-05-04 10:22:50,3 [info] Starting data write to output file /home/damis/Documents/DamisData/_forCalculus_2cXive1HSXQKio5j1WtW.arff
+2017-05-04 10:22:50,3 [info] Writing to file /home/damis/Documents/DamisData/_forCalculus_2cXive1HSXQKio5j1WtW.arff attribute section OK
+2017-05-04 10:22:50,3 [info] Writing to file /home/damis/Documents/DamisData/_forCalculus_2cXive1HSXQKio5j1WtW.arff succeeded OK
+2017-05-04 10:22:50,3 [info] Preparing attribute section for output file writing (string string string)
+2017-05-04 10:22:50,3 [info] Found type, no class information (string string string)
+2017-05-04 10:22:50,4 [info] Found type and class information (string string string)
+2017-05-04 10:22:50,4 [info] Prepare attribute section OK
+2017-05-04 10:22:50,4 [info] Preparing data section for output file writing (double string)
+2017-05-04 10:22:50,4 [info] Prepare data section (double string) OK
+2017-05-04 10:22:50,4 [info] Starting data write to output file /home/damis/Documents/DamisData/_forCalculus_lFFuRfF5j3RsB955dM7o.arff
+2017-05-04 10:22:50,4 [info] Writing to file /home/damis/Documents/DamisData/_forCalculus_lFFuRfF5j3RsB955dM7o.arff attribute section OK
+2017-05-04 10:22:50,4 [info] Writing to file /home/damis/Documents/DamisData/_forCalculus_lFFuRfF5j3RsB955dM7o.arff succeeded OK
+2017-05-04 10:22:50,4 [info] Starting file name generation with the preffix: 
+2017-05-04 10:22:50,4 [info] Generated file name: qXDyDPGx6tPl8g0SVb4x
+2017-05-04 10:22:50,6 [info] Submiting job to qsub/home/damis/Documents/DamisData/_bash_run_qXDyDPGx6tPl8g0SVb4x.sh
+2017-05-04 10:22:50,6 [error] virtual void CallCalculus::run2() /home/damis/Documents/CBProjects/DamisService/CallCalculus.cpp:753 Error submitting job /home/damis/Documents/DamisData/_bash_run_qXDyDPGx6tPl8g0SVb4x.sh to qsub, returning error
+2017-05-04 10:22:50,6 [info] Initiating set FaultDetail function, got fault detail: Error submiting job to qsub. Token:. Append 1
+2017-05-04 10:28:44,7 [info] Starting file name generation with the preffix: _input_TEST
+2017-05-04 10:28:44,7 [info] Generated file name: _input_TESTorCKsgVpsvDJWFFGnwSL.arff
+2017-05-04 10:28:44,7 [info] Initiating download file
+2017-05-04 10:28:44,7 [info] Initializing file structure for download at location: /home/damis/Documents/DamisData/_input_TESTorCKsgVpsvDJWFFGnwSL.arff
+2017-05-04 10:28:44,7 [info] Initializing curl object
+2017-05-04 10:28:44,7 [info] Setting up curl for file download
+2017-05-04 10:28:44,2 [info] Done file download from location: http://localhost.localdomain/input.arff
+2017-05-04 10:28:44,2 [info] Checking if downloaded file /home/damis/Documents/DamisData/_input_TESTorCKsgVpsvDJWFFGnwSL.arff is not error stream
+2017-05-04 10:28:44,3 [info] Downloaded file /home/damis/Documents/DamisData/_input_TESTorCKsgVpsvDJWFFGnwSL.arff is OK
+2017-05-04 10:28:44,3 [info] Initiating arff file /home/damis/Documents/DamisData/_input_TESTorCKsgVpsvDJWFFGnwSL.arff read
+2017-05-04 10:28:44,3 [info] Found CLASS attribute at index 4
+2017-05-04 10:28:44,3 [info] Classes are Iris-setosa,Iris-versicolor,Iris-virginica
+2017-05-04 10:28:44,5 [info] Reading file /home/damis/Documents/DamisData/_input_TESTorCKsgVpsvDJWFFGnwSL.arff into string format was OK
+2017-05-04 10:28:44,5 [info] Starting file name generation with the preffix: _input_TEST
+2017-05-04 10:28:44,5 [info] Generated file name: _input_TESTVwOnUjvxfV5jNiq2Wjh4.arff
+2017-05-04 10:28:44,5 [info] Initiating download file
+2017-05-04 10:28:44,5 [info] Initializing file structure for download at location: /home/damis/Documents/DamisData/_input_TESTVwOnUjvxfV5jNiq2Wjh4.arff
+2017-05-04 10:28:44,5 [info] Initializing curl object
+2017-05-04 10:28:44,5 [info] Setting up curl for file download
+2017-05-04 10:28:44,7 [info] Done file download from location: http://localhost.localdomain/input2.arff
+2017-05-04 10:28:44,7 [info] Checking if downloaded file /home/damis/Documents/DamisData/_input_TESTVwOnUjvxfV5jNiq2Wjh4.arff is not error stream
+2017-05-04 10:28:44,8 [info] Downloaded file /home/damis/Documents/DamisData/_input_TESTVwOnUjvxfV5jNiq2Wjh4.arff is OK
+2017-05-04 10:28:44,8 [info] Initiating arff file /home/damis/Documents/DamisData/_input_TESTVwOnUjvxfV5jNiq2Wjh4.arff read
+2017-05-04 10:28:44,8 [info] Found CLASS attribute at index 4
+2017-05-04 10:28:44,8 [info] Classes are Iris-setosa,Iris-versicolor,Iris-virginica
+2017-05-04 10:28:44,1 [info] Reading file /home/damis/Documents/DamisData/_input_TESTVwOnUjvxfV5jNiq2Wjh4.arff into string format was OK
+2017-05-04 10:28:44,1 [info] Starting file name generation with the preffix: _input_TEST
+2017-05-04 10:28:44,1 [info] Generated file name: _input_TESTZJI1RL2XQH2emX5chWD9.arff
+2017-05-04 10:28:44,1 [info] Initiating download file
+2017-05-04 10:28:44,1 [info] Initializing file structure for download at location: /home/damis/Documents/DamisData/_input_TESTZJI1RL2XQH2emX5chWD9.arff
+2017-05-04 10:28:44,1 [info] Initializing curl object
+2017-05-04 10:28:44,1 [info] Setting up curl for file download
+2017-05-04 10:28:44,1 [info] Done file download from location: http://localhost.localdomain/input3.arff
+2017-05-04 10:28:44,1 [info] Checking if downloaded file /home/damis/Documents/DamisData/_input_TESTZJI1RL2XQH2emX5chWD9.arff is not error stream
+2017-05-04 10:28:44,1 [info] Downloaded file /home/damis/Documents/DamisData/_input_TESTZJI1RL2XQH2emX5chWD9.arff is OK
+2017-05-04 10:28:44,1 [info] Initiating arff file /home/damis/Documents/DamisData/_input_TESTZJI1RL2XQH2emX5chWD9.arff read
+2017-05-04 10:28:44,1 [info] Found CLASS attribute at index 4
+2017-05-04 10:28:44,1 [info] Classes are Iris-setosa,Iris-versicolor,Iris-virginica
+2017-05-04 10:28:44,3 [info] Reading file /home/damis/Documents/DamisData/_input_TESTZJI1RL2XQH2emX5chWD9.arff into string format was OK
+2017-05-04 10:28:44,3 [info] Validating RELMDS parameter d - 1 maxIteration - 10 eps - 0.0001 maxCalcTime - 1
+2017-05-04 10:28:44,3 [info]  Parameters are OK
+2017-05-04 10:28:44,3 [info] Starting file name generation with the preffix: _output_
+2017-05-04 10:28:44,3 [info] Generated file name: _output_eFp4j0TpohBqcAmJyYIm.arff
+2017-05-04 10:28:44,3 [info] Starting file name generation with the preffix: _algStat_
+2017-05-04 10:28:44,3 [info] Generated file name: _algStat_UwdAkNbJaFbDCFoBGvbE.arff
+2017-05-04 10:28:44,3 [info] Dimension reduction has been called
+2017-05-04 10:28:44,3 [info] Starting file name generation with the preffix: _forCalculus_
+2017-05-04 10:28:44,3 [info] Generated file name: _forCalculus_D9wsi7vcSOSBsCTweEv8.arff
+2017-05-04 10:28:44,3 [info] Starting file name generation with the preffix: _forCalculus_
+2017-05-04 10:28:44,3 [info] Generated file name: _forCalculus_pR8bGact1ahE3x3de5Nm.arff
+2017-05-04 10:28:44,3 [info] Starting file name generation with the preffix: _forCalculus_
+2017-05-04 10:28:44,3 [info] Generated file name: _forCalculus_QNsNhsd4CBHvXyqZoc09.arff
+2017-05-04 10:28:44,3 [info] Preparing attribute section for output file writing (string string string)
+2017-05-04 10:28:44,3 [info] Found type, no class information (string string string)
+2017-05-04 10:28:44,3 [info] Found type and class information (string string string)
+2017-05-04 10:28:44,3 [info] Prepare attribute section OK
+2017-05-04 10:28:44,3 [info] Preparing data section for output file writing (double string)
+2017-05-04 10:28:44,4 [info] Prepare data section (double string) OK
+2017-05-04 10:28:44,4 [info] Starting data write to output file /home/damis/Documents/DamisData/_forCalculus_D9wsi7vcSOSBsCTweEv8.arff
+2017-05-04 10:28:44,4 [info] Writing to file /home/damis/Documents/DamisData/_forCalculus_D9wsi7vcSOSBsCTweEv8.arff attribute section OK
+2017-05-04 10:28:44,5 [info] Writing to file /home/damis/Documents/DamisData/_forCalculus_D9wsi7vcSOSBsCTweEv8.arff succeeded OK
+2017-05-04 10:28:44,5 [info] Preparing attribute section for output file writing (string string string)
+2017-05-04 10:28:44,5 [info] Found type, no class information (string string string)
+2017-05-04 10:28:44,5 [info] Found type and class information (string string string)
+2017-05-04 10:28:44,5 [info] Prepare attribute section OK
+2017-05-04 10:28:44,5 [info] Preparing data section for output file writing (double string)
+2017-05-04 10:28:44,5 [info] Prepare data section (double string) OK
+2017-05-04 10:28:44,5 [info] Starting data write to output file /home/damis/Documents/DamisData/_forCalculus_pR8bGact1ahE3x3de5Nm.arff
+2017-05-04 10:28:44,5 [info] Writing to file /home/damis/Documents/DamisData/_forCalculus_pR8bGact1ahE3x3de5Nm.arff attribute section OK
+2017-05-04 10:28:44,6 [info] Writing to file /home/damis/Documents/DamisData/_forCalculus_pR8bGact1ahE3x3de5Nm.arff succeeded OK
+2017-05-04 10:28:44,6 [info] Preparing attribute section for output file writing (string string string)
+2017-05-04 10:28:44,6 [info] Found type, no class information (string string string)
+2017-05-04 10:28:44,6 [info] Found type and class information (string string string)
+2017-05-04 10:28:44,6 [info] Prepare attribute section OK
+2017-05-04 10:28:44,6 [info] Preparing data section for output file writing (double string)
+2017-05-04 10:28:44,7 [info] Prepare data section (double string) OK
+2017-05-04 10:28:44,7 [info] Starting data write to output file /home/damis/Documents/DamisData/_forCalculus_QNsNhsd4CBHvXyqZoc09.arff
+2017-05-04 10:28:44,7 [info] Writing to file /home/damis/Documents/DamisData/_forCalculus_QNsNhsd4CBHvXyqZoc09.arff attribute section OK
+2017-05-04 10:28:44,7 [info] Writing to file /home/damis/Documents/DamisData/_forCalculus_QNsNhsd4CBHvXyqZoc09.arff succeeded OK
+2017-05-04 10:28:44,7 [info] Starting file name generation with the preffix: 
+2017-05-04 10:28:44,7 [info] Generated file name: 2Y4mS7LkNhH810wOBdL0
+2017-05-04 10:28:44,6 [info] Submiting job to qsub/home/damis/Documents/DamisData/_bash_run_2Y4mS7LkNhH810wOBdL0.sh
+2017-05-04 10:28:44,5 [error] virtual void CallCalculus::run2() /home/damis/Documents/CBProjects/DamisService/CallCalculus.cpp:753 Error submitting job /home/damis/Documents/DamisData/_bash_run_2Y4mS7LkNhH810wOBdL0.sh to qsub, returning error
+2017-05-04 10:28:44,5 [info] Initiating set FaultDetail function, got fault detail: Error submiting job to qsub. Token:. Append 1
+2017-05-04 10:28:44,8 [info] Initiating set FaultDetail function, got fault detail: 2Y4mS7LkNhH810wOBdL0. Append 1
+2017-05-04 10:28:44,8 [info] Copying bash and data files to err directory
+2017-05-04 10:28:44,8 [info] Job FAILURE
+2017-05-04 10:28:44,8 [info] Preparing to detele file: /home/damis/Documents/DamisData/_algStat_UwdAkNbJaFbDCFoBGvbE.arff
+2017-05-04 10:28:44,8 [warning] static int HelperMethods::deleteFile(std::__cxx11::string) Error deleting file: /home/damis/Documents/DamisData/_algStat_UwdAkNbJaFbDCFoBGvbE.arff. Another try to delete file will be after 172800 seconds of service invocation
+2017-05-04 10:28:44,8 [info] ------ Service has been invoked by 
+2017-05-04 10:28:44,8 [info] 
+2017-05-04 10:28:44,8 [info] 
+2017-05-04 10:28:44,8 [info] 
+2017-05-04 10:28:44,8 [info] 
+2017-05-04 10:35:34,6 [info] Starting file name generation with the preffix: _input_TEST
+2017-05-04 10:35:34,6 [info] Generated file name: _input_TESTV0aWd3H3nYhJ4tkpTTBY.arff
+2017-05-04 10:35:34,6 [info] Initiating download file
+2017-05-04 10:35:34,6 [info] Initializing file structure for download at location: /home/damis/Documents/DamisData/_input_TESTV0aWd3H3nYhJ4tkpTTBY.arff
+2017-05-04 10:35:34,6 [info] Initializing curl object
+2017-05-04 10:35:34,6 [info] Setting up curl for file download
+2017-05-04 10:35:34,7 [info] Done file download from location: http://localhost.localdomain/input.arff
+2017-05-04 10:35:34,7 [info] Checking if downloaded file /home/damis/Documents/DamisData/_input_TESTV0aWd3H3nYhJ4tkpTTBY.arff is not error stream
+2017-05-04 10:35:34,8 [info] Downloaded file /home/damis/Documents/DamisData/_input_TESTV0aWd3H3nYhJ4tkpTTBY.arff is OK
+2017-05-04 10:35:34,8 [info] Initiating arff file /home/damis/Documents/DamisData/_input_TESTV0aWd3H3nYhJ4tkpTTBY.arff read
+2017-05-04 10:35:34,8 [info] Found CLASS attribute at index 4
+2017-05-04 10:35:34,8 [info] Classes are Iris-setosa,Iris-versicolor,Iris-virginica
+2017-05-04 10:35:34,3 [info] Reading file /home/damis/Documents/DamisData/_input_TESTV0aWd3H3nYhJ4tkpTTBY.arff into string format was OK
+2017-05-04 10:35:34,3 [info] Starting file name generation with the preffix: _input_TEST
+2017-05-04 10:35:34,3 [info] Generated file name: _input_TEST1f87CVr5CJLcYQcXpn4o.arff
+2017-05-04 10:35:34,3 [info] Initiating download file
+2017-05-04 10:35:34,3 [info] Initializing file structure for download at location: /home/damis/Documents/DamisData/_input_TEST1f87CVr5CJLcYQcXpn4o.arff
+2017-05-04 10:35:34,3 [info] Initializing curl object
+2017-05-04 10:35:34,3 [info] Setting up curl for file download
+2017-05-04 10:35:35,7 [info] Done file download from location: http://localhost.localdomain/input2.arff
+2017-05-04 10:35:35,7 [info] Checking if downloaded file /home/damis/Documents/DamisData/_input_TEST1f87CVr5CJLcYQcXpn4o.arff is not error stream
+2017-05-04 10:35:35,8 [info] Downloaded file /home/damis/Documents/DamisData/_input_TEST1f87CVr5CJLcYQcXpn4o.arff is OK
+2017-05-04 10:35:35,8 [info] Initiating arff file /home/damis/Documents/DamisData/_input_TEST1f87CVr5CJLcYQcXpn4o.arff read
+2017-05-04 10:35:35,8 [info] Found CLASS attribute at index 4
+2017-05-04 10:35:35,8 [info] Classes are Iris-setosa,Iris-versicolor,Iris-virginica
+2017-05-04 10:35:35,2 [info] Reading file /home/damis/Documents/DamisData/_input_TEST1f87CVr5CJLcYQcXpn4o.arff into string format was OK
+2017-05-04 10:35:35,2 [info] Starting file name generation with the preffix: _input_TEST
+2017-05-04 10:35:35,2 [info] Generated file name: _input_TESTtvV2GqSCuwIDFXhApG6L.arff
+2017-05-04 10:35:35,2 [info] Initiating download file
+2017-05-04 10:35:35,2 [info] Initializing file structure for download at location: /home/damis/Documents/DamisData/_input_TESTtvV2GqSCuwIDFXhApG6L.arff
+2017-05-04 10:35:35,2 [info] Initializing curl object
+2017-05-04 10:35:35,2 [info] Setting up curl for file download
+2017-05-04 10:35:35,9 [info] Done file download from location: http://localhost.localdomain/input3.arff
+2017-05-04 10:35:35,9 [info] Checking if downloaded file /home/damis/Documents/DamisData/_input_TESTtvV2GqSCuwIDFXhApG6L.arff is not error stream
+2017-05-04 10:35:35,0 [info] Downloaded file /home/damis/Documents/DamisData/_input_TESTtvV2GqSCuwIDFXhApG6L.arff is OK
+2017-05-04 10:35:35,0 [info] Initiating arff file /home/damis/Documents/DamisData/_input_TESTtvV2GqSCuwIDFXhApG6L.arff read
+2017-05-04 10:35:35,0 [info] Found CLASS attribute at index 4
+2017-05-04 10:35:35,0 [info] Classes are Iris-setosa,Iris-versicolor,Iris-virginica
+2017-05-04 10:35:35,3 [info] Reading file /home/damis/Documents/DamisData/_input_TESTtvV2GqSCuwIDFXhApG6L.arff into string format was OK
+2017-05-04 10:35:35,3 [info] Validating RELMDS parameter d - 1 maxIteration - 10 eps - 0.0001 maxCalcTime - 1
+2017-05-04 10:35:35,4 [info]  Parameters are OK
+2017-05-04 10:35:35,4 [info] Starting file name generation with the preffix: _output_
+2017-05-04 10:35:35,4 [info] Generated file name: _output_W3lvOfIKwWF0RdbQq9Eu.arff
+2017-05-04 10:35:35,4 [info] Starting file name generation with the preffix: _algStat_
+2017-05-04 10:35:35,4 [info] Generated file name: _algStat_2AeYJ6uAV6OqrgDvHeSD.arff
+2017-05-04 10:35:35,4 [info] Dimension reduction has been called
+2017-05-04 10:35:35,4 [info] Starting file name generation with the preffix: _forCalculus_
+2017-05-04 10:35:35,4 [info] Generated file name: _forCalculus_XTaWAfUNwe8IskSNiWZx.arff
+2017-05-04 10:35:35,4 [info] Starting file name generation with the preffix: _forCalculus_
+2017-05-04 10:35:35,4 [info] Generated file name: _forCalculus_EXWjwC0bNr6KQB1khlcE.arff
+2017-05-04 10:35:35,4 [info] Starting file name generation with the preffix: _forCalculus_
+2017-05-04 10:35:35,4 [info] Generated file name: _forCalculus_ZhL0iZhYH8FuIo9VXsTU.arff
+2017-05-04 10:35:35,4 [info] Preparing attribute section for output file writing (string string string)
+2017-05-04 10:35:35,4 [info] Found type, no class information (string string string)
+2017-05-04 10:35:35,4 [info] Found type and class information (string string string)
+2017-05-04 10:35:35,4 [info] Prepare attribute section OK
+2017-05-04 10:35:35,4 [info] Preparing data section for output file writing (double string)
+2017-05-04 10:35:35,5 [info] Prepare data section (double string) OK
+2017-05-04 10:35:35,5 [info] Starting data write to output file /home/damis/Documents/DamisData/_forCalculus_XTaWAfUNwe8IskSNiWZx.arff
+2017-05-04 10:35:35,8 [info] Writing to file /home/damis/Documents/DamisData/_forCalculus_XTaWAfUNwe8IskSNiWZx.arff attribute section OK
+2017-05-04 10:35:35,9 [info] Writing to file /home/damis/Documents/DamisData/_forCalculus_XTaWAfUNwe8IskSNiWZx.arff succeeded OK
+2017-05-04 10:35:35,9 [info] Preparing attribute section for output file writing (string string string)
+2017-05-04 10:35:35,9 [info] Found type, no class information (string string string)
+2017-05-04 10:35:35,9 [info] Found type and class information (string string string)
+2017-05-04 10:35:35,9 [info] Prepare attribute section OK
+2017-05-04 10:35:35,9 [info] Preparing data section for output file writing (double string)
+2017-05-04 10:35:35,0 [info] Prepare data section (double string) OK
+2017-05-04 10:35:35,0 [info] Starting data write to output file /home/damis/Documents/DamisData/_forCalculus_EXWjwC0bNr6KQB1khlcE.arff
+2017-05-04 10:35:35,4 [info] Writing to file /home/damis/Documents/DamisData/_forCalculus_EXWjwC0bNr6KQB1khlcE.arff attribute section OK
+2017-05-04 10:35:35,5 [info] Writing to file /home/damis/Documents/DamisData/_forCalculus_EXWjwC0bNr6KQB1khlcE.arff succeeded OK
+2017-05-04 10:35:35,5 [info] Preparing attribute section for output file writing (string string string)
+2017-05-04 10:35:35,5 [info] Found type, no class information (string string string)
+2017-05-04 10:35:35,5 [info] Found type and class information (string string string)
+2017-05-04 10:35:35,5 [info] Prepare attribute section OK
+2017-05-04 10:35:35,5 [info] Preparing data section for output file writing (double string)
+2017-05-04 10:35:35,6 [info] Prepare data section (double string) OK
+2017-05-04 10:35:35,6 [info] Starting data write to output file /home/damis/Documents/DamisData/_forCalculus_ZhL0iZhYH8FuIo9VXsTU.arff
+2017-05-04 10:35:35,6 [info] Writing to file /home/damis/Documents/DamisData/_forCalculus_ZhL0iZhYH8FuIo9VXsTU.arff attribute section OK
+2017-05-04 10:35:35,7 [info] Writing to file /home/damis/Documents/DamisData/_forCalculus_ZhL0iZhYH8FuIo9VXsTU.arff succeeded OK
+2017-05-04 10:35:35,7 [info] Starting file name generation with the preffix: 
+2017-05-04 10:35:35,7 [info] Generated file name: x4vtWhr6bnBkhEiCuRjV
+2017-05-04 10:35:35,1 [info] Submiting job to qsub/home/damis/Documents/DamisData/_bash_run_x4vtWhr6bnBkhEiCuRjV.sh
+2017-05-04 10:35:35,1 [error] virtual void CallCalculus::run2() /home/damis/Documents/CBProjects/DamisService/CallCalculus.cpp:753 Error submitting job /home/damis/Documents/DamisData/_bash_run_x4vtWhr6bnBkhEiCuRjV.sh to qsub, returning error
+2017-05-04 10:35:35,1 [info] Initiating set FaultDetail function, got fault detail: Error submiting job to qsub. Token:. Append 1
+2017-05-04 10:36:20,8 [info] Starting file name generation with the preffix: _input_TEST
+2017-05-04 10:36:20,7 [info] Generated file name: _input_TESTqIBjxPK5eRTRuKjYGdir.arff
+2017-05-04 10:36:20,7 [info] Initiating download file
+2017-05-04 10:36:20,7 [info] Initializing file structure for download at location: /home/damis/Documents/DamisData/_input_TESTqIBjxPK5eRTRuKjYGdir.arff
+2017-05-04 10:36:20,7 [info] Initializing curl object
+2017-05-04 10:36:20,7 [info] Setting up curl for file download
+2017-05-04 10:36:20,9 [info] Done file download from location: http://localhost.localdomain/input.arff
+2017-05-04 10:36:20,9 [info] Checking if downloaded file /home/damis/Documents/DamisData/_input_TESTqIBjxPK5eRTRuKjYGdir.arff is not error stream
+2017-05-04 10:36:20,9 [info] Downloaded file /home/damis/Documents/DamisData/_input_TESTqIBjxPK5eRTRuKjYGdir.arff is OK
+2017-05-04 10:36:20,9 [info] Initiating arff file /home/damis/Documents/DamisData/_input_TESTqIBjxPK5eRTRuKjYGdir.arff read
+2017-05-04 10:36:20,9 [info] Found CLASS attribute at index 4
+2017-05-04 10:36:20,9 [info] Classes are Iris-setosa,Iris-versicolor,Iris-virginica
+2017-05-04 10:36:20,4 [info] Reading file /home/damis/Documents/DamisData/_input_TESTqIBjxPK5eRTRuKjYGdir.arff into string format was OK
+2017-05-04 10:36:20,4 [info] Starting file name generation with the preffix: _input_TEST
+2017-05-04 10:36:20,5 [info] Generated file name: _input_TEST1AT130Pt3KwsVaOAs1lp.arff
+2017-05-04 10:36:20,5 [info] Initiating download file
+2017-05-04 10:36:20,5 [info] Initializing file structure for download at location: /home/damis/Documents/DamisData/_input_TEST1AT130Pt3KwsVaOAs1lp.arff
+2017-05-04 10:36:20,5 [info] Initializing curl object
+2017-05-04 10:36:20,5 [info] Setting up curl for file download
+2017-05-04 10:36:20,0 [info] Done file download from location: http://localhost.localdomain/input2.arff
+2017-05-04 10:36:20,0 [info] Checking if downloaded file /home/damis/Documents/DamisData/_input_TEST1AT130Pt3KwsVaOAs1lp.arff is not error stream
+2017-05-04 10:36:20,0 [info] Downloaded file /home/damis/Documents/DamisData/_input_TEST1AT130Pt3KwsVaOAs1lp.arff is OK
+2017-05-04 10:36:20,0 [info] Initiating arff file /home/damis/Documents/DamisData/_input_TEST1AT130Pt3KwsVaOAs1lp.arff read
+2017-05-04 10:36:20,1 [info] Found CLASS attribute at index 4
+2017-05-04 10:36:20,1 [info] Classes are Iris-setosa,Iris-versicolor,Iris-virginica
+2017-05-04 10:36:20,6 [info] Reading file /home/damis/Documents/DamisData/_input_TEST1AT130Pt3KwsVaOAs1lp.arff into string format was OK
+2017-05-04 10:36:20,6 [info] Starting file name generation with the preffix: _input_TEST
+2017-05-04 10:36:20,6 [info] Generated file name: _input_TESTjuxOX3aAYLMOKqEMp5Mh.arff
+2017-05-04 10:36:20,6 [info] Initiating download file
+2017-05-04 10:36:20,6 [info] Initializing file structure for download at location: /home/damis/Documents/DamisData/_input_TESTjuxOX3aAYLMOKqEMp5Mh.arff
+2017-05-04 10:36:20,6 [info] Initializing curl object
+2017-05-04 10:36:20,6 [info] Setting up curl for file download
+2017-05-04 10:36:20,2 [info] Done file download from location: http://localhost.localdomain/input3.arff
+2017-05-04 10:36:20,2 [info] Checking if downloaded file /home/damis/Documents/DamisData/_input_TESTjuxOX3aAYLMOKqEMp5Mh.arff is not error stream
+2017-05-04 10:36:20,2 [info] Downloaded file /home/damis/Documents/DamisData/_input_TESTjuxOX3aAYLMOKqEMp5Mh.arff is OK
+2017-05-04 10:36:20,2 [info] Initiating arff file /home/damis/Documents/DamisData/_input_TESTjuxOX3aAYLMOKqEMp5Mh.arff read
+2017-05-04 10:36:20,2 [info] Found CLASS attribute at index 4
+2017-05-04 10:36:20,2 [info] Classes are Iris-setosa,Iris-versicolor,Iris-virginica
+2017-05-04 10:36:20,6 [info] Reading file /home/damis/Documents/DamisData/_input_TESTjuxOX3aAYLMOKqEMp5Mh.arff into string format was OK
+2017-05-04 10:36:20,6 [info] Validating RELMDS parameter d - 1 maxIteration - 10 eps - 0.0001 maxCalcTime - 1
+2017-05-04 10:36:20,6 [info]  Parameters are OK
+2017-05-04 10:36:20,6 [info] Starting file name generation with the preffix: _output_
+2017-05-04 10:36:20,6 [info] Generated file name: _output_m4D1cFuPitIo6ouko30P.arff
+2017-05-04 10:36:20,6 [info] Starting file name generation with the preffix: _algStat_
+2017-05-04 10:36:20,6 [info] Generated file name: _algStat_vqKgx21eEcJhBD8bKZS4.arff
+2017-05-04 10:36:20,6 [info] Dimension reduction has been called
+2017-05-04 10:36:20,6 [info] Starting file name generation with the preffix: _forCalculus_
+2017-05-04 10:36:20,6 [info] Generated file name: _forCalculus_mM9fKJRWNLFfG4TkV9Le.arff
+2017-05-04 10:36:20,6 [info] Starting file name generation with the preffix: _forCalculus_
+2017-05-04 10:36:20,6 [info] Generated file name: _forCalculus_xWLxRvDviaakPYg0pRy4.arff
+2017-05-04 10:36:20,6 [info] Starting file name generation with the preffix: _forCalculus_
+2017-05-04 10:36:20,6 [info] Generated file name: _forCalculus_vEDXGrRTWf5Q6eNZrgc7.arff
+2017-05-04 10:36:20,6 [info] Preparing attribute section for output file writing (string string string)
+2017-05-04 10:36:20,6 [info] Found type, no class information (string string string)
+2017-05-04 10:36:20,6 [info] Found type and class information (string string string)
+2017-05-04 10:36:20,6 [info] Prepare attribute section OK
+2017-05-04 10:36:20,6 [info] Preparing data section for output file writing (double string)
+2017-05-04 10:36:20,7 [info] Prepare data section (double string) OK
+2017-05-04 10:36:20,7 [info] Starting data write to output file /home/damis/Documents/DamisData/_forCalculus_mM9fKJRWNLFfG4TkV9Le.arff
+2017-05-04 10:36:20,7 [info] Writing to file /home/damis/Documents/DamisData/_forCalculus_mM9fKJRWNLFfG4TkV9Le.arff attribute section OK
+2017-05-04 10:36:20,8 [info] Writing to file /home/damis/Documents/DamisData/_forCalculus_mM9fKJRWNLFfG4TkV9Le.arff succeeded OK
+2017-05-04 10:36:20,8 [info] Preparing attribute section for output file writing (string string string)
+2017-05-04 10:36:20,8 [info] Found type, no class information (string string string)
+2017-05-04 10:36:20,8 [info] Found type and class information (string string string)
+2017-05-04 10:36:20,8 [info] Prepare attribute section OK
+2017-05-04 10:36:20,8 [info] Preparing data section for output file writing (double string)
+2017-05-04 10:36:20,9 [info] Prepare data section (double string) OK
+2017-05-04 10:36:20,0 [info] Starting data write to output file /home/damis/Documents/DamisData/_forCalculus_xWLxRvDviaakPYg0pRy4.arff
+2017-05-04 10:36:20,0 [info] Writing to file /home/damis/Documents/DamisData/_forCalculus_xWLxRvDviaakPYg0pRy4.arff attribute section OK
+2017-05-04 10:36:20,2 [info] Writing to file /home/damis/Documents/DamisData/_forCalculus_xWLxRvDviaakPYg0pRy4.arff succeeded OK
+2017-05-04 10:36:20,2 [info] Preparing attribute section for output file writing (string string string)
+2017-05-04 10:36:20,2 [info] Found type, no class information (string string string)
+2017-05-04 10:36:20,2 [info] Found type and class information (string string string)
+2017-05-04 10:36:20,2 [info] Prepare attribute section OK
+2017-05-04 10:36:20,2 [info] Preparing data section for output file writing (double string)
+2017-05-04 10:36:20,3 [info] Prepare data section (double string) OK
+2017-05-04 10:36:20,3 [info] Starting data write to output file /home/damis/Documents/DamisData/_forCalculus_vEDXGrRTWf5Q6eNZrgc7.arff
+2017-05-04 10:36:20,3 [info] Writing to file /home/damis/Documents/DamisData/_forCalculus_vEDXGrRTWf5Q6eNZrgc7.arff attribute section OK
+2017-05-04 10:36:20,4 [info] Writing to file /home/damis/Documents/DamisData/_forCalculus_vEDXGrRTWf5Q6eNZrgc7.arff succeeded OK
+2017-05-04 10:36:20,4 [info] Starting file name generation with the preffix: 
+2017-05-04 10:36:20,4 [info] Generated file name: xTWZ8oNb12KmfP9t8uLn
+2017-05-04 10:36:20,4 [info] Submiting job to qsub/home/damis/Documents/DamisData/_bash_run_xTWZ8oNb12KmfP9t8uLn.sh
+2017-05-04 10:36:21,7 [error] virtual void CallCalculus::run2() /home/damis/Documents/CBProjects/DamisService/CallCalculus.cpp:753 Error submitting job /home/damis/Documents/DamisData/_bash_run_xTWZ8oNb12KmfP9t8uLn.sh to qsub, returning error
+2017-05-04 10:36:21,7 [info] Initiating set FaultDetail function, got fault detail: Error submiting job to qsub. Token:. Append 1
+2017-05-04 10:36:49,7 [info] Starting file name generation with the preffix: _input_TEST
+2017-05-04 10:36:49,5 [info] Generated file name: _input_TESTQaM4H6gY8Nd9RRQrRWBE.arff
+2017-05-04 10:36:49,5 [info] Initiating download file
+2017-05-04 10:36:49,5 [info] Initializing file structure for download at location: /home/damis/Documents/DamisData/_input_TESTQaM4H6gY8Nd9RRQrRWBE.arff
+2017-05-04 10:36:49,5 [info] Initializing curl object
+2017-05-04 10:36:49,6 [info] Setting up curl for file download
+2017-05-04 10:36:50,2 [info] Done file download from location: http://localhost.localdomain/input.arff
+2017-05-04 10:36:50,2 [info] Checking if downloaded file /home/damis/Documents/DamisData/_input_TESTQaM4H6gY8Nd9RRQrRWBE.arff is not error stream
+2017-05-04 10:36:50,2 [info] Downloaded file /home/damis/Documents/DamisData/_input_TESTQaM4H6gY8Nd9RRQrRWBE.arff is OK
+2017-05-04 10:36:50,2 [info] Initiating arff file /home/damis/Documents/DamisData/_input_TESTQaM4H6gY8Nd9RRQrRWBE.arff read
+2017-05-04 10:36:50,3 [info] Found CLASS attribute at index 4
+2017-05-04 10:36:50,3 [info] Classes are Iris-setosa,Iris-versicolor,Iris-virginica
+2017-05-04 10:36:50,6 [info] Reading file /home/damis/Documents/DamisData/_input_TESTQaM4H6gY8Nd9RRQrRWBE.arff into string format was OK
+2017-05-04 10:36:50,6 [info] Starting file name generation with the preffix: _input_TEST
+2017-05-04 10:36:50,6 [info] Generated file name: _input_TESTpeLcYoBWuxVhvErJ0tTg.arff
+2017-05-04 10:36:50,6 [info] Initiating download file
+2017-05-04 10:36:50,6 [info] Initializing file structure for download at location: /home/damis/Documents/DamisData/_input_TESTpeLcYoBWuxVhvErJ0tTg.arff
+2017-05-04 10:36:50,6 [info] Initializing curl object
+2017-05-04 10:36:50,6 [info] Setting up curl for file download
+2017-05-04 10:36:50,4 [info] Done file download from location: http://localhost.localdomain/input2.arff
+2017-05-04 10:36:50,5 [info] Checking if downloaded file /home/damis/Documents/DamisData/_input_TESTpeLcYoBWuxVhvErJ0tTg.arff is not error stream
+2017-05-04 10:36:50,5 [info] Downloaded file /home/damis/Documents/DamisData/_input_TESTpeLcYoBWuxVhvErJ0tTg.arff is OK
+2017-05-04 10:36:50,5 [info] Initiating arff file /home/damis/Documents/DamisData/_input_TESTpeLcYoBWuxVhvErJ0tTg.arff read
+2017-05-04 10:36:50,5 [info] Found CLASS attribute at index 4
+2017-05-04 10:36:50,5 [info] Classes are Iris-setosa,Iris-versicolor,Iris-virginica
+2017-05-04 10:36:50,0 [info] Reading file /home/damis/Documents/DamisData/_input_TESTpeLcYoBWuxVhvErJ0tTg.arff into string format was OK
+2017-05-04 10:36:50,0 [info] Starting file name generation with the preffix: _input_TEST
+2017-05-04 10:36:50,0 [info] Generated file name: _input_TESTU23mlqktmgNqUnk8Crnr.arff
+2017-05-04 10:36:50,0 [info] Initiating download file
+2017-05-04 10:36:50,0 [info] Initializing file structure for download at location: /home/damis/Documents/DamisData/_input_TESTU23mlqktmgNqUnk8Crnr.arff
+2017-05-04 10:36:50,0 [info] Initializing curl object
+2017-05-04 10:36:50,0 [info] Setting up curl for file download
+2017-05-04 10:36:50,5 [info] Done file download from location: http://localhost.localdomain/input3.arff
+2017-05-04 10:36:50,5 [info] Checking if downloaded file /home/damis/Documents/DamisData/_input_TESTU23mlqktmgNqUnk8Crnr.arff is not error stream
+2017-05-04 10:36:50,5 [info] Downloaded file /home/damis/Documents/DamisData/_input_TESTU23mlqktmgNqUnk8Crnr.arff is OK
+2017-05-04 10:36:50,5 [info] Initiating arff file /home/damis/Documents/DamisData/_input_TESTU23mlqktmgNqUnk8Crnr.arff read
+2017-05-04 10:36:50,6 [info] Found CLASS attribute at index 4
+2017-05-04 10:36:50,6 [info] Classes are Iris-setosa,Iris-versicolor,Iris-virginica
+2017-05-04 10:36:50,0 [info] Reading file /home/damis/Documents/DamisData/_input_TESTU23mlqktmgNqUnk8Crnr.arff into string format was OK
+2017-05-04 10:36:50,0 [info] Validating RELMDS parameter d - 1 maxIteration - 10 eps - 0.0001 maxCalcTime - 1
+2017-05-04 10:36:50,0 [info]  Parameters are OK
+2017-05-04 10:36:50,0 [info] Starting file name generation with the preffix: _output_
+2017-05-04 10:36:50,0 [info] Generated file name: _output_efKGXJxiLO1DNXNKqvDJ.arff
+2017-05-04 10:36:50,0 [info] Starting file name generation with the preffix: _algStat_
+2017-05-04 10:36:50,0 [info] Generated file name: _algStat_60irt75ilBISCfKZW14g.arff
+2017-05-04 10:36:50,1 [info] Dimension reduction has been called
+2017-05-04 10:36:50,1 [info] Starting file name generation with the preffix: _forCalculus_
+2017-05-04 10:36:50,1 [info] Generated file name: _forCalculus_rxL0RZf88XJWTg3fVh0y.arff
+2017-05-04 10:36:50,1 [info] Starting file name generation with the preffix: _forCalculus_
+2017-05-04 10:36:50,1 [info] Generated file name: _forCalculus_9P6hxo0hdXAbvU9ud9FN.arff
+2017-05-04 10:36:50,1 [info] Starting file name generation with the preffix: _forCalculus_
+2017-05-04 10:36:50,1 [info] Generated file name: _forCalculus_hBTdfNSs8MhG6Q6O318U.arff
+2017-05-04 10:36:50,1 [info] Preparing attribute section for output file writing (string string string)
+2017-05-04 10:36:50,1 [info] Found type, no class information (string string string)
+2017-05-04 10:36:50,1 [info] Found type and class information (string string string)
+2017-05-04 10:36:50,1 [info] Prepare attribute section OK
+2017-05-04 10:36:50,1 [info] Preparing data section for output file writing (double string)
+2017-05-04 10:36:50,2 [info] Prepare data section (double string) OK
+2017-05-04 10:36:50,2 [info] Starting data write to output file /home/damis/Documents/DamisData/_forCalculus_rxL0RZf88XJWTg3fVh0y.arff
+2017-05-04 10:36:50,2 [info] Writing to file /home/damis/Documents/DamisData/_forCalculus_rxL0RZf88XJWTg3fVh0y.arff attribute section OK
+2017-05-04 10:36:50,3 [info] Writing to file /home/damis/Documents/DamisData/_forCalculus_rxL0RZf88XJWTg3fVh0y.arff succeeded OK
+2017-05-04 10:36:50,3 [info] Preparing attribute section for output file writing (string string string)
+2017-05-04 10:36:50,4 [info] Found type, no class information (string string string)
+2017-05-04 10:36:50,4 [info] Found type and class information (string string string)
+2017-05-04 10:36:50,4 [info] Prepare attribute section OK
+2017-05-04 10:36:50,4 [info] Preparing data section for output file writing (double string)
+2017-05-04 10:36:50,5 [info] Prepare data section (double string) OK
+2017-05-04 10:36:50,5 [info] Starting data write to output file /home/damis/Documents/DamisData/_forCalculus_9P6hxo0hdXAbvU9ud9FN.arff
+2017-05-04 10:36:50,5 [info] Writing to file /home/damis/Documents/DamisData/_forCalculus_9P6hxo0hdXAbvU9ud9FN.arff attribute section OK
+2017-05-04 10:36:50,9 [info] Writing to file /home/damis/Documents/DamisData/_forCalculus_9P6hxo0hdXAbvU9ud9FN.arff succeeded OK
+2017-05-04 10:36:50,9 [info] Preparing attribute section for output file writing (string string string)
+2017-05-04 10:36:50,9 [info] Found type, no class information (string string string)
+2017-05-04 10:36:50,9 [info] Found type and class information (string string string)
+2017-05-04 10:36:50,9 [info] Prepare attribute section OK
+2017-05-04 10:36:50,9 [info] Preparing data section for output file writing (double string)
+2017-05-04 10:36:50,0 [info] Prepare data section (double string) OK
+2017-05-04 10:36:50,0 [info] Starting data write to output file /home/damis/Documents/DamisData/_forCalculus_hBTdfNSs8MhG6Q6O318U.arff
+2017-05-04 10:36:50,1 [info] Writing to file /home/damis/Documents/DamisData/_forCalculus_hBTdfNSs8MhG6Q6O318U.arff attribute section OK
+2017-05-04 10:36:50,1 [info] Writing to file /home/damis/Documents/DamisData/_forCalculus_hBTdfNSs8MhG6Q6O318U.arff succeeded OK
+2017-05-04 10:36:50,1 [info] Starting file name generation with the preffix: 
+2017-05-04 10:36:50,1 [info] Generated file name: AwPRRpGpQntceK6bjEYy
+2017-05-04 10:36:50,7 [info] Submiting job to qsub/home/damis/Documents/DamisData/_bash_run_AwPRRpGpQntceK6bjEYy.sh
+2017-05-04 10:36:50,0 [error] virtual void CallCalculus::run2() /home/damis/Documents/CBProjects/DamisService/CallCalculus.cpp:753 Error submitting job /home/damis/Documents/DamisData/_bash_run_AwPRRpGpQntceK6bjEYy.sh to qsub, returning error
+2017-05-04 10:36:50,0 [info] Initiating set FaultDetail function, got fault detail: Error submiting job to qsub. Token:. Append 1

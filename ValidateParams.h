@@ -254,5 +254,7 @@ private:
       *
       */
 	 bool validateGreatherThan(double val, double lBound, std::string printVal, bool lowerInclusive = true, bool inverse = false);
+
+	 bool validateIfFilesAreEqual();
 };
 #endif //!defined(VALIDATEPARAMS_H)

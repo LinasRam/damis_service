@@ -129,6 +129,8 @@ void ValidateParams::relMds2(int d, int maxIteration, double eps, int maxCalcTim
     ValidateParams::validateInterval(maxIteration, 1, 10000, "maxIteration");
 
     ValidateParams::validateGreatherThan(eps, 0, "eps", true);
+
+    ValidateParams::validateIfFilesAreEqual();
 }
 /**
  * Function that checks if samann parameters are OK
@@ -455,6 +457,10 @@ bool ValidateParams::validateGreatherThan(double val, double lBound, std::string
             return false;
         }
     }
+    return true;
+}
+bool ValidateParams::validateIfFilesAreEqual()
+{
     return true;
 }
 /**
