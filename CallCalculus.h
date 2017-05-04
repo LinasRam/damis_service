@@ -30,6 +30,10 @@ public:
     /** \brief Class destructor
 	*
 	*/
+	CallCalculus(int p, int maxCalcTime, InitDamisService* initFile, InitDamisService* initFile2, InitDamisService* initFile3);
+    /** \brief Class destructor
+	*
+	*/
 	virtual ~CallCalculus();
 
 protected:

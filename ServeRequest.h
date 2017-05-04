@@ -24,6 +24,10 @@ public:
     *  \param InitDamisService* accepts InitDamisServiceFile pointer
     */
 	ServeRequest(InitDamisService* inFile);
+	/** \brief Class constructor.
+    *  \param InitDamisService* accepts InitDamisServiceFile pointer
+    */
+	ServeRequest(InitDamisService* inFile, InitDamisService* inFile2, InitDamisService* inFile3);
 	/** \brief Destructor
 	 *
 	 */
@@ -62,6 +66,8 @@ protected:
 	void writeDataToFile(std::string outputFile, std::vector<std::vector<std::string>> dataSection, std::vector<std::string> atributeSection);
 
     InitDamisService *serveFile; /**< Pointer that holds valid input file data (attribute section and data section) */
+    InitDamisService *serveFile2; /**< Pointer that holds valid input file data (attribute section and data section) */
+    InitDamisService *serveFile3; /**< Pointer that holds valid input file data (attribute section and data section) */
 
     std::vector<std::vector<double>> writeData; /**< Variable that holds data to be written to output file */
 

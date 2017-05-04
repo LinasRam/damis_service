@@ -28,6 +28,13 @@ CallCalculus::CallCalculus(int p, int maxCalcTime, InitDamisService* initFile):S
     this->maxCalculationTime = maxCalcTime; // not used if qsub is not called
 }
 
+CallCalculus::CallCalculus(int p, int maxCalcTime, InitDamisService* initFile, InitDamisService* initFile2, InitDamisService* initFile3):ServeRequest(initFile, initFile2, initFile3)
+{
+
+    this->reqProcessors = p;
+    this->maxCalculationTime = maxCalcTime; // not used if qsub is not called
+}
+
 
 CallCalculus::~CallCalculus()
 {

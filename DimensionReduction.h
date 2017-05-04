@@ -26,6 +26,9 @@ public:
 	DimensionReduction(int p, int maxCalcTime, InitDamisService* initFile);
     /** \brief Class destructor
      */
+     DimensionReduction(int p, int maxCalcTime, InitDamisService* initFile, InitDamisService* initFile2, InitDamisService* initFile3);
+    /** \brief Class destructor
+     */
 	virtual ~DimensionReduction();
     /** \brief Runs PCA
      *
@@ -66,6 +69,17 @@ public:
      *
      */
 	void runRELATIVEMDS(int d, int maxIteration, double eps, double noOfBaseVectors, int selStrategy);
+    /** \brief RunsSAMMAN
+     *
+     * \param int dimmension of the projection
+     * \param int max number of iterations
+     * \param double relative size of raining set
+     * \param int neurons in hidden layer
+     * \param double learning rate
+     * \return void
+     *
+     */
+     void runRELATIVEMDS2(int d, int maxIteration, double eps);
     /** \brief RunsSAMMAN
      *
      * \param int dimmension of the projection

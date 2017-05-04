@@ -30,6 +30,15 @@ ValidateParams::ValidateParams(InitDamisService* inFile)
     ValidateParams::methodParamsValid = true;
 }
 
+ValidateParams::ValidateParams(InitDamisService* inFile, InitDamisService* inFile2, InitDamisService* inFile3)
+{
+    this->inFile = inFile;
+    this->inFile2 = inFile2;
+    this->inFile3 = inFile3;
+    //ValidateParams::fileIsValid = true;
+    ValidateParams::methodParamsValid = true;
+}
+
 /**
  * Empty destructor
  */
@@ -105,6 +114,21 @@ void ValidateParams::relMds(int d, int maxIteration, double eps, double noOfBase
     ValidateParams::validateInterval(noOfBaseVectors, 0, 100, "noOfBaseVectors", false, true );
 
     ValidateParams::validateInterval(selStrategy, 0, 2, "selStrategy");
+}
+/**
+ * Function that checks if relMds2 parameters are OK
+ */
+void ValidateParams::relMds2(int d, int maxIteration, double eps, int maxCalcTime)
+{
+    LOG(INFO) << "Validating RELMDS parameter d - " << d << " maxIteration - "<< maxIteration << " eps - " << eps << " maxCalcTime - " << maxCalcTime;
+
+    ValidateParams::validateGreatherThan(maxCalcTime, 0, "maxCalcTime", false);
+
+    ValidateParams::validateInterval(d, 1, ValidateParams::inFile->getNumberOfAttributes(), "d");
+
+    ValidateParams::validateInterval(maxIteration, 1, 10000, "maxIteration");
+
+    ValidateParams::validateGreatherThan(eps, 0, "eps", true);
 }
 /**
  * Function that checks if samann parameters are OK

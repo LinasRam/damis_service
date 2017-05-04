@@ -20,6 +20,12 @@ DimensionReduction::DimensionReduction(int p, int maxCalcTime, InitDamisService*
     this->exeParams = "";
 }
 
+DimensionReduction::DimensionReduction(int p, int maxCalcTime, InitDamisService* initFile, InitDamisService* initFile2,InitDamisService* initFile3):CallCalculus(p, maxCalcTime, initFile, initFile2, initFile3)
+{
+    LOG (INFO) << "Dimension reduction has been called";
+    this->exeParams = "";
+}
+
 
 
 DimensionReduction::~DimensionReduction(){
@@ -48,6 +54,14 @@ void DimensionReduction::runRELATIVEMDS(int d,int maxIteration,double eps, doubl
     snprintf(buffereps, sizeof(buffereps), "%g", eps);
 
     this->exeParams = " -al RELATIVEMDS -maxIter " + std::to_string(static_cast<long long>(maxIteration)) + " -d " + std::to_string(static_cast<long long>(d)) + " -eps " + buffereps + " -noOfBaseVectors " + std::to_string(static_cast<long long>(int(ceil(noOfBaseVectors / 100.0 * serveFile->getNumberOfObjects())))) + " -selStrategy " + std::to_string(static_cast<long long>(selStrategy));
+    this->run();
+}
+void DimensionReduction::runRELATIVEMDS2(int d,int maxIteration,double eps)
+{
+    char buffereps[32];
+    snprintf(buffereps, sizeof(buffereps), "%g", eps);
+
+    this->exeParams = " -al RELATIVEMDS -maxIter " + std::to_string(static_cast<long long>(maxIteration)) + " -d " + std::to_string(static_cast<long long>(d)) + " -eps " + buffereps;
     this->run();
 }
 void DimensionReduction::runSMACOFMDS(int d, int maxIteration, double eps, bool zeidel)

@@ -91,6 +91,9 @@ class SOAP_CMAC DAMISService
 	/// Web service operation 'RELMDS' (returns error code or SOAP_OK)
 	virtual	int RELMDS(std::string X, int d, int maxIteration, double eps, double noOfBaseVectors, int selStrategy, int maxCalcTime, struct Damis__RELMDSResponse &_param_1) SOAP_PURE_VIRTUAL;
 
+	/// Web service operation 'RELMDS2' (returns error code or SOAP_OK)
+	virtual	int RELMDS2(std::string X, std::string XX, std::string XXX, int d, int maxIteration, double eps, int maxCalcTime, struct Damis__RELMDS2Response &_param_1) SOAP_PURE_VIRTUAL;
+
 	/// Web service operation 'SAMANN' (returns error code or SOAP_OK)
 	virtual	int SAMANN(std::string X, int d, int maxIteration, double mTrain, int nNeurons, double eta, int p, int maxCalcTime, struct Damis__SAMANNResponse &_param_1) SOAP_PURE_VIRTUAL;
 

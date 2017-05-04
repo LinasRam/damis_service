@@ -15,7 +15,7 @@ compiling, linking, and/or using OpenSSL is allowed.
 
 #include "soapH.h"
 
-SOAP_SOURCE_STAMP("@(#) soapC.cpp ver 2.8.14 2017-03-04 07:09:38 GMT")
+SOAP_SOURCE_STAMP("@(#) soapC.cpp ver 2.8.14 2017-05-04 10:06:47 GMT")
 
 
 #ifndef WITH_NOGLOBAL
@@ -246,6 +246,10 @@ SOAP_FMAC3 void * SOAP_FMAC4 soap_getelement(struct soap *soap, int *type)
 		return soap_in_Damis__SAMANN(soap, NULL, NULL, "Damis:SAMANN");
 	case SOAP_TYPE_Damis__SAMANNResponse:
 		return soap_in_Damis__SAMANNResponse(soap, NULL, NULL, "Damis:SAMANNResponse");
+	case SOAP_TYPE_Damis__RELMDS2:
+		return soap_in_Damis__RELMDS2(soap, NULL, NULL, "Damis:RELMDS2");
+	case SOAP_TYPE_Damis__RELMDS2Response:
+		return soap_in_Damis__RELMDS2Response(soap, NULL, NULL, "Damis:RELMDS2Response");
 	case SOAP_TYPE_Damis__RELMDS:
 		return soap_in_Damis__RELMDS(soap, NULL, NULL, "Damis:RELMDS");
 	case SOAP_TYPE_Damis__RELMDSResponse:
@@ -392,6 +396,14 @@ SOAP_FMAC3 void * SOAP_FMAC4 soap_getelement(struct soap *soap, int *type)
 		if (!soap_match_tag(soap, t, "Damis:SAMANNResponse"))
 		{	*type = SOAP_TYPE_Damis__SAMANNResponse;
 			return soap_in_Damis__SAMANNResponse(soap, NULL, NULL, NULL);
+		}
+		if (!soap_match_tag(soap, t, "Damis:RELMDS2"))
+		{	*type = SOAP_TYPE_Damis__RELMDS2;
+			return soap_in_Damis__RELMDS2(soap, NULL, NULL, NULL);
+		}
+		if (!soap_match_tag(soap, t, "Damis:RELMDS2Response"))
+		{	*type = SOAP_TYPE_Damis__RELMDS2Response;
+			return soap_in_Damis__RELMDS2Response(soap, NULL, NULL, NULL);
 		}
 		if (!soap_match_tag(soap, t, "Damis:RELMDS"))
 		{	*type = SOAP_TYPE_Damis__RELMDS;
@@ -560,6 +572,10 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_putelement(struct soap *soap, const void *ptr, co
 		return soap_out_Damis__SAMANN(soap, tag, id, (const struct Damis__SAMANN *)ptr, "Damis:SAMANN");
 	case SOAP_TYPE_Damis__SAMANNResponse:
 		return soap_out_Damis__SAMANNResponse(soap, tag, id, (const struct Damis__SAMANNResponse *)ptr, "Damis:SAMANNResponse");
+	case SOAP_TYPE_Damis__RELMDS2:
+		return soap_out_Damis__RELMDS2(soap, tag, id, (const struct Damis__RELMDS2 *)ptr, "Damis:RELMDS2");
+	case SOAP_TYPE_Damis__RELMDS2Response:
+		return soap_out_Damis__RELMDS2Response(soap, tag, id, (const struct Damis__RELMDS2Response *)ptr, "Damis:RELMDS2Response");
 	case SOAP_TYPE_Damis__RELMDS:
 		return soap_out_Damis__RELMDS(soap, tag, id, (const struct Damis__RELMDS *)ptr, "Damis:RELMDS");
 	case SOAP_TYPE_Damis__RELMDSResponse:
@@ -673,6 +689,12 @@ SOAP_FMAC3 void SOAP_FMAC4 soap_markelement(struct soap *soap, const void *ptr, 
 	case SOAP_TYPE_Damis__SAMANNResponse:
 		soap_serialize_Damis__SAMANNResponse(soap, (const struct Damis__SAMANNResponse *)ptr);
 		break;
+	case SOAP_TYPE_Damis__RELMDS2:
+		soap_serialize_Damis__RELMDS2(soap, (const struct Damis__RELMDS2 *)ptr);
+		break;
+	case SOAP_TYPE_Damis__RELMDS2Response:
+		soap_serialize_Damis__RELMDS2Response(soap, (const struct Damis__RELMDS2Response *)ptr);
+		break;
 	case SOAP_TYPE_Damis__RELMDS:
 		soap_serialize_Damis__RELMDS(soap, (const struct Damis__RELMDS *)ptr);
 		break;
@@ -733,6 +755,10 @@ SOAP_FMAC3 void * SOAP_FMAC4 soap_instantiate(struct soap *soap, int t, const ch
 		return (void*)soap_instantiate_Damis__RELMDSResponse(soap, -1, type, arrayType, n);
 	case SOAP_TYPE_Damis__RELMDS:
 		return (void*)soap_instantiate_Damis__RELMDS(soap, -1, type, arrayType, n);
+	case SOAP_TYPE_Damis__RELMDS2Response:
+		return (void*)soap_instantiate_Damis__RELMDS2Response(soap, -1, type, arrayType, n);
+	case SOAP_TYPE_Damis__RELMDS2:
+		return (void*)soap_instantiate_Damis__RELMDS2(soap, -1, type, arrayType, n);
 	case SOAP_TYPE_Damis__SAMANNResponse:
 		return (void*)soap_instantiate_Damis__SAMANNResponse(soap, -1, type, arrayType, n);
 	case SOAP_TYPE_Damis__SAMANN:
@@ -861,6 +887,18 @@ SOAP_FMAC3 int SOAP_FMAC4 soap_fdelete(struct soap_clist *p)
 			SOAP_DELETE((struct Damis__RELMDS*)p->ptr);
 		else
 			SOAP_DELETE_ARRAY((struct Damis__RELMDS*)p->ptr);
+		break;
+	case SOAP_TYPE_Damis__RELMDS2Response:
+		if (p->size < 0)
+			SOAP_DELETE((struct Damis__RELMDS2Response*)p->ptr);
+		else
+			SOAP_DELETE_ARRAY((struct Damis__RELMDS2Response*)p->ptr);
+		break;
+	case SOAP_TYPE_Damis__RELMDS2:
+		if (p->size < 0)
+			SOAP_DELETE((struct Damis__RELMDS2*)p->ptr);
+		else
+			SOAP_DELETE_ARRAY((struct Damis__RELMDS2*)p->ptr);
 		break;
 	case SOAP_TYPE_Damis__SAMANNResponse:
 		if (p->size < 0)
@@ -5237,6 +5275,300 @@ SOAP_FMAC3 void SOAP_FMAC4 soap_copy_Damis__SAMANNResponse(struct soap *soap, in
 	(void)soap; (void)tt; (void)st; (void)len; (void)n; /* appease -Wall -Werror */
 	DBGLOG(TEST, SOAP_MESSAGE(fdebug, "Copying struct Damis__SAMANNResponse %p -> %p\n", q, p));
 	*(struct Damis__SAMANNResponse*)p = *(struct Damis__SAMANNResponse*)q;
+}
+
+SOAP_FMAC3 void SOAP_FMAC4 soap_default_Damis__RELMDS2(struct soap *soap, struct Damis__RELMDS2 *a)
+{
+	(void)soap; (void)a; /* appease -Wall -Werror */
+	soap_default_std__string(soap, &a->X);
+	soap_default_std__string(soap, &a->XX);
+	soap_default_std__string(soap, &a->XXX);
+	soap_default_int(soap, &a->d);
+	soap_default_int(soap, &a->maxIteration);
+	soap_default_double(soap, &a->eps);
+	soap_default_int(soap, &a->maxCalcTime);
+}
+
+SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_Damis__RELMDS2(struct soap *soap, const struct Damis__RELMDS2 *a)
+{
+#ifndef WITH_NOIDREF
+	(void)soap; (void)a; /* appease -Wall -Werror */
+	soap_serialize_std__string(soap, &a->X);
+	soap_serialize_std__string(soap, &a->XX);
+	soap_serialize_std__string(soap, &a->XXX);
+#endif
+}
+
+SOAP_FMAC3 int SOAP_FMAC4 soap_out_Damis__RELMDS2(struct soap *soap, const char *tag, int id, const struct Damis__RELMDS2 *a, const char *type)
+{
+	(void)soap; (void)tag; (void)id; (void)type;
+	if (soap_element_begin_out(soap, tag, soap_embedded_id(soap, id, a, SOAP_TYPE_Damis__RELMDS2), type))
+		return soap->error;
+	if (soap_out_std__string(soap, "X", -1, &a->X, ""))
+		return soap->error;
+	if (soap_out_std__string(soap, "XX", -1, &a->XX, ""))
+		return soap->error;
+	if (soap_out_std__string(soap, "XXX", -1, &a->XXX, ""))
+		return soap->error;
+	if (soap_out_int(soap, "d", -1, &a->d, ""))
+		return soap->error;
+	if (soap_out_int(soap, "maxIteration", -1, &a->maxIteration, ""))
+		return soap->error;
+	if (soap_out_double(soap, "eps", -1, &a->eps, ""))
+		return soap->error;
+	if (soap_out_int(soap, "maxCalcTime", -1, &a->maxCalcTime, ""))
+		return soap->error;
+	return soap_element_end_out(soap, tag);
+}
+
+SOAP_FMAC3 struct Damis__RELMDS2 * SOAP_FMAC4 soap_in_Damis__RELMDS2(struct soap *soap, const char *tag, struct Damis__RELMDS2 *a, const char *type)
+{
+	size_t soap_flag_X = 1;
+	size_t soap_flag_XX = 1;
+	size_t soap_flag_XXX = 1;
+	size_t soap_flag_d = 1;
+	size_t soap_flag_maxIteration = 1;
+	size_t soap_flag_eps = 1;
+	size_t soap_flag_maxCalcTime = 1;
+	if (soap_element_begin_in(soap, tag, 0, type))
+		return NULL;
+	a = (struct Damis__RELMDS2 *)soap_class_id_enter(soap, soap->id, a, SOAP_TYPE_Damis__RELMDS2, sizeof(struct Damis__RELMDS2), soap->type, soap->arrayType);
+	if (!a)
+		return NULL;
+	soap_default_Damis__RELMDS2(soap, a);
+	if (soap->body && !*soap->href)
+	{
+		for (;;)
+		{	soap->error = SOAP_TAG_MISMATCH;
+			if (soap_flag_X && (soap->error == SOAP_TAG_MISMATCH || soap->error == SOAP_NO_TAG))
+				if (soap_in_std__string(soap, "X", &a->X, "xsd:string"))
+				{	soap_flag_X--;
+					continue;
+				}
+			if (soap_flag_XX && (soap->error == SOAP_TAG_MISMATCH || soap->error == SOAP_NO_TAG))
+				if (soap_in_std__string(soap, "XX", &a->XX, "xsd:string"))
+				{	soap_flag_XX--;
+					continue;
+				}
+			if (soap_flag_XXX && (soap->error == SOAP_TAG_MISMATCH || soap->error == SOAP_NO_TAG))
+				if (soap_in_std__string(soap, "XXX", &a->XXX, "xsd:string"))
+				{	soap_flag_XXX--;
+					continue;
+				}
+			if (soap_flag_d && soap->error == SOAP_TAG_MISMATCH)
+				if (soap_in_int(soap, "d", &a->d, "xsd:int"))
+				{	soap_flag_d--;
+					continue;
+				}
+			if (soap_flag_maxIteration && soap->error == SOAP_TAG_MISMATCH)
+				if (soap_in_int(soap, "maxIteration", &a->maxIteration, "xsd:int"))
+				{	soap_flag_maxIteration--;
+					continue;
+				}
+			if (soap_flag_eps && soap->error == SOAP_TAG_MISMATCH)
+				if (soap_in_double(soap, "eps", &a->eps, "xsd:double"))
+				{	soap_flag_eps--;
+					continue;
+				}
+			if (soap_flag_maxCalcTime && soap->error == SOAP_TAG_MISMATCH)
+				if (soap_in_int(soap, "maxCalcTime", &a->maxCalcTime, "xsd:int"))
+				{	soap_flag_maxCalcTime--;
+					continue;
+				}
+			if (soap->error == SOAP_TAG_MISMATCH)
+				soap->error = soap_ignore_element(soap);
+			if (soap->error == SOAP_NO_TAG)
+				break;
+			if (soap->error)
+				return NULL;
+		}
+		if (soap_element_end_in(soap, tag))
+			return NULL;
+	}
+	else
+	{	a = (struct Damis__RELMDS2 *)soap_id_forward(soap, soap->href, (void*)a, 0, SOAP_TYPE_Damis__RELMDS2, 0, sizeof(struct Damis__RELMDS2), 0, soap_copy_Damis__RELMDS2);
+		if (soap->body && soap_element_end_in(soap, tag))
+			return NULL;
+	}
+	if ((soap->mode & SOAP_XML_STRICT) && (soap_flag_X > 0 || soap_flag_XX > 0 || soap_flag_XXX > 0 || soap_flag_d > 0 || soap_flag_maxIteration > 0 || soap_flag_eps > 0 || soap_flag_maxCalcTime > 0))
+	{	soap->error = SOAP_OCCURS;
+		return NULL;
+	}
+	return a;
+}
+
+SOAP_FMAC3 int SOAP_FMAC4 soap_put_Damis__RELMDS2(struct soap *soap, const struct Damis__RELMDS2 *a, const char *tag, const char *type)
+{
+	register int id = soap_embed(soap, (void*)a, NULL, 0, tag, SOAP_TYPE_Damis__RELMDS2);
+	if (soap_out_Damis__RELMDS2(soap, tag?tag:"Damis:RELMDS2", id, a, type))
+		return soap->error;
+	return soap_putindependent(soap);
+}
+
+SOAP_FMAC3 struct Damis__RELMDS2 * SOAP_FMAC4 soap_get_Damis__RELMDS2(struct soap *soap, struct Damis__RELMDS2 *p, const char *tag, const char *type)
+{
+	if ((p = soap_in_Damis__RELMDS2(soap, tag, p, type)))
+		if (soap_getindependent(soap))
+			return NULL;
+	return p;
+}
+
+SOAP_FMAC1 struct Damis__RELMDS2 * SOAP_FMAC2 soap_instantiate_Damis__RELMDS2(struct soap *soap, int n, const char *type, const char *arrayType, size_t *size)
+{
+	(void)type; (void)arrayType; /* appease -Wall -Werror */
+	DBGLOG(TEST, SOAP_MESSAGE(fdebug, "soap_instantiate_Damis__RELMDS2(%d, %s, %s)\n", n, type?type:"", arrayType?arrayType:""));
+	struct soap_clist *cp = soap_link(soap, NULL, SOAP_TYPE_Damis__RELMDS2, n, soap_fdelete);
+	if (!cp)
+		return NULL;
+	if (n < 0)
+	{	cp->ptr = (void*)SOAP_NEW(struct Damis__RELMDS2);
+		if (size)
+			*size = sizeof(struct Damis__RELMDS2);
+	}
+	else
+	{	cp->ptr = (void*)SOAP_NEW_ARRAY(struct Damis__RELMDS2, n);
+		if (size)
+			*size = n * sizeof(struct Damis__RELMDS2);
+	}
+	DBGLOG(TEST, SOAP_MESSAGE(fdebug, "Instantiated location=%p\n", cp->ptr));
+	if (!cp->ptr)
+		soap->error = SOAP_EOM;
+	return (struct Damis__RELMDS2*)cp->ptr;
+}
+
+SOAP_FMAC3 void SOAP_FMAC4 soap_copy_Damis__RELMDS2(struct soap *soap, int st, int tt, void *p, size_t len, const void *q, size_t n)
+{
+	(void)soap; (void)tt; (void)st; (void)len; (void)n; /* appease -Wall -Werror */
+	DBGLOG(TEST, SOAP_MESSAGE(fdebug, "Copying struct Damis__RELMDS2 %p -> %p\n", q, p));
+	*(struct Damis__RELMDS2*)p = *(struct Damis__RELMDS2*)q;
+}
+
+SOAP_FMAC3 void SOAP_FMAC4 soap_default_Damis__RELMDS2Response(struct soap *soap, struct Damis__RELMDS2Response *a)
+{
+	(void)soap; (void)a; /* appease -Wall -Werror */
+	soap_default_std__string(soap, &a->Y);
+	soap_default_double(soap, &a->calcTime);
+	soap_default_double(soap, &a->algorithmError);
+}
+
+SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_Damis__RELMDS2Response(struct soap *soap, const struct Damis__RELMDS2Response *a)
+{
+#ifndef WITH_NOIDREF
+	(void)soap; (void)a; /* appease -Wall -Werror */
+	soap_serialize_std__string(soap, &a->Y);
+#endif
+}
+
+SOAP_FMAC3 int SOAP_FMAC4 soap_out_Damis__RELMDS2Response(struct soap *soap, const char *tag, int id, const struct Damis__RELMDS2Response *a, const char *type)
+{
+	(void)soap; (void)tag; (void)id; (void)type;
+	if (soap_element_begin_out(soap, tag, soap_embedded_id(soap, id, a, SOAP_TYPE_Damis__RELMDS2Response), type))
+		return soap->error;
+	if (soap_out_std__string(soap, "Y", -1, &a->Y, ""))
+		return soap->error;
+	if (soap_out_double(soap, "calcTime", -1, &a->calcTime, ""))
+		return soap->error;
+	if (soap_out_double(soap, "algorithmError", -1, &a->algorithmError, ""))
+		return soap->error;
+	return soap_element_end_out(soap, tag);
+}
+
+SOAP_FMAC3 struct Damis__RELMDS2Response * SOAP_FMAC4 soap_in_Damis__RELMDS2Response(struct soap *soap, const char *tag, struct Damis__RELMDS2Response *a, const char *type)
+{
+	size_t soap_flag_Y = 1;
+	size_t soap_flag_calcTime = 1;
+	size_t soap_flag_algorithmError = 1;
+	if (soap_element_begin_in(soap, tag, 0, type))
+		return NULL;
+	a = (struct Damis__RELMDS2Response *)soap_class_id_enter(soap, soap->id, a, SOAP_TYPE_Damis__RELMDS2Response, sizeof(struct Damis__RELMDS2Response), soap->type, soap->arrayType);
+	if (!a)
+		return NULL;
+	soap_default_Damis__RELMDS2Response(soap, a);
+	if (soap->body && !*soap->href)
+	{
+		for (;;)
+		{	soap->error = SOAP_TAG_MISMATCH;
+			if (soap_flag_Y && (soap->error == SOAP_TAG_MISMATCH || soap->error == SOAP_NO_TAG))
+				if (soap_in_std__string(soap, "Y", &a->Y, "xsd:string"))
+				{	soap_flag_Y--;
+					continue;
+				}
+			if (soap_flag_calcTime && soap->error == SOAP_TAG_MISMATCH)
+				if (soap_in_double(soap, "calcTime", &a->calcTime, "xsd:double"))
+				{	soap_flag_calcTime--;
+					continue;
+				}
+			if (soap_flag_algorithmError && soap->error == SOAP_TAG_MISMATCH)
+				if (soap_in_double(soap, "algorithmError", &a->algorithmError, "xsd:double"))
+				{	soap_flag_algorithmError--;
+					continue;
+				}
+			if (soap->error == SOAP_TAG_MISMATCH)
+				soap->error = soap_ignore_element(soap);
+			if (soap->error == SOAP_NO_TAG)
+				break;
+			if (soap->error)
+				return NULL;
+		}
+		if (soap_element_end_in(soap, tag))
+			return NULL;
+	}
+	else
+	{	a = (struct Damis__RELMDS2Response *)soap_id_forward(soap, soap->href, (void*)a, 0, SOAP_TYPE_Damis__RELMDS2Response, 0, sizeof(struct Damis__RELMDS2Response), 0, soap_copy_Damis__RELMDS2Response);
+		if (soap->body && soap_element_end_in(soap, tag))
+			return NULL;
+	}
+	if ((soap->mode & SOAP_XML_STRICT) && (soap_flag_Y > 0 || soap_flag_calcTime > 0 || soap_flag_algorithmError > 0))
+	{	soap->error = SOAP_OCCURS;
+		return NULL;
+	}
+	return a;
+}
+
+SOAP_FMAC3 int SOAP_FMAC4 soap_put_Damis__RELMDS2Response(struct soap *soap, const struct Damis__RELMDS2Response *a, const char *tag, const char *type)
+{
+	register int id = soap_embed(soap, (void*)a, NULL, 0, tag, SOAP_TYPE_Damis__RELMDS2Response);
+	if (soap_out_Damis__RELMDS2Response(soap, tag?tag:"Damis:RELMDS2Response", id, a, type))
+		return soap->error;
+	return soap_putindependent(soap);
+}
+
+SOAP_FMAC3 struct Damis__RELMDS2Response * SOAP_FMAC4 soap_get_Damis__RELMDS2Response(struct soap *soap, struct Damis__RELMDS2Response *p, const char *tag, const char *type)
+{
+	if ((p = soap_in_Damis__RELMDS2Response(soap, tag, p, type)))
+		if (soap_getindependent(soap))
+			return NULL;
+	return p;
+}
+
+SOAP_FMAC1 struct Damis__RELMDS2Response * SOAP_FMAC2 soap_instantiate_Damis__RELMDS2Response(struct soap *soap, int n, const char *type, const char *arrayType, size_t *size)
+{
+	(void)type; (void)arrayType; /* appease -Wall -Werror */
+	DBGLOG(TEST, SOAP_MESSAGE(fdebug, "soap_instantiate_Damis__RELMDS2Response(%d, %s, %s)\n", n, type?type:"", arrayType?arrayType:""));
+	struct soap_clist *cp = soap_link(soap, NULL, SOAP_TYPE_Damis__RELMDS2Response, n, soap_fdelete);
+	if (!cp)
+		return NULL;
+	if (n < 0)
+	{	cp->ptr = (void*)SOAP_NEW(struct Damis__RELMDS2Response);
+		if (size)
+			*size = sizeof(struct Damis__RELMDS2Response);
+	}
+	else
+	{	cp->ptr = (void*)SOAP_NEW_ARRAY(struct Damis__RELMDS2Response, n);
+		if (size)
+			*size = n * sizeof(struct Damis__RELMDS2Response);
+	}
+	DBGLOG(TEST, SOAP_MESSAGE(fdebug, "Instantiated location=%p\n", cp->ptr));
+	if (!cp->ptr)
+		soap->error = SOAP_EOM;
+	return (struct Damis__RELMDS2Response*)cp->ptr;
+}
+
+SOAP_FMAC3 void SOAP_FMAC4 soap_copy_Damis__RELMDS2Response(struct soap *soap, int st, int tt, void *p, size_t len, const void *q, size_t n)
+{
+	(void)soap; (void)tt; (void)st; (void)len; (void)n; /* appease -Wall -Werror */
+	DBGLOG(TEST, SOAP_MESSAGE(fdebug, "Copying struct Damis__RELMDS2Response %p -> %p\n", q, p));
+	*(struct Damis__RELMDS2Response*)p = *(struct Damis__RELMDS2Response*)q;
 }
 
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_Damis__RELMDS(struct soap *soap, struct Damis__RELMDS *a)

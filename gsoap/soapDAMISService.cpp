@@ -192,6 +192,7 @@ static int serve_Damis__PCA(DAMISService*);
 static int serve_Damis__SMACOFMDS(DAMISService*);
 static int serve_Damis__DMA(DAMISService*);
 static int serve_Damis__RELMDS(DAMISService*);
+static int serve_Damis__RELMDS2(DAMISService*);
 static int serve_Damis__SAMANN(DAMISService*);
 static int serve_Damis__SOM(DAMISService*);
 static int serve_Damis__SOMMDS(DAMISService*);
@@ -216,6 +217,8 @@ int DAMISService::dispatch()
 		return serve_Damis__DMA(this);
 	if (!soap_match_tag(this->soap, this->soap->tag, "Damis:RELMDS"))
 		return serve_Damis__RELMDS(this);
+	if (!soap_match_tag(this->soap, this->soap->tag, "Damis:RELMDS2"))
+		return serve_Damis__RELMDS2(this);
 	if (!soap_match_tag(this->soap, this->soap->tag, "Damis:SAMANN"))
 		return serve_Damis__SAMANN(this);
 	if (!soap_match_tag(this->soap, this->soap->tag, "Damis:SOM"))
@@ -404,6 +407,48 @@ static int serve_Damis__RELMDS(DAMISService *service)
 	 || soap_putheader(soap)
 	 || soap_body_begin_out(soap)
 	 || soap_put_Damis__RELMDSResponse(soap, &_param_1, "Damis:RELMDSResponse", NULL)
+	 || soap_body_end_out(soap)
+	 || soap_envelope_end_out(soap)
+	 || soap_end_send(soap))
+		return soap->error;
+	return soap_closesock(soap);
+}
+
+static int serve_Damis__RELMDS2(DAMISService *service)
+{	struct soap *soap = service->soap;
+	struct Damis__RELMDS2 soap_tmp_Damis__RELMDS2;
+	struct Damis__RELMDS2Response _param_1;
+	soap_default_Damis__RELMDS2Response(soap, &_param_1);
+	soap_default_Damis__RELMDS2(soap, &soap_tmp_Damis__RELMDS2);
+	soap->encodingStyle = "http://schemas.xmlsoap.org/soap/encoding/";
+	if (!soap_get_Damis__RELMDS2(soap, &soap_tmp_Damis__RELMDS2, "Damis:RELMDS2", NULL))
+		return soap->error;
+	if (soap_body_end_in(soap)
+	 || soap_envelope_end_in(soap)
+	 || soap_end_recv(soap))
+		return soap->error;
+	soap->error = service->RELMDS2(soap_tmp_Damis__RELMDS2.X, soap_tmp_Damis__RELMDS2.XX, soap_tmp_Damis__RELMDS2.XXX, soap_tmp_Damis__RELMDS2.d, soap_tmp_Damis__RELMDS2.maxIteration, soap_tmp_Damis__RELMDS2.eps, soap_tmp_Damis__RELMDS2.maxCalcTime, _param_1);
+	if (soap->error)
+		return soap->error;
+	soap_serializeheader(soap);
+	soap_serialize_Damis__RELMDS2Response(soap, &_param_1);
+	if (soap_begin_count(soap))
+		return soap->error;
+	if (soap->mode & SOAP_IO_LENGTH)
+	{	if (soap_envelope_begin_out(soap)
+		 || soap_putheader(soap)
+		 || soap_body_begin_out(soap)
+		 || soap_put_Damis__RELMDS2Response(soap, &_param_1, "Damis:RELMDS2Response", NULL)
+		 || soap_body_end_out(soap)
+		 || soap_envelope_end_out(soap))
+			 return soap->error;
+	};
+	if (soap_end_count(soap)
+	 || soap_response(soap, SOAP_OK)
+	 || soap_envelope_begin_out(soap)
+	 || soap_putheader(soap)
+	 || soap_body_begin_out(soap)
+	 || soap_put_Damis__RELMDS2Response(soap, &_param_1, "Damis:RELMDS2Response", NULL)
 	 || soap_body_end_out(soap)
 	 || soap_envelope_end_out(soap)
 	 || soap_end_send(soap))

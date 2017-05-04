@@ -26,6 +26,10 @@ public:
 	/** \brief  Destructor
     *
     */
+    ValidateParams(InitDamisService *inFile, InitDamisService *inFile2, InitDamisService *inFile3);
+	/** \brief  Destructor
+    *
+    */
 	virtual ~ValidateParams();
 	/** \brief Method that returns the validation result and deletes input file if parameters are not valid
     *  \return bool validation result
@@ -146,6 +150,18 @@ public:
      * \return void
      *
      */
+     void relMds2(int d, int maxIteration, double eps, int maxCalcTime);
+    /** \brief Validate samann parameters
+     *
+     * \param in dimmension of the projection
+     * \param int max number of iterations
+     * \param double relative size of raining set
+     * \param int neurons in hidden layer
+     * \param double learning rate
+     * \param int predictive calulus time
+     * \return void
+     *
+     */
 	void samann(int d, int maxIteration, double mTrain, int nNeurons, double eta, int p, int maxCalcTime);
     /** \brief Validate somMds parameters
      *
@@ -210,6 +226,8 @@ public:
 private:
 
      InitDamisService *inFile; /**< Hods reference to arff file */
+     InitDamisService *inFile2; /**< Hods reference to arff file */
+     InitDamisService *inFile3; /**< Hods reference to arff file */
 
      bool methodParamsValid; /**< Indicates if the parameters are valid */
 

@@ -171,8 +171,40 @@ public:
 };
 #endif
 
+#ifndef SOAP_TYPE_Damis__RELMDS2Response
+#define SOAP_TYPE_Damis__RELMDS2Response (27)
+/* Damis:RELMDS2Response */
+struct Damis__RELMDS2Response
+{
+public:
+	std::string Y;	/* SOAP 1.2 RPC return element (when namespace qualified) */	/* required element of type xsd:string */
+	double calcTime;	/* required element of type xsd:double */
+	double algorithmError;	/* required element of type xsd:double */
+public:
+	int soap_type() const { return 27; } /* = unique id SOAP_TYPE_Damis__RELMDS2Response */
+};
+#endif
+
+#ifndef SOAP_TYPE_Damis__RELMDS2
+#define SOAP_TYPE_Damis__RELMDS2 (30)
+/* Damis:RELMDS2 */
+struct Damis__RELMDS2
+{
+public:
+	std::string X;	/* required element of type xsd:string */
+	std::string XX;	/* required element of type xsd:string */
+	std::string XXX;	/* required element of type xsd:string */
+	int d;	/* required element of type xsd:int */
+	int maxIteration;	/* required element of type xsd:int */
+	double eps;	/* required element of type xsd:double */
+	int maxCalcTime;	/* required element of type xsd:int */
+public:
+	int soap_type() const { return 30; } /* = unique id SOAP_TYPE_Damis__RELMDS2 */
+};
+#endif
+
 #ifndef SOAP_TYPE_Damis__SAMANNResponse
-#define SOAP_TYPE_Damis__SAMANNResponse (27)
+#define SOAP_TYPE_Damis__SAMANNResponse (31)
 /* Damis:SAMANNResponse */
 struct Damis__SAMANNResponse
 {
@@ -181,12 +213,12 @@ public:
 	double calcTime;	/* required element of type xsd:double */
 	double algorithmError;	/* required element of type xsd:double */
 public:
-	int soap_type() const { return 27; } /* = unique id SOAP_TYPE_Damis__SAMANNResponse */
+	int soap_type() const { return 31; } /* = unique id SOAP_TYPE_Damis__SAMANNResponse */
 };
 #endif
 
 #ifndef SOAP_TYPE_Damis__SAMANN
-#define SOAP_TYPE_Damis__SAMANN (30)
+#define SOAP_TYPE_Damis__SAMANN (34)
 /* Damis:SAMANN */
 struct Damis__SAMANN
 {
@@ -200,12 +232,12 @@ public:
 	int p;	/* required element of type xsd:int */
 	int maxCalcTime;	/* required element of type xsd:int */
 public:
-	int soap_type() const { return 30; } /* = unique id SOAP_TYPE_Damis__SAMANN */
+	int soap_type() const { return 34; } /* = unique id SOAP_TYPE_Damis__SAMANN */
 };
 #endif
 
 #ifndef SOAP_TYPE_Damis__SOMResponse
-#define SOAP_TYPE_Damis__SOMResponse (31)
+#define SOAP_TYPE_Damis__SOMResponse (35)
 /* Damis:SOMResponse */
 struct Damis__SOMResponse
 {
@@ -214,12 +246,12 @@ public:
 	double calcTime;	/* required element of type xsd:double */
 	double algorithmError;	/* required element of type xsd:double */
 public:
-	int soap_type() const { return 31; } /* = unique id SOAP_TYPE_Damis__SOMResponse */
+	int soap_type() const { return 35; } /* = unique id SOAP_TYPE_Damis__SOMResponse */
 };
 #endif
 
 #ifndef SOAP_TYPE_Damis__SOM
-#define SOAP_TYPE_Damis__SOM (34)
+#define SOAP_TYPE_Damis__SOM (38)
 /* Damis:SOM */
 struct Damis__SOM
 {
@@ -231,12 +263,12 @@ public:
 	int p;	/* required element of type xsd:int */
 	int maxCalcTime;	/* required element of type xsd:int */
 public:
-	int soap_type() const { return 34; } /* = unique id SOAP_TYPE_Damis__SOM */
+	int soap_type() const { return 38; } /* = unique id SOAP_TYPE_Damis__SOM */
 };
 #endif
 
 #ifndef SOAP_TYPE_Damis__SOMMDSResponse
-#define SOAP_TYPE_Damis__SOMMDSResponse (35)
+#define SOAP_TYPE_Damis__SOMMDSResponse (39)
 /* Damis:SOMMDSResponse */
 struct Damis__SOMMDSResponse
 {
@@ -245,12 +277,12 @@ public:
 	double calcTime;	/* required element of type xsd:double */
 	double algorithmError;	/* required element of type xsd:double */
 public:
-	int soap_type() const { return 35; } /* = unique id SOAP_TYPE_Damis__SOMMDSResponse */
+	int soap_type() const { return 39; } /* = unique id SOAP_TYPE_Damis__SOMMDSResponse */
 };
 #endif
 
 #ifndef SOAP_TYPE_Damis__SOMMDS
-#define SOAP_TYPE_Damis__SOMMDS (38)
+#define SOAP_TYPE_Damis__SOMMDS (42)
 /* Damis:SOMMDS */
 struct Damis__SOMMDS
 {
@@ -264,12 +296,12 @@ public:
 	int mdsProjection;	/* required element of type xsd:int */
 	int maxCalcTime;	/* required element of type xsd:int */
 public:
-	int soap_type() const { return 38; } /* = unique id SOAP_TYPE_Damis__SOMMDS */
+	int soap_type() const { return 42; } /* = unique id SOAP_TYPE_Damis__SOMMDS */
 };
 #endif
 
 #ifndef SOAP_TYPE_Damis__MLPResponse
-#define SOAP_TYPE_Damis__MLPResponse (39)
+#define SOAP_TYPE_Damis__MLPResponse (43)
 /* Damis:MLPResponse */
 struct Damis__MLPResponse
 {
@@ -278,12 +310,12 @@ public:
 	double calcTime;	/* required element of type xsd:double */
 	double algorithmError;	/* required element of type xsd:double */
 public:
-	int soap_type() const { return 39; } /* = unique id SOAP_TYPE_Damis__MLPResponse */
+	int soap_type() const { return 43; } /* = unique id SOAP_TYPE_Damis__MLPResponse */
 };
 #endif
 
 #ifndef SOAP_TYPE_Damis__MLP
-#define SOAP_TYPE_Damis__MLP (42)
+#define SOAP_TYPE_Damis__MLP (46)
 /* Damis:MLP */
 struct Damis__MLP
 {
@@ -297,12 +329,12 @@ public:
 	int p;	/* required element of type xsd:int */
 	int maxCalcTime;	/* required element of type xsd:int */
 public:
-	int soap_type() const { return 42; } /* = unique id SOAP_TYPE_Damis__MLP */
+	int soap_type() const { return 46; } /* = unique id SOAP_TYPE_Damis__MLP */
 };
 #endif
 
 #ifndef SOAP_TYPE_Damis__DFResponse
-#define SOAP_TYPE_Damis__DFResponse (43)
+#define SOAP_TYPE_Damis__DFResponse (47)
 /* Damis:DFResponse */
 struct Damis__DFResponse
 {
@@ -311,12 +343,12 @@ public:
 	double calcTime;	/* required element of type xsd:double */
 	double algorithmError;	/* required element of type xsd:double */
 public:
-	int soap_type() const { return 43; } /* = unique id SOAP_TYPE_Damis__DFResponse */
+	int soap_type() const { return 47; } /* = unique id SOAP_TYPE_Damis__DFResponse */
 };
 #endif
 
 #ifndef SOAP_TYPE_Damis__DF
-#define SOAP_TYPE_Damis__DF (46)
+#define SOAP_TYPE_Damis__DF (50)
 /* Damis:DF */
 struct Damis__DF
 {
@@ -327,12 +359,12 @@ public:
 	double dT;	/* required element of type xsd:double */
 	int maxCalcTime;	/* required element of type xsd:int */
 public:
-	int soap_type() const { return 46; } /* = unique id SOAP_TYPE_Damis__DF */
+	int soap_type() const { return 50; } /* = unique id SOAP_TYPE_Damis__DF */
 };
 #endif
 
 #ifndef SOAP_TYPE_Damis__KMEANSResponse
-#define SOAP_TYPE_Damis__KMEANSResponse (47)
+#define SOAP_TYPE_Damis__KMEANSResponse (51)
 /* Damis:KMEANSResponse */
 struct Damis__KMEANSResponse
 {
@@ -340,12 +372,12 @@ public:
 	std::string Y;	/* SOAP 1.2 RPC return element (when namespace qualified) */	/* required element of type xsd:string */
 	double calcTime;	/* required element of type xsd:double */
 public:
-	int soap_type() const { return 47; } /* = unique id SOAP_TYPE_Damis__KMEANSResponse */
+	int soap_type() const { return 51; } /* = unique id SOAP_TYPE_Damis__KMEANSResponse */
 };
 #endif
 
 #ifndef SOAP_TYPE_Damis__KMEANS
-#define SOAP_TYPE_Damis__KMEANS (50)
+#define SOAP_TYPE_Damis__KMEANS (54)
 /* Damis:KMEANS */
 struct Damis__KMEANS
 {
@@ -355,12 +387,12 @@ public:
 	int maxIteration;	/* required element of type xsd:int */
 	int maxCalcTime;	/* required element of type xsd:int */
 public:
-	int soap_type() const { return 50; } /* = unique id SOAP_TYPE_Damis__KMEANS */
+	int soap_type() const { return 54; } /* = unique id SOAP_TYPE_Damis__KMEANS */
 };
 #endif
 
 #ifndef SOAP_TYPE_Damis__STATPRIMITIVESResponse
-#define SOAP_TYPE_Damis__STATPRIMITIVESResponse (51)
+#define SOAP_TYPE_Damis__STATPRIMITIVESResponse (55)
 /* Damis:STATPRIMITIVESResponse */
 struct Damis__STATPRIMITIVESResponse
 {
@@ -368,12 +400,12 @@ public:
 	std::string Y;	/* SOAP 1.2 RPC return element (when namespace qualified) */	/* required element of type xsd:string */
 	double calcTime;	/* required element of type xsd:double */
 public:
-	int soap_type() const { return 51; } /* = unique id SOAP_TYPE_Damis__STATPRIMITIVESResponse */
+	int soap_type() const { return 55; } /* = unique id SOAP_TYPE_Damis__STATPRIMITIVESResponse */
 };
 #endif
 
 #ifndef SOAP_TYPE_Damis__STATPRIMITIVES
-#define SOAP_TYPE_Damis__STATPRIMITIVES (54)
+#define SOAP_TYPE_Damis__STATPRIMITIVES (58)
 /* Damis:STATPRIMITIVES */
 struct Damis__STATPRIMITIVES
 {
@@ -381,12 +413,12 @@ public:
 	std::string X;	/* required element of type xsd:string */
 	int maxCalcTime;	/* required element of type xsd:int */
 public:
-	int soap_type() const { return 54; } /* = unique id SOAP_TYPE_Damis__STATPRIMITIVES */
+	int soap_type() const { return 58; } /* = unique id SOAP_TYPE_Damis__STATPRIMITIVES */
 };
 #endif
 
 #ifndef SOAP_TYPE_Damis__CLEANDATAResponse
-#define SOAP_TYPE_Damis__CLEANDATAResponse (55)
+#define SOAP_TYPE_Damis__CLEANDATAResponse (59)
 /* Damis:CLEANDATAResponse */
 struct Damis__CLEANDATAResponse
 {
@@ -394,12 +426,12 @@ public:
 	std::string Y;	/* SOAP 1.2 RPC return element (when namespace qualified) */	/* required element of type xsd:string */
 	double calcTime;	/* required element of type xsd:double */
 public:
-	int soap_type() const { return 55; } /* = unique id SOAP_TYPE_Damis__CLEANDATAResponse */
+	int soap_type() const { return 59; } /* = unique id SOAP_TYPE_Damis__CLEANDATAResponse */
 };
 #endif
 
 #ifndef SOAP_TYPE_Damis__CLEANDATA
-#define SOAP_TYPE_Damis__CLEANDATA (58)
+#define SOAP_TYPE_Damis__CLEANDATA (62)
 /* Damis:CLEANDATA */
 struct Damis__CLEANDATA
 {
@@ -407,12 +439,12 @@ public:
 	std::string X;	/* required element of type xsd:string */
 	int maxCalcTime;	/* required element of type xsd:int */
 public:
-	int soap_type() const { return 58; } /* = unique id SOAP_TYPE_Damis__CLEANDATA */
+	int soap_type() const { return 62; } /* = unique id SOAP_TYPE_Damis__CLEANDATA */
 };
 #endif
 
 #ifndef SOAP_TYPE_Damis__FILTERDATAResponse
-#define SOAP_TYPE_Damis__FILTERDATAResponse (59)
+#define SOAP_TYPE_Damis__FILTERDATAResponse (63)
 /* Damis:FILTERDATAResponse */
 struct Damis__FILTERDATAResponse
 {
@@ -420,12 +452,12 @@ public:
 	std::string Y;	/* SOAP 1.2 RPC return element (when namespace qualified) */	/* required element of type xsd:string */
 	double calcTime;	/* required element of type xsd:double */
 public:
-	int soap_type() const { return 59; } /* = unique id SOAP_TYPE_Damis__FILTERDATAResponse */
+	int soap_type() const { return 63; } /* = unique id SOAP_TYPE_Damis__FILTERDATAResponse */
 };
 #endif
 
 #ifndef SOAP_TYPE_Damis__FILTERDATA
-#define SOAP_TYPE_Damis__FILTERDATA (62)
+#define SOAP_TYPE_Damis__FILTERDATA (66)
 /* Damis:FILTERDATA */
 struct Damis__FILTERDATA
 {
@@ -436,12 +468,12 @@ public:
 	int attrIndex;	/* required element of type xsd:int */
 	int maxCalcTime;	/* required element of type xsd:int */
 public:
-	int soap_type() const { return 62; } /* = unique id SOAP_TYPE_Damis__FILTERDATA */
+	int soap_type() const { return 66; } /* = unique id SOAP_TYPE_Damis__FILTERDATA */
 };
 #endif
 
 #ifndef SOAP_TYPE_Damis__SPLITDATAResponse
-#define SOAP_TYPE_Damis__SPLITDATAResponse (63)
+#define SOAP_TYPE_Damis__SPLITDATAResponse (67)
 /* Damis:SPLITDATAResponse */
 struct Damis__SPLITDATAResponse
 {
@@ -450,12 +482,12 @@ public:
 	std::string Yalt;	/* required element of type xsd:string */
 	double calcTime;	/* required element of type xsd:double */
 public:
-	int soap_type() const { return 63; } /* = unique id SOAP_TYPE_Damis__SPLITDATAResponse */
+	int soap_type() const { return 67; } /* = unique id SOAP_TYPE_Damis__SPLITDATAResponse */
 };
 #endif
 
 #ifndef SOAP_TYPE_Damis__SPLITDATA
-#define SOAP_TYPE_Damis__SPLITDATA (66)
+#define SOAP_TYPE_Damis__SPLITDATA (70)
 /* Damis:SPLITDATA */
 struct Damis__SPLITDATA
 {
@@ -466,12 +498,12 @@ public:
 	double secondSubsetPerc;	/* required element of type xsd:double */
 	int maxCalcTime;	/* required element of type xsd:int */
 public:
-	int soap_type() const { return 66; } /* = unique id SOAP_TYPE_Damis__SPLITDATA */
+	int soap_type() const { return 70; } /* = unique id SOAP_TYPE_Damis__SPLITDATA */
 };
 #endif
 
 #ifndef SOAP_TYPE_Damis__TRANSPOSEDATAResponse
-#define SOAP_TYPE_Damis__TRANSPOSEDATAResponse (67)
+#define SOAP_TYPE_Damis__TRANSPOSEDATAResponse (71)
 /* Damis:TRANSPOSEDATAResponse */
 struct Damis__TRANSPOSEDATAResponse
 {
@@ -479,12 +511,12 @@ public:
 	std::string Y;	/* SOAP 1.2 RPC return element (when namespace qualified) */	/* required element of type xsd:string */
 	double calcTime;	/* required element of type xsd:double */
 public:
-	int soap_type() const { return 67; } /* = unique id SOAP_TYPE_Damis__TRANSPOSEDATAResponse */
+	int soap_type() const { return 71; } /* = unique id SOAP_TYPE_Damis__TRANSPOSEDATAResponse */
 };
 #endif
 
 #ifndef SOAP_TYPE_Damis__TRANSPOSEDATA
-#define SOAP_TYPE_Damis__TRANSPOSEDATA (70)
+#define SOAP_TYPE_Damis__TRANSPOSEDATA (74)
 /* Damis:TRANSPOSEDATA */
 struct Damis__TRANSPOSEDATA
 {
@@ -492,12 +524,12 @@ public:
 	std::string X;	/* required element of type xsd:string */
 	int maxCalcTime;	/* required element of type xsd:int */
 public:
-	int soap_type() const { return 70; } /* = unique id SOAP_TYPE_Damis__TRANSPOSEDATA */
+	int soap_type() const { return 74; } /* = unique id SOAP_TYPE_Damis__TRANSPOSEDATA */
 };
 #endif
 
 #ifndef SOAP_TYPE_Damis__NORMDATAResponse
-#define SOAP_TYPE_Damis__NORMDATAResponse (71)
+#define SOAP_TYPE_Damis__NORMDATAResponse (75)
 /* Damis:NORMDATAResponse */
 struct Damis__NORMDATAResponse
 {
@@ -505,12 +537,12 @@ public:
 	std::string Y;	/* SOAP 1.2 RPC return element (when namespace qualified) */	/* required element of type xsd:string */
 	double calcTime;	/* required element of type xsd:double */
 public:
-	int soap_type() const { return 71; } /* = unique id SOAP_TYPE_Damis__NORMDATAResponse */
+	int soap_type() const { return 75; } /* = unique id SOAP_TYPE_Damis__NORMDATAResponse */
 };
 #endif
 
 #ifndef SOAP_TYPE_Damis__NORMDATA
-#define SOAP_TYPE_Damis__NORMDATA (74)
+#define SOAP_TYPE_Damis__NORMDATA (78)
 /* Damis:NORMDATA */
 struct Damis__NORMDATA
 {
@@ -521,19 +553,19 @@ public:
 	double b;	/* required element of type xsd:double */
 	int maxCalcTime;	/* required element of type xsd:int */
 public:
-	int soap_type() const { return 74; } /* = unique id SOAP_TYPE_Damis__NORMDATA */
+	int soap_type() const { return 78; } /* = unique id SOAP_TYPE_Damis__NORMDATA */
 };
 #endif
 
 #ifndef WITH_NOGLOBAL
 
 #ifndef SOAP_TYPE_SOAP_ENV__Header
-#define SOAP_TYPE_SOAP_ENV__Header (75)
+#define SOAP_TYPE_SOAP_ENV__Header (79)
 /* SOAP Header: */
 struct SOAP_ENV__Header
 {
 public:
-	int soap_type() const { return 75; } /* = unique id SOAP_TYPE_SOAP_ENV__Header */
+	int soap_type() const { return 79; } /* = unique id SOAP_TYPE_SOAP_ENV__Header */
 #ifdef WITH_NOEMPTYSTRUCT
 private:
 	char dummy;	/* dummy member to enable compilation */
@@ -546,7 +578,7 @@ private:
 #ifndef WITH_NOGLOBAL
 
 #ifndef SOAP_TYPE_SOAP_ENV__Code
-#define SOAP_TYPE_SOAP_ENV__Code (76)
+#define SOAP_TYPE_SOAP_ENV__Code (80)
 /* SOAP Fault Code: */
 struct SOAP_ENV__Code
 {
@@ -554,7 +586,7 @@ public:
 	char *SOAP_ENV__Value;	/* optional element of type xsd:QName */
 	struct SOAP_ENV__Code *SOAP_ENV__Subcode;	/* optional element of type SOAP-ENV:Code */
 public:
-	int soap_type() const { return 76; } /* = unique id SOAP_TYPE_SOAP_ENV__Code */
+	int soap_type() const { return 80; } /* = unique id SOAP_TYPE_SOAP_ENV__Code */
 };
 #endif
 
@@ -563,7 +595,7 @@ public:
 #ifndef WITH_NOGLOBAL
 
 #ifndef SOAP_TYPE_SOAP_ENV__Detail
-#define SOAP_TYPE_SOAP_ENV__Detail (78)
+#define SOAP_TYPE_SOAP_ENV__Detail (82)
 /* SOAP-ENV:Detail */
 struct SOAP_ENV__Detail
 {
@@ -572,7 +604,7 @@ public:
 	int __type;	/* any type of element <fault> (defined below) */
 	void *fault;	/* transient */
 public:
-	int soap_type() const { return 78; } /* = unique id SOAP_TYPE_SOAP_ENV__Detail */
+	int soap_type() const { return 82; } /* = unique id SOAP_TYPE_SOAP_ENV__Detail */
 };
 #endif
 
@@ -581,14 +613,14 @@ public:
 #ifndef WITH_NOGLOBAL
 
 #ifndef SOAP_TYPE_SOAP_ENV__Reason
-#define SOAP_TYPE_SOAP_ENV__Reason (81)
+#define SOAP_TYPE_SOAP_ENV__Reason (85)
 /* SOAP-ENV:Reason */
 struct SOAP_ENV__Reason
 {
 public:
 	char *SOAP_ENV__Text;	/* optional element of type xsd:string */
 public:
-	int soap_type() const { return 81; } /* = unique id SOAP_TYPE_SOAP_ENV__Reason */
+	int soap_type() const { return 85; } /* = unique id SOAP_TYPE_SOAP_ENV__Reason */
 };
 #endif
 
@@ -597,7 +629,7 @@ public:
 #ifndef WITH_NOGLOBAL
 
 #ifndef SOAP_TYPE_SOAP_ENV__Fault
-#define SOAP_TYPE_SOAP_ENV__Fault (82)
+#define SOAP_TYPE_SOAP_ENV__Fault (86)
 /* SOAP Fault: */
 struct SOAP_ENV__Fault
 {
@@ -612,7 +644,7 @@ public:
 	char *SOAP_ENV__Role;	/* optional element of type xsd:string */
 	struct SOAP_ENV__Detail *SOAP_ENV__Detail;	/* optional element of type SOAP-ENV:Detail */
 public:
-	int soap_type() const { return 82; } /* = unique id SOAP_TYPE_SOAP_ENV__Fault */
+	int soap_type() const { return 86; } /* = unique id SOAP_TYPE_SOAP_ENV__Fault */
 };
 #endif
 

@@ -502,6 +502,84 @@ int DAMISService::RELMDS(std::string X, int d, int maxIteration, double eps, dou
     LOG(INFO)<<"Request served, returning SOAP_OK";
     return SOAP_OK;
 }
+/// Web service operation 'RELMDS2' (returns error code or SOAP_OK)
+int DAMISService::RELMDS2(std::string X, std::string XX, std::string XXX, int d, int maxIteration, double eps, int maxCalcTime, struct Damis__RELMDS2Response &_param_1)
+{
+
+    LOG(INFO) << "Initiating RELMDS serve request";
+    LOG(INFO) <<"Got parameters: "<<"X - "<<X <<"; XX - "<<XX<< "XXX - " <<XXX<< "; d - "<< d <<"; maxIteration - "<< maxIteration << "; eps - "<< eps << "; maxCalcTime - "<< maxCalcTime;
+    clock_t start;
+    //  long double duration;
+
+    //LOG(INFO)<<"Starting clock";
+    start = clock();
+
+    LOG(INFO)<<"Instantiating InitDamisService object";
+    InitDamisService *dFile = new InitDamisService (X, "_input_");
+    InitDamisService *dFile2 = new InitDamisService (XX, "_input_");
+    InitDamisService *dFile3 = new InitDamisService (XXX, "_input_");
+    if (!ErrorResponse::isFaultFound())
+    {
+       //selStrategy--;
+        //LOG(INFO)<<"Instantiating ValidateParams object";
+        ValidateParams *validate = new ValidateParams(dFile, dFile2, dFile3);
+        //LOG(INFO)<<"Validating passed RELMDS params";
+
+        //void relMds(int d, int maxIteration, double eps, double noOfBaseVectors, int selStrategy, int maxCalcTime);
+        validate->relMds2(d, maxIteration, eps, maxCalcTime);
+
+        if (validate->isValid())
+        {
+            LOG(INFO)<< "Creating DimensionReduction object";
+            DimensionReduction *dReduction = new DimensionReduction(1, maxCalcTime, dFile, dFile2, dFile3);
+
+            LOG(INFO)<< "Method RUN";
+            dReduction->runRELATIVEMDS2(d, maxIteration, eps);
+            if (!ErrorResponse::isFaultFound())
+            {
+                LOG(INFO)<<"Creating parameter response structure";
+                struct Damis__RELMDS2Response *response = new Damis__RELMDS2Response();
+
+                response->Y = dReduction->outFile->getHttpPath();
+                response->algorithmError = HelperMethods::getAttributeValue(dReduction->statFile->getFilePath(), "algError");
+
+                //returns only cluster calculataion time
+                //response->calcTime  = HelperMethods::getAttributeValue(dReduction->statFile->getFilePath(), "calcTime");
+
+                //overall time for request serving
+                response->calcTime = (clock() - start) / (double) CLOCKS_PER_SEC;
+
+                _param_1 = *response;
+
+                //delete fileWith the statistics data
+                HelperMethods::deleteFile(dReduction->statFile->getFilePath());
+            }
+            else
+            {
+                //got error send error message
+                LOG(INFO)<<"Got error on DAMIS algorithm run phase, return SOAP_ERR";
+                sendError(this->soap);
+                return SOAP_ERR;
+            }
+        }
+        else
+        {
+            //got error send error message
+            LOG(INFO)<<"Got error on DAMIS validation phase, return SOAP_ERR";
+            sendError(this->soap);
+            return SOAP_ERR;
+        }
+    }
+    else
+    {
+        //got error send error message
+        LOG(INFO)<<"Got error on DAMIS initialization phase, return SOAP_ERR";
+        sendError(this->soap);
+        return SOAP_ERR;
+    }
+    LOG(INFO)<<"Request served, returning SOAP_OK";
+    return SOAP_OK;
+}
 /// Web service operation 'SAMANN' (returns error code or SOAP_OK)
 int DAMISService::SAMANN(std::string X, int d, int maxIteration, double mTrain, int nNeurons, double eta, int p, int maxCalcTime, struct Damis__SAMANNResponse &_param_1)
 {

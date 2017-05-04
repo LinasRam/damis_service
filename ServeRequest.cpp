@@ -24,6 +24,17 @@ ServeRequest::ServeRequest(InitDamisService* inFile)
     this->outFile = new DamisFile("_output_");
     this->statFile = new DamisFile("_algStat_");
 }
+ServeRequest::ServeRequest(InitDamisService* inFile, InitDamisService* inFile2, InitDamisService* inFile3)
+{
+    ServeRequest::serveFile = inFile;
+    ServeRequest::serveFile2 = inFile2;
+    ServeRequest::serveFile3 = inFile3;
+    ServeRequest::writeData.reserve(0);
+    ServeRequest::tmpDataVector.reserve(0);
+
+    this->outFile = new DamisFile("_output_");
+    this->statFile = new DamisFile("_algStat_");
+}
 /*
 std::vector<std::string> DamisService::prepareAttributeSection(std::vector<std::string> attributeNameList,  std::vector<std::string> attributeTypeList, std::vector<int> possibleClasses)
 {

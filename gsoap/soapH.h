@@ -165,7 +165,7 @@ SOAP_FMAC3 void SOAP_FMAC4 soap_copy_std__string(struct soap*, int, int, void*, 
 #ifndef WITH_NOGLOBAL
 
 #ifndef SOAP_TYPE_SOAP_ENV__Fault
-#define SOAP_TYPE_SOAP_ENV__Fault (82)
+#define SOAP_TYPE_SOAP_ENV__Fault (86)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_SOAP_ENV__Fault(struct soap*, struct SOAP_ENV__Fault *);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_SOAP_ENV__Fault(struct soap*, const struct SOAP_ENV__Fault *);
@@ -201,7 +201,7 @@ SOAP_FMAC3 void SOAP_FMAC4 soap_copy_SOAP_ENV__Fault(struct soap*, int, int, voi
 #ifndef WITH_NOGLOBAL
 
 #ifndef SOAP_TYPE_SOAP_ENV__Reason
-#define SOAP_TYPE_SOAP_ENV__Reason (81)
+#define SOAP_TYPE_SOAP_ENV__Reason (85)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_SOAP_ENV__Reason(struct soap*, struct SOAP_ENV__Reason *);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_SOAP_ENV__Reason(struct soap*, const struct SOAP_ENV__Reason *);
@@ -237,7 +237,7 @@ SOAP_FMAC3 void SOAP_FMAC4 soap_copy_SOAP_ENV__Reason(struct soap*, int, int, vo
 #ifndef WITH_NOGLOBAL
 
 #ifndef SOAP_TYPE_SOAP_ENV__Detail
-#define SOAP_TYPE_SOAP_ENV__Detail (78)
+#define SOAP_TYPE_SOAP_ENV__Detail (82)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_SOAP_ENV__Detail(struct soap*, struct SOAP_ENV__Detail *);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_SOAP_ENV__Detail(struct soap*, const struct SOAP_ENV__Detail *);
@@ -273,7 +273,7 @@ SOAP_FMAC3 void SOAP_FMAC4 soap_copy_SOAP_ENV__Detail(struct soap*, int, int, vo
 #ifndef WITH_NOGLOBAL
 
 #ifndef SOAP_TYPE_SOAP_ENV__Code
-#define SOAP_TYPE_SOAP_ENV__Code (76)
+#define SOAP_TYPE_SOAP_ENV__Code (80)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_SOAP_ENV__Code(struct soap*, struct SOAP_ENV__Code *);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_SOAP_ENV__Code(struct soap*, const struct SOAP_ENV__Code *);
@@ -309,7 +309,7 @@ SOAP_FMAC3 void SOAP_FMAC4 soap_copy_SOAP_ENV__Code(struct soap*, int, int, void
 #ifndef WITH_NOGLOBAL
 
 #ifndef SOAP_TYPE_SOAP_ENV__Header
-#define SOAP_TYPE_SOAP_ENV__Header (75)
+#define SOAP_TYPE_SOAP_ENV__Header (79)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_SOAP_ENV__Header(struct soap*, struct SOAP_ENV__Header *);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_SOAP_ENV__Header(struct soap*, const struct SOAP_ENV__Header *);
@@ -343,7 +343,7 @@ SOAP_FMAC3 void SOAP_FMAC4 soap_copy_SOAP_ENV__Header(struct soap*, int, int, vo
 #endif
 
 #ifndef SOAP_TYPE_Damis__NORMDATA
-#define SOAP_TYPE_Damis__NORMDATA (74)
+#define SOAP_TYPE_Damis__NORMDATA (78)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_Damis__NORMDATA(struct soap*, struct Damis__NORMDATA *);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_Damis__NORMDATA(struct soap*, const struct Damis__NORMDATA *);
@@ -375,7 +375,7 @@ inline void soap_delete_Damis__NORMDATA(struct soap *soap, struct Damis__NORMDAT
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_Damis__NORMDATA(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_Damis__NORMDATAResponse
-#define SOAP_TYPE_Damis__NORMDATAResponse (71)
+#define SOAP_TYPE_Damis__NORMDATAResponse (75)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_Damis__NORMDATAResponse(struct soap*, struct Damis__NORMDATAResponse *);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_Damis__NORMDATAResponse(struct soap*, const struct Damis__NORMDATAResponse *);
@@ -407,7 +407,7 @@ inline void soap_delete_Damis__NORMDATAResponse(struct soap *soap, struct Damis_
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_Damis__NORMDATAResponse(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_Damis__TRANSPOSEDATA
-#define SOAP_TYPE_Damis__TRANSPOSEDATA (70)
+#define SOAP_TYPE_Damis__TRANSPOSEDATA (74)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_Damis__TRANSPOSEDATA(struct soap*, struct Damis__TRANSPOSEDATA *);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_Damis__TRANSPOSEDATA(struct soap*, const struct Damis__TRANSPOSEDATA *);
@@ -439,7 +439,7 @@ inline void soap_delete_Damis__TRANSPOSEDATA(struct soap *soap, struct Damis__TR
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_Damis__TRANSPOSEDATA(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_Damis__TRANSPOSEDATAResponse
-#define SOAP_TYPE_Damis__TRANSPOSEDATAResponse (67)
+#define SOAP_TYPE_Damis__TRANSPOSEDATAResponse (71)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_Damis__TRANSPOSEDATAResponse(struct soap*, struct Damis__TRANSPOSEDATAResponse *);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_Damis__TRANSPOSEDATAResponse(struct soap*, const struct Damis__TRANSPOSEDATAResponse *);
@@ -471,7 +471,7 @@ inline void soap_delete_Damis__TRANSPOSEDATAResponse(struct soap *soap, struct D
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_Damis__TRANSPOSEDATAResponse(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_Damis__SPLITDATA
-#define SOAP_TYPE_Damis__SPLITDATA (66)
+#define SOAP_TYPE_Damis__SPLITDATA (70)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_Damis__SPLITDATA(struct soap*, struct Damis__SPLITDATA *);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_Damis__SPLITDATA(struct soap*, const struct Damis__SPLITDATA *);
@@ -503,7 +503,7 @@ inline void soap_delete_Damis__SPLITDATA(struct soap *soap, struct Damis__SPLITD
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_Damis__SPLITDATA(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_Damis__SPLITDATAResponse
-#define SOAP_TYPE_Damis__SPLITDATAResponse (63)
+#define SOAP_TYPE_Damis__SPLITDATAResponse (67)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_Damis__SPLITDATAResponse(struct soap*, struct Damis__SPLITDATAResponse *);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_Damis__SPLITDATAResponse(struct soap*, const struct Damis__SPLITDATAResponse *);
@@ -535,7 +535,7 @@ inline void soap_delete_Damis__SPLITDATAResponse(struct soap *soap, struct Damis
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_Damis__SPLITDATAResponse(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_Damis__FILTERDATA
-#define SOAP_TYPE_Damis__FILTERDATA (62)
+#define SOAP_TYPE_Damis__FILTERDATA (66)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_Damis__FILTERDATA(struct soap*, struct Damis__FILTERDATA *);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_Damis__FILTERDATA(struct soap*, const struct Damis__FILTERDATA *);
@@ -567,7 +567,7 @@ inline void soap_delete_Damis__FILTERDATA(struct soap *soap, struct Damis__FILTE
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_Damis__FILTERDATA(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_Damis__FILTERDATAResponse
-#define SOAP_TYPE_Damis__FILTERDATAResponse (59)
+#define SOAP_TYPE_Damis__FILTERDATAResponse (63)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_Damis__FILTERDATAResponse(struct soap*, struct Damis__FILTERDATAResponse *);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_Damis__FILTERDATAResponse(struct soap*, const struct Damis__FILTERDATAResponse *);
@@ -599,7 +599,7 @@ inline void soap_delete_Damis__FILTERDATAResponse(struct soap *soap, struct Dami
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_Damis__FILTERDATAResponse(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_Damis__CLEANDATA
-#define SOAP_TYPE_Damis__CLEANDATA (58)
+#define SOAP_TYPE_Damis__CLEANDATA (62)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_Damis__CLEANDATA(struct soap*, struct Damis__CLEANDATA *);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_Damis__CLEANDATA(struct soap*, const struct Damis__CLEANDATA *);
@@ -631,7 +631,7 @@ inline void soap_delete_Damis__CLEANDATA(struct soap *soap, struct Damis__CLEAND
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_Damis__CLEANDATA(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_Damis__CLEANDATAResponse
-#define SOAP_TYPE_Damis__CLEANDATAResponse (55)
+#define SOAP_TYPE_Damis__CLEANDATAResponse (59)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_Damis__CLEANDATAResponse(struct soap*, struct Damis__CLEANDATAResponse *);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_Damis__CLEANDATAResponse(struct soap*, const struct Damis__CLEANDATAResponse *);
@@ -663,7 +663,7 @@ inline void soap_delete_Damis__CLEANDATAResponse(struct soap *soap, struct Damis
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_Damis__CLEANDATAResponse(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_Damis__STATPRIMITIVES
-#define SOAP_TYPE_Damis__STATPRIMITIVES (54)
+#define SOAP_TYPE_Damis__STATPRIMITIVES (58)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_Damis__STATPRIMITIVES(struct soap*, struct Damis__STATPRIMITIVES *);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_Damis__STATPRIMITIVES(struct soap*, const struct Damis__STATPRIMITIVES *);
@@ -695,7 +695,7 @@ inline void soap_delete_Damis__STATPRIMITIVES(struct soap *soap, struct Damis__S
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_Damis__STATPRIMITIVES(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_Damis__STATPRIMITIVESResponse
-#define SOAP_TYPE_Damis__STATPRIMITIVESResponse (51)
+#define SOAP_TYPE_Damis__STATPRIMITIVESResponse (55)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_Damis__STATPRIMITIVESResponse(struct soap*, struct Damis__STATPRIMITIVESResponse *);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_Damis__STATPRIMITIVESResponse(struct soap*, const struct Damis__STATPRIMITIVESResponse *);
@@ -727,7 +727,7 @@ inline void soap_delete_Damis__STATPRIMITIVESResponse(struct soap *soap, struct 
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_Damis__STATPRIMITIVESResponse(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_Damis__KMEANS
-#define SOAP_TYPE_Damis__KMEANS (50)
+#define SOAP_TYPE_Damis__KMEANS (54)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_Damis__KMEANS(struct soap*, struct Damis__KMEANS *);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_Damis__KMEANS(struct soap*, const struct Damis__KMEANS *);
@@ -759,7 +759,7 @@ inline void soap_delete_Damis__KMEANS(struct soap *soap, struct Damis__KMEANS *p
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_Damis__KMEANS(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_Damis__KMEANSResponse
-#define SOAP_TYPE_Damis__KMEANSResponse (47)
+#define SOAP_TYPE_Damis__KMEANSResponse (51)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_Damis__KMEANSResponse(struct soap*, struct Damis__KMEANSResponse *);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_Damis__KMEANSResponse(struct soap*, const struct Damis__KMEANSResponse *);
@@ -791,7 +791,7 @@ inline void soap_delete_Damis__KMEANSResponse(struct soap *soap, struct Damis__K
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_Damis__KMEANSResponse(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_Damis__DF
-#define SOAP_TYPE_Damis__DF (46)
+#define SOAP_TYPE_Damis__DF (50)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_Damis__DF(struct soap*, struct Damis__DF *);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_Damis__DF(struct soap*, const struct Damis__DF *);
@@ -823,7 +823,7 @@ inline void soap_delete_Damis__DF(struct soap *soap, struct Damis__DF *p) { soap
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_Damis__DF(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_Damis__DFResponse
-#define SOAP_TYPE_Damis__DFResponse (43)
+#define SOAP_TYPE_Damis__DFResponse (47)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_Damis__DFResponse(struct soap*, struct Damis__DFResponse *);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_Damis__DFResponse(struct soap*, const struct Damis__DFResponse *);
@@ -855,7 +855,7 @@ inline void soap_delete_Damis__DFResponse(struct soap *soap, struct Damis__DFRes
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_Damis__DFResponse(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_Damis__MLP
-#define SOAP_TYPE_Damis__MLP (42)
+#define SOAP_TYPE_Damis__MLP (46)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_Damis__MLP(struct soap*, struct Damis__MLP *);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_Damis__MLP(struct soap*, const struct Damis__MLP *);
@@ -887,7 +887,7 @@ inline void soap_delete_Damis__MLP(struct soap *soap, struct Damis__MLP *p) { so
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_Damis__MLP(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_Damis__MLPResponse
-#define SOAP_TYPE_Damis__MLPResponse (39)
+#define SOAP_TYPE_Damis__MLPResponse (43)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_Damis__MLPResponse(struct soap*, struct Damis__MLPResponse *);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_Damis__MLPResponse(struct soap*, const struct Damis__MLPResponse *);
@@ -919,7 +919,7 @@ inline void soap_delete_Damis__MLPResponse(struct soap *soap, struct Damis__MLPR
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_Damis__MLPResponse(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_Damis__SOMMDS
-#define SOAP_TYPE_Damis__SOMMDS (38)
+#define SOAP_TYPE_Damis__SOMMDS (42)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_Damis__SOMMDS(struct soap*, struct Damis__SOMMDS *);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_Damis__SOMMDS(struct soap*, const struct Damis__SOMMDS *);
@@ -951,7 +951,7 @@ inline void soap_delete_Damis__SOMMDS(struct soap *soap, struct Damis__SOMMDS *p
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_Damis__SOMMDS(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_Damis__SOMMDSResponse
-#define SOAP_TYPE_Damis__SOMMDSResponse (35)
+#define SOAP_TYPE_Damis__SOMMDSResponse (39)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_Damis__SOMMDSResponse(struct soap*, struct Damis__SOMMDSResponse *);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_Damis__SOMMDSResponse(struct soap*, const struct Damis__SOMMDSResponse *);
@@ -983,7 +983,7 @@ inline void soap_delete_Damis__SOMMDSResponse(struct soap *soap, struct Damis__S
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_Damis__SOMMDSResponse(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_Damis__SOM
-#define SOAP_TYPE_Damis__SOM (34)
+#define SOAP_TYPE_Damis__SOM (38)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_Damis__SOM(struct soap*, struct Damis__SOM *);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_Damis__SOM(struct soap*, const struct Damis__SOM *);
@@ -1015,7 +1015,7 @@ inline void soap_delete_Damis__SOM(struct soap *soap, struct Damis__SOM *p) { so
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_Damis__SOM(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_Damis__SOMResponse
-#define SOAP_TYPE_Damis__SOMResponse (31)
+#define SOAP_TYPE_Damis__SOMResponse (35)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_Damis__SOMResponse(struct soap*, struct Damis__SOMResponse *);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_Damis__SOMResponse(struct soap*, const struct Damis__SOMResponse *);
@@ -1047,7 +1047,7 @@ inline void soap_delete_Damis__SOMResponse(struct soap *soap, struct Damis__SOMR
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_Damis__SOMResponse(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_Damis__SAMANN
-#define SOAP_TYPE_Damis__SAMANN (30)
+#define SOAP_TYPE_Damis__SAMANN (34)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_Damis__SAMANN(struct soap*, struct Damis__SAMANN *);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_Damis__SAMANN(struct soap*, const struct Damis__SAMANN *);
@@ -1079,7 +1079,7 @@ inline void soap_delete_Damis__SAMANN(struct soap *soap, struct Damis__SAMANN *p
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_Damis__SAMANN(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_Damis__SAMANNResponse
-#define SOAP_TYPE_Damis__SAMANNResponse (27)
+#define SOAP_TYPE_Damis__SAMANNResponse (31)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_default_Damis__SAMANNResponse(struct soap*, struct Damis__SAMANNResponse *);
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_Damis__SAMANNResponse(struct soap*, const struct Damis__SAMANNResponse *);
@@ -1109,6 +1109,70 @@ inline struct Damis__SAMANNResponse * soap_new_set_Damis__SAMANNResponse(struct 
 inline void soap_delete_Damis__SAMANNResponse(struct soap *soap, struct Damis__SAMANNResponse *p) { soap_delete(soap, p); }
 
 SOAP_FMAC3 void SOAP_FMAC4 soap_copy_Damis__SAMANNResponse(struct soap*, int, int, void*, size_t, const void*, size_t);
+
+#ifndef SOAP_TYPE_Damis__RELMDS2
+#define SOAP_TYPE_Damis__RELMDS2 (30)
+#endif
+SOAP_FMAC3 void SOAP_FMAC4 soap_default_Damis__RELMDS2(struct soap*, struct Damis__RELMDS2 *);
+SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_Damis__RELMDS2(struct soap*, const struct Damis__RELMDS2 *);
+SOAP_FMAC3 int SOAP_FMAC4 soap_out_Damis__RELMDS2(struct soap*, const char*, int, const struct Damis__RELMDS2 *, const char*);
+SOAP_FMAC3 struct Damis__RELMDS2 * SOAP_FMAC4 soap_in_Damis__RELMDS2(struct soap*, const char*, struct Damis__RELMDS2 *, const char*);
+
+SOAP_FMAC3 int SOAP_FMAC4 soap_put_Damis__RELMDS2(struct soap*, const struct Damis__RELMDS2 *, const char*, const char*);
+
+#ifndef soap_write_Damis__RELMDS2
+#define soap_write_Damis__RELMDS2(soap, data) ( soap_begin(soap), soap_serialize_Damis__RELMDS2(soap, data), soap_begin_send(soap) || soap_put_Damis__RELMDS2(soap, data, "Damis:RELMDS2", NULL) || soap_end_send(soap), soap->error )
+#endif
+
+SOAP_FMAC3 struct Damis__RELMDS2 * SOAP_FMAC4 soap_get_Damis__RELMDS2(struct soap*, struct Damis__RELMDS2 *, const char*, const char*);
+
+#ifndef soap_read_Damis__RELMDS2
+#define soap_read_Damis__RELMDS2(soap, data) ( soap_begin_recv(soap) || !soap_get_Damis__RELMDS2(soap, data, NULL, NULL) || soap_end_recv(soap), soap->error )
+#endif
+
+SOAP_FMAC1 struct Damis__RELMDS2 * SOAP_FMAC2 soap_instantiate_Damis__RELMDS2(struct soap*, int, const char*, const char*, size_t*);
+
+inline struct Damis__RELMDS2 * soap_new_Damis__RELMDS2(struct soap *soap, int n = -1) { return soap_instantiate_Damis__RELMDS2(soap, n, NULL, NULL, NULL); }
+
+inline struct Damis__RELMDS2 * soap_new_req_Damis__RELMDS2(struct soap *soap, std::string& X, std::string& XX, std::string& XXX, int d, int maxIteration, double eps, int maxCalcTime) { struct Damis__RELMDS2 *_p = soap_instantiate_Damis__RELMDS2(soap, -1, NULL, NULL, NULL); if (_p) { soap_default_Damis__RELMDS2(soap, _p); _p->X = X; _p->XX = XX; _p->XXX = XXX; _p->d = d; _p->maxIteration = maxIteration; _p->eps = eps; _p->maxCalcTime = maxCalcTime; } return _p; }
+
+inline struct Damis__RELMDS2 * soap_new_set_Damis__RELMDS2(struct soap *soap, std::string& X, std::string& XX, std::string& XXX, int d, int maxIteration, double eps, int maxCalcTime) { struct Damis__RELMDS2 *_p = soap_instantiate_Damis__RELMDS2(soap, -1, NULL, NULL, NULL); if (_p) { soap_default_Damis__RELMDS2(soap, _p); _p->X = X; _p->XX = XX; _p->XXX = XXX; _p->d = d; _p->maxIteration = maxIteration; _p->eps = eps; _p->maxCalcTime = maxCalcTime; } return _p; }
+
+inline void soap_delete_Damis__RELMDS2(struct soap *soap, struct Damis__RELMDS2 *p) { soap_delete(soap, p); }
+
+SOAP_FMAC3 void SOAP_FMAC4 soap_copy_Damis__RELMDS2(struct soap*, int, int, void*, size_t, const void*, size_t);
+
+#ifndef SOAP_TYPE_Damis__RELMDS2Response
+#define SOAP_TYPE_Damis__RELMDS2Response (27)
+#endif
+SOAP_FMAC3 void SOAP_FMAC4 soap_default_Damis__RELMDS2Response(struct soap*, struct Damis__RELMDS2Response *);
+SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_Damis__RELMDS2Response(struct soap*, const struct Damis__RELMDS2Response *);
+SOAP_FMAC3 int SOAP_FMAC4 soap_out_Damis__RELMDS2Response(struct soap*, const char*, int, const struct Damis__RELMDS2Response *, const char*);
+SOAP_FMAC3 struct Damis__RELMDS2Response * SOAP_FMAC4 soap_in_Damis__RELMDS2Response(struct soap*, const char*, struct Damis__RELMDS2Response *, const char*);
+
+SOAP_FMAC3 int SOAP_FMAC4 soap_put_Damis__RELMDS2Response(struct soap*, const struct Damis__RELMDS2Response *, const char*, const char*);
+
+#ifndef soap_write_Damis__RELMDS2Response
+#define soap_write_Damis__RELMDS2Response(soap, data) ( soap_begin(soap), soap_serialize_Damis__RELMDS2Response(soap, data), soap_begin_send(soap) || soap_put_Damis__RELMDS2Response(soap, data, "Damis:RELMDS2Response", NULL) || soap_end_send(soap), soap->error )
+#endif
+
+SOAP_FMAC3 struct Damis__RELMDS2Response * SOAP_FMAC4 soap_get_Damis__RELMDS2Response(struct soap*, struct Damis__RELMDS2Response *, const char*, const char*);
+
+#ifndef soap_read_Damis__RELMDS2Response
+#define soap_read_Damis__RELMDS2Response(soap, data) ( soap_begin_recv(soap) || !soap_get_Damis__RELMDS2Response(soap, data, NULL, NULL) || soap_end_recv(soap), soap->error )
+#endif
+
+SOAP_FMAC1 struct Damis__RELMDS2Response * SOAP_FMAC2 soap_instantiate_Damis__RELMDS2Response(struct soap*, int, const char*, const char*, size_t*);
+
+inline struct Damis__RELMDS2Response * soap_new_Damis__RELMDS2Response(struct soap *soap, int n = -1) { return soap_instantiate_Damis__RELMDS2Response(soap, n, NULL, NULL, NULL); }
+
+inline struct Damis__RELMDS2Response * soap_new_req_Damis__RELMDS2Response(struct soap *soap, std::string& Y, double calcTime, double algorithmError) { struct Damis__RELMDS2Response *_p = soap_instantiate_Damis__RELMDS2Response(soap, -1, NULL, NULL, NULL); if (_p) { soap_default_Damis__RELMDS2Response(soap, _p); _p->Y = Y; _p->calcTime = calcTime; _p->algorithmError = algorithmError; } return _p; }
+
+inline struct Damis__RELMDS2Response * soap_new_set_Damis__RELMDS2Response(struct soap *soap, std::string& Y, double calcTime, double algorithmError) { struct Damis__RELMDS2Response *_p = soap_instantiate_Damis__RELMDS2Response(soap, -1, NULL, NULL, NULL); if (_p) { soap_default_Damis__RELMDS2Response(soap, _p); _p->Y = Y; _p->calcTime = calcTime; _p->algorithmError = algorithmError; } return _p; }
+
+inline void soap_delete_Damis__RELMDS2Response(struct soap *soap, struct Damis__RELMDS2Response *p) { soap_delete(soap, p); }
+
+SOAP_FMAC3 void SOAP_FMAC4 soap_copy_Damis__RELMDS2Response(struct soap*, int, int, void*, size_t, const void*, size_t);
 
 #ifndef SOAP_TYPE_Damis__RELMDS
 #define SOAP_TYPE_Damis__RELMDS (26)
@@ -1369,7 +1433,7 @@ SOAP_FMAC3 void SOAP_FMAC4 soap_copy_Damis__PCAResponse(struct soap*, int, int, 
 #ifndef WITH_NOGLOBAL
 
 #ifndef SOAP_TYPE_PointerToSOAP_ENV__Reason
-#define SOAP_TYPE_PointerToSOAP_ENV__Reason (84)
+#define SOAP_TYPE_PointerToSOAP_ENV__Reason (88)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerToSOAP_ENV__Reason(struct soap*, struct SOAP_ENV__Reason *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerToSOAP_ENV__Reason(struct soap*, const char *, int, struct SOAP_ENV__Reason *const*, const char *);
@@ -1392,7 +1456,7 @@ SOAP_FMAC3 struct SOAP_ENV__Reason ** SOAP_FMAC4 soap_get_PointerToSOAP_ENV__Rea
 #ifndef WITH_NOGLOBAL
 
 #ifndef SOAP_TYPE_PointerToSOAP_ENV__Detail
-#define SOAP_TYPE_PointerToSOAP_ENV__Detail (83)
+#define SOAP_TYPE_PointerToSOAP_ENV__Detail (87)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerToSOAP_ENV__Detail(struct soap*, struct SOAP_ENV__Detail *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerToSOAP_ENV__Detail(struct soap*, const char *, int, struct SOAP_ENV__Detail *const*, const char *);
@@ -1415,7 +1479,7 @@ SOAP_FMAC3 struct SOAP_ENV__Detail ** SOAP_FMAC4 soap_get_PointerToSOAP_ENV__Det
 #ifndef WITH_NOGLOBAL
 
 #ifndef SOAP_TYPE_PointerToSOAP_ENV__Code
-#define SOAP_TYPE_PointerToSOAP_ENV__Code (77)
+#define SOAP_TYPE_PointerToSOAP_ENV__Code (81)
 #endif
 SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerToSOAP_ENV__Code(struct soap*, struct SOAP_ENV__Code *const*);
 SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerToSOAP_ENV__Code(struct soap*, const char *, int, struct SOAP_ENV__Code *const*, const char *);
