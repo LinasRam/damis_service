@@ -1,0 +1,395 @@
+# depslib dependency file v1.0
+1488633324 source:/home/damis/Documents/CBProjects/DamisService/main.cpp
+	"ServiceSettings.h"
+	"gsoap/soapDAMISService.h"
+	"gsoap/soapH.h"
+	"gsoap/DAMIS.nsmap"
+	"CGIvars/getcgivars.h"
+	"logging/easylogging++.h"
+	"InitDamisService.h"
+	"ValidateParams.h"
+	"ErrorResponse.h"
+	"Preprocess.h"
+	"Statistics.h"
+	"DimensionReduction.h"
+	"ClassificationGrouping.h"
+	"HelperMethods.h"
+	<iostream>
+
+1434454680 source:/home/damis/Documents/CBProjects/DamisService/ArffFile.cpp
+	"ArffFile.h"
+	"ErrorResponse.h"
+	"HelperMethods.h"
+	"logging/easylogging++.h"
+	<string>
+
+1414088584 /home/damis/Documents/CBProjects/DamisService/ArffFile.h
+	"DamisFile.h"
+	<vector>
+	<string>
+
+1410251276 /home/damis/Documents/CBProjects/DamisService/DamisFile.h
+	<string>
+
+1410253864 /home/damis/Documents/CBProjects/DamisService/ErrorResponse.h
+	<string>
+
+1414145330 /home/damis/Documents/CBProjects/DamisService/HelperMethods.h
+	<string>
+	<vector>
+
+1488617003 /home/damis/Documents/CBProjects/DamisService/logging/easylogging++.h
+	<cstddef>
+	<syslog.h>
+	<ctime>
+	<cstring>
+	<cstdlib>
+	<cctype>
+	<cwchar>
+	<csignal>
+	<cerrno>
+	<cstdarg>
+	<locale>
+	<codecvt>
+	<cxxabi.h>
+	<execinfo.h>
+	<sys/system_properties.h>
+	<sys/stat.h>
+	<sys/time.h>
+	<direct.h>
+	<windows.h>
+	<winsock2.h>
+	<winsock.h>
+	<string>
+	<vector>
+	<map>
+	<utility>
+	<functional>
+	<algorithm>
+	<fstream>
+	<iostream>
+	<sstream>
+	<memory>
+	<type_traits>
+	<mutex>
+	<thread>
+	<pthread.h>
+	<unistd.h>
+	<thread>
+	<queue>
+	<condition_variable>
+	<list>
+	<queue>
+	<deque>
+	<set>
+	<bitset>
+	<stack>
+	<array>
+	<unordered_map>
+	<unordered_set>
+	<QString>
+	<QByteArray>
+	<QVector>
+	<QList>
+	<QPair>
+	<QMap>
+	<QQueue>
+	<QSet>
+	<QLinkedList>
+	<QHash>
+	<QMultiHash>
+	<QStack>
+	<boost/container/vector.hpp>
+	<boost/container/stable_vector.hpp>
+	<boost/container/list.hpp>
+	<boost/container/deque.hpp>
+	<boost/container/map.hpp>
+	<boost/container/flat_map.hpp>
+	<boost/container/set.hpp>
+	<boost/container/flat_set.hpp>
+	<wx/vector.h>
+
+1442917785 source:/home/damis/Documents/CBProjects/DamisService/CallCalculus.cpp
+	"CallCalculus.h"
+	"ServiceSettings.h"
+	"ServeRequest.h"
+	"HelperMethods.h"
+	"logging/easylogging++.h"
+	<iostream>
+	<unistd.h>
+	<wait.h>
+	"ErrorResponse.h"
+
+1410255536 /home/damis/Documents/CBProjects/DamisService/CallCalculus.h
+	"ServeRequest.h"
+
+1410257734 /home/damis/Documents/CBProjects/DamisService/ServeRequest.h
+	<vector>
+	<string>
+	"InitDamisService.h"
+	"DamisFile.h"
+
+1432621953 /home/damis/Documents/CBProjects/DamisService/InitDamisService.h
+	"ArffFile.h"
+	<string>
+
+1432621577 /home/damis/Documents/CBProjects/DamisService/ServiceSettings.h
+	<string>
+	"InitDamisService.h"
+
+1433916587 source:/home/damis/Documents/CBProjects/DamisService/CGIvars/getcgivars.cpp
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"getcgivars.h"
+
+1384870570 /home/damis/Documents/CBProjects/DamisService/CGIvars/getcgivars.h
+
+1413220499 source:/home/damis/Documents/CBProjects/DamisService/ClassificationGrouping.cpp
+	"logging/easylogging++.h"
+	"ClassificationGrouping.h"
+	"CallCalculus.h"
+
+1410261360 /home/damis/Documents/CBProjects/DamisService/ClassificationGrouping.h
+	"CallCalculus.h"
+
+1398859481 source:/home/damis/Documents/CBProjects/DamisService/DamisFile.cpp
+	"DamisFile.h"
+	"HelperMethods.h"
+	"ServiceSettings.h"
+
+1412599402 source:/home/damis/Documents/CBProjects/DamisService/DimensionReduction.cpp
+	"logging/easylogging++.h"
+	"DimensionReduction.h"
+	<math.h>
+
+1410259505 /home/damis/Documents/CBProjects/DamisService/DimensionReduction.h
+	"CallCalculus.h"
+
+1401102545 source:/home/damis/Documents/CBProjects/DamisService/ErrorResponse.cpp
+	"ErrorResponse.h"
+	"logging/easylogging++.h"
+
+1488611378 source:/home/damis/Documents/CBProjects/DamisService/gsoap/soapC.cpp
+	"soapH.h"
+
+1488611378 /home/damis/Documents/CBProjects/DamisService/gsoap/soapH.h
+	"soapStub.h"
+
+1488611378 /home/damis/Documents/CBProjects/DamisService/gsoap/soapStub.h
+	<vector>
+	"stdsoap2.h"
+
+1488616309 /home/damis/Documents/CBProjects/DamisService/gsoap/stdsoap2.h
+	"soapdefs.h"
+	"config.h"
+	<ioctl.h>
+	<stdlib.h>
+	<sys_types.h>
+	<StdIOPalm.h>
+	<sys_socket.h>
+	"palmFunctions.h"
+	<e32def.h>
+	<sys/ioctl.h>
+	<locale.h>
+	<xlocale.h>
+	<sys\param.h>
+	<sys\socket.h>
+	<netinet\in.h>
+	<netdb.h>
+	<stdio.h>
+	<fcntl.h>
+	<string.h>
+	<stdlib.h>
+	<memory.h>
+	<errno.h>
+	<cextdecs.h(TIME,FILE_CLOSE_,AWAITIOX,DELAY,FILEINFO,FILE_GETINFO_)>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	<limits.h>
+	<ntlm.h>
+	<poll.h>
+	<string>
+	<iostream>
+	<errno.h>
+	<sys/types.h>
+	<sys/timeb.h>
+	<time.h>
+	<sys/socket.h>
+	<sys/stream.h>
+	<sys/protosw.h>
+	<sys/socket.h>
+	<sockLib.h>
+	<selectLib.h>
+	<strings.h>
+	<strings.h>
+	<sys/stream.h>
+	<sys/socketvar.h>
+	<sys/times.h>
+	<sys/time.h>
+	<netinet/in.h>
+	<netinet/tcp_var.h>
+	<netinet/tcp.h>
+	<arpa/inet.h>
+	<io.h>
+	<fcntl.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<ws2spi.h>
+	<hostLib.h>
+	<ioctl.h>
+	<ioLib.h>
+	<netdb.h>
+	<netinet/in.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/select.h>
+	<fcgi_stdio.h>
+	<openssl/bio.h>
+	<openssl/err.h>
+	<openssl/rand.h>
+	<openssl/ssl.h>
+	<openssl/x509v3.h>
+	<gnutls/gnutls.h>
+	<gnutls/x509.h>
+	<gcrypt.h>
+	<zlib.h>
+	<math.h>
+	<stdint.h>
+	<inttypes.h>
+	<sys/inttypes.h>
+	<stdint.h>
+	<bits/wordsize.h>
+	"httpLib.h"
+	<private/mathP.h>
+	<ipcom_key_db.h>
+	<float.h>
+
+1488611378 source:/home/damis/Documents/CBProjects/DamisService/gsoap/soapDAMISService.cpp
+	"soapDAMISService.h"
+
+1488611378 /home/damis/Documents/CBProjects/DamisService/gsoap/soapDAMISService.h
+	"soapH.h"
+
+1488609385 source:/home/damis/Documents/CBProjects/DamisService/gsoap/stdsoap2.cpp
+	"stdsoap2.h"
+	<ipcom_key_db.h>
+	<pthread.h>
+	<pth.h>
+
+1414145330 source:/home/damis/Documents/CBProjects/DamisService/HelperMethods.cpp
+	"HelperMethods.h"
+	"ServiceSettings.h"
+	"logging/easylogging++.h"
+	<dirent.h>
+	<time.h>
+	<string>
+	<numeric>
+	<cmath>
+
+1488617003 source:/home/damis/Documents/CBProjects/DamisService/logging/easylogging++.cc
+	"easylogging++.h"
+
+1488611378 /home/damis/Documents/CBProjects/DamisService/gsoap/DAMIS.nsmap
+	"soapH.h"
+
+1410260327 /home/damis/Documents/CBProjects/DamisService/ValidateParams.h
+	<string>
+	"InitDamisService.h"
+
+1410256944 /home/damis/Documents/CBProjects/DamisService/Preprocess.h
+	"ServeRequest.h"
+	<string>
+
+1410258234 /home/damis/Documents/CBProjects/DamisService/Statistics.h
+	"ServeRequest.h"
+
+1451926602 source:/home/damis/Documents/CBProjects/DamisService/Preprocess.cpp
+	"Preprocess.h"
+	"HelperMethods.h"
+	<math.h>
+	<numeric>
+	"logging/easylogging++.h"
+
+1413023278 source:/home/damis/Documents/CBProjects/DamisService/ServeRequest.cpp
+	"ServeRequest.h"
+	"logging/easylogging++.h"
+	"HelperMethods.h"
+	<vector>
+
+1432628181 source:/home/damis/Documents/CBProjects/DamisService/ServiceSettings.cpp
+	"ServiceSettings.h"
+	"ErrorResponse.h"
+	"HelperMethods.h"
+	"logging/easylogging++.h"
+	<string>
+	<limits.h>
+	<unistd.h>
+	<fstream>
+	<sstream>
+
+1413023278 source:/home/damis/Documents/CBProjects/DamisService/Statistics.cpp
+	"Statistics.h"
+	"HelperMethods.h"
+	"logging/easylogging++.h"
+
+1433312924 source:/home/damis/Documents/CBProjects/DamisService/ValidateParams.cpp
+	"ValidateParams.h"
+	"ErrorResponse.h"
+	"logging/easylogging++.h"
+	"HelperMethods.h"
+	"ServiceSettings.h"
+	<vector>
+	<iostream>
+
+1488618890 source:/home/damis/Documents/CBProjects/DamisService/InitDamisService.cpp
+	"InitDamisService.h"
+	"logging/easylogging++.h"
+	"ErrorResponse.h"
+	"ServiceSettings.h"
+	"curl.h"
+	"HelperMethods.h"
+	<iostream>
+
+1488609228 /curl/include/curl/curl.h
+	"curlver.h"
+	"curlbuild.h"
+	"curlrules.h"
+	<stdio.h>
+	<limits.h>
+	<osreldate.h>
+	<sys/types.h>
+	<time.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/select.h>
+	<sys/socket.h>
+	<sys/time.h>
+	<support/SupportDefs.h>
+	"easy.h"
+	"multi.h"
+	"typecheck-gcc.h"
+
+1488609228 /curl/include/curl/curlver.h
+
+1488609228 /curl/include/curl/curlbuild.h
+	<windows.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<stdint.h>
+	<inttypes.h>
+	<sys/socket.h>
+	<sys/poll.h>
+
+1488609228 /curl/include/curl/curlrules.h
+
+1488609228 /curl/include/curl/easy.h
+
+1488609228 /curl/include/curl/multi.h
+	"curl.h"
+
+1488609228 /curl/include/curl/typecheck-gcc.h
+

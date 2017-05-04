@@ -1,0 +1,24 @@
+% DEBUG
+wsdlPath /home/damis/Documents/TestDamis.wsdl
+logingConfFilePath /home/damis/Documents/CBProjects/DamisService/bin/Debug/TestLogging.conf
+pathToAlgorithmsExe /home/damis/Documents/CBProjects/Algorithms/bin/Debug/Algorithms
+
+pathToUserConfig /home/damis/exec/DamisService/bin/Debug/users.conf
+pathToCertificates /home/damis/apache/htdocs/damis/certificates/
+
+localDataFileSavePath /home/damis/Documents/DamisData/
+httpDataFileSavePath  http://testhost:8087/damis/data/
+dataFileExtension .arff
+lenghtOfTmpFileName 20
+
+% time in seconds how lon to keep files in data directory
+keepFilesInDirectory 172800
+
+noOfProcessors 3
+
+% 1 means that code is suitable to run on MII cluster
+runDestination 1
+
+% pathToMPIExecutable /opt/mpich2/gnu/bin/mpirun
+pathToMPIExecutable /mpich/bin/mpiexec
+workingDirMPI /home/damis/Documents/DamisData/
