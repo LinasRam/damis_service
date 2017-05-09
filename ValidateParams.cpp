@@ -461,6 +461,12 @@ bool ValidateParams::validateGreatherThan(double val, double lBound, std::string
 }
 bool ValidateParams::validateIfFilesAreEqual()
 {
+    if(inFile2->getNumberOfObjects() != inFile3->getNumberOfObjects())
+    {
+        ValidateParams::methodParamsValid = false;
+        return false;
+    }
+
     return true;
 }
 /**

@@ -11,6 +11,7 @@
 				<Option object_output="obj/Debug/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
+				<Option parameters="-al RELATIVEMDS2 -maxIter 10 -d 1 -eps 0.0001 -i /home/damis/Documents/DamisData/_forCalculus_D9wsi7vcSOSBsCTweEv8.arff -ii /home/damis/Documents/DamisData/_forCalculus_pR8bGact1ahE3x3de5Nm.arff -iii /home/damis/Documents/DamisData/_forCalculus_QNsNhsd4CBHvXyqZoc09.arff -o /home/damis/Documents/DamisData/_output_eFp4j0TpohBqcAmJyYIm.arff -s /home/damis/Documents/DamisData/_algStat_UwdAkNbJaFbDCFoBGvbE.arff" />
 				<Compiler>
 					<Add option="-std=c++0x" />
 					<Add option="-g" />
